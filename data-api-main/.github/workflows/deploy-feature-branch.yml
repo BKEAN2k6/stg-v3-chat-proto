@@ -1,0 +1,229 @@
+name: "Deploy feature branch"
+
+on:
+  pull_request:
+    types:
+      - opened
+      - labeled
+      - synchronize
+
+jobs:
+  deploy-data-api:
+    if: ${{ github.event.label.name == 'has-branch-deployment' || contains(github.event.pull_request.labels.*.name, 'has-branch-deployment') }}
+    runs-on: ubuntu-latest
+    env:
+      deploy-data-api-dir: ./
+      fly-config-filepath: ./fly.toml
+      app-name: $(echo stg-v2--${{ github.event.pull_request.head.ref }} | sed 's|--.*/|--|')
+      db-name: $(echo stg-v2--${{ github.event.pull_request.head.ref }}-db | sed 's|--.*/|--|')
+      dockerfile: Dockerfile.branch
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Cache fly config
+        id: cache-fly-config
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.fly-config-filepath }}
+          key: ${{ env.fly-config-filepath }}
+
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "19.x"
+
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Generate Directus key
+        id: generate-directus-key
+        uses: filipstefansson/uuid-action@v1
+
+      - name: Generate Directus secret
+        id: generate-directus-secret
+        uses: filipstefansson/uuid-action@v1
+
+      - name: Check previous Data API deployment
+        id: check-data-api-deployment
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          PREVIOUS_APP_DEPLOYMENT_EXISTS=$(flyctl apps list | { grep -E "^${{ env.app-name }}[[:space:]]+" || true; })
+          if [ -z "$PREVIOUS_APP_DEPLOYMENT_EXISTS" ]; then
+            echo "previous deployment does not exist"
+            echo "exists=false" >> $GITHUB_OUTPUT
+          else
+            echo "previous deployment exists"
+            echo "exists=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check previous DB deployment
+        id: check-db-deployment
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          PREVIOUS_DB_DEPLOYMENT_EXISTS=$(flyctl apps list | { grep -E "^${{ env.db-name }}[[:space:]]+" || true; })
+          if [ -z "$PREVIOUS_DB_DEPLOYMENT_EXISTS" ]; then
+            echo "previous deployment does not exist"
+            echo "exists=false" >> $GITHUB_OUTPUT
+          else
+            echo "previous deployment exists"
+            echo "exists=true" >> $GITHUB_OUTPUT
+          fi
+
+      - if: ${{ steps.check-data-api-deployment.outputs.exists != 'true' }}
+        name: Create Data API
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+          dctus-key: ${{ steps.generate-directus-key.outputs.uuid }}
+          dctus-secret: ${{ steps.generate-directus-secret.outputs.uuid }}
+          dctus-super-admin-email: ${{ secrets.DIRECTUS_SUPER_ADMIN_EMAIL }}
+          dctus-super-admin-pword: ${{ secrets.DIRECTUS_SUPER_ADMIN_PASSWORD }}
+          dctus-admin-pword: ${{ secrets.DIRECTUS_ADMIN_PASSWORD }}
+          STORAGE_S3_KEY: ${{ secrets.STORAGE_S3_KEY }}
+          STORAGE_S3_SECRET: ${{ secrets.STORAGE_S3_SECRET }}
+          ASSET_URL: $(echo https://stg-v2--${{ github.event.pull_request.head.ref }}.fly.dev/assets | sed 's|--.*/|--|')
+          org: positive-learning-oy
+          reg: ams
+          app-mem: 1024
+          app-vm: shared-cpu-1x
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          echo LAUNCH
+          flyctl launch -o ${{ env.org }} --region ${{ env.reg }} --dockerfile ${{ env.dockerfile }} --remote-only --auto-confirm --build-only --name ${{ env.app-name }}
+          echo SCALE
+          flyctl scale -c ${{ env.fly-config-filepath }} --app ${{ env.app-name }} vm ${{ env.app-vm }}
+          flyctl scale -c ${{ env.fly-config-filepath }} --app ${{ env.app-name }} memory ${{ env.app-mem }}
+          echo IMPORT SECRETS
+          flyctl secrets set --config ${{ env.fly-config-filepath }} --app ${{ env.app-name }} \
+            DB_CLIENT=pg \
+            DIRECTUS_KEY=${{ env.dctus-key }} \
+            DIRECTUS_SECRET=${{ env.dctus-secret }} \
+            DIRECTUS_SUPER_ADMIN_EMAIL=${{ env.dctus-super-admin-email }} \
+            DIRECTUS_SUPER_ADMIN_PASSWORD=${{ env.dctus-super-admin-pword }} \
+            DIRECTUS_ADMIN_PASSWORD=${{ env.dctus-admin-pword }} \
+            APP_NAME=${{ env.app-name }} \
+            STORAGE_S3_KEY=${{ env.STORAGE_S3_KEY }} \
+            STORAGE_S3_SECRET=${{ env.STORAGE_S3_SECRET }} \
+            ASSET_URL=${{ env.ASSET_URL }} \
+            DATA_API_ENV=development
+
+      - if: ${{ (steps.cache-fly-config.outputs.cache-hit != 'true') && (steps.check-data-api-deployment.outputs.exists == 'true') }}
+        name: Fetch fly.toml from existing Data API
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          flyctl config save --app ${{ env.app-name }}
+
+      - if: ${{ steps.check-db-deployment.outputs.exists != 'true' }}
+        name: Deploy DB
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+          pg-size: shared-cpu-1x
+          pg-clusters: 1
+          pg-vol-size: 1
+          org: positive-learning-oy
+          reg: fra
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          echo CREATE DB
+          flyctl postgres create -o ${{ env.org }} --region ${{ env.reg }} --vm-size ${{ env.pg-size }} --name ${{ env.db-name }} --initial-cluster-size ${{ env.pg-clusters }} --volume-size ${{ env.pg-vol-size }}
+
+      - if: ${{ (steps.check-data-api-deployment.outputs.exists != 'true') || (steps.check-db-deployment.outputs.exists != 'true') }}
+        name: Attach DB
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: |
+          echo ATTACH DB
+          flyctl postgres attach ${{ env.db-name }} --app ${{ env.app-name }}
+
+      - name: Deploy Data API
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        working-directory: ${{ env.deploy-data-api-dir }}
+        run: flyctl deploy -c fly.toml --dockerfile ${{ env.dockerfile }} --wait-timeout 300
+
+      - name: Get comment body
+        id: get-comment-body
+        run: |
+          body=$(echo "Data API deployed to https://${{ env.app-name }}.fly.dev")
+          echo "body=$body" >> $GITHUB_OUTPUT
+
+      - name: Find comment
+        uses: peter-evans/find-comment@v1
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-includes: "Data API deployed to"
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1.4.4
+        if: ${{ steps.find-comment.outputs.comment-id == 0 }}
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: ${{ steps.get-comment-body.outputs.body }}
+
+  deploy-web-app:
+    runs-on: ubuntu-latest
+    needs: deploy-data-api
+    env:
+      data-api-url: $(echo https://stg-v2--${{ github.event.pull_request.head.ref }}.fly.dev | sed 's|--.*/|--|')
+      web-app-url: $(echo stg-v2--${{ github.event.pull_request.head.ref }}.vercel.app | sed 's|--.*/|--|')
+      vercel-config-filepath: ./vercel.json
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "19.x"
+
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Install Vercel
+        run: yarn global add vercel@28.4.17
+
+      - name: Update data API URL to Vercel config
+        working-directory: ./monorepo
+        run: |
+          REWRITE_LINE_NEW="{ \"source\": \"/data-api/:match*\", \"destination\": \"${{ env.data-api-url }}/:match*\" }"  
+          sed -i -e "s!.*/data-api.*!    $REWRITE_LINE_NEW!" ${{ env.vercel-config-filepath }}
+
+      - name: Deploy
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+        working-directory: ./
+        run: |
+          DEPLOYMENT_URL=$(vercel deploy -t ${{ env.VERCEL_TOKEN }} --build-env DIRECTUS_URL=${{ env.data-api-url }} --build-env IS_BUILD_TIME=true)
+          vercel alias -S ${{ env.VERCEL_SCOPE }} -t ${{ env.VERCEL_TOKEN }} set $DEPLOYMENT_URL ${{ env.web-app-url }}
+
+      - name: Get comment body
+        id: get-comment-body
+        run: |
+          body=$(echo "Web app deployed to https://${{ env.web-app-url }}")
+          echo "body=$body" >> $GITHUB_OUTPUT
+
+      - name: Find comment
+        uses: peter-evans/find-comment@v1
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-includes: "Web app deployed to"
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1.4.4
+        if: ${{ steps.find-comment.outputs.comment-id == 0 }}
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: ${{ steps.get-comment-body.outputs.body }}

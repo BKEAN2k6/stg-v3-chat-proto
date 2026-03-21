@@ -1,0 +1,1333 @@
+[
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_story",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 1,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 182.6953125,
+          "translation.content": 252.5078125
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "slug"
+        ],
+        "sort": [
+          "sort"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "group",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 2,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "join_short_code_expires_at": 281.90625,
+          "name": 219.796875
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "id",
+          "join_short_code",
+          "join_short_code_expires_at",
+          "name",
+          "status"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 3,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "translation": 232.42578125
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 2,
+        "sort": [
+          "sort"
+        ],
+        "fields": [
+          "slug"
+        ],
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_map",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 4,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 275.89453125
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_round",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 5,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_slide",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 6,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "slug": 312.7109375,
+          "translation.media": 282.67578125
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug",
+          "translation.media"
+        ],
+        "page": 1,
+        "sort": [
+          "slug"
+        ],
+        "limit": 1000
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "session",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 7,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 8,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1,
+        "fields": [
+          "id",
+          "group",
+          "mode",
+          "rooms",
+          "status",
+          "date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "organization_timeseries_data",
+    "color": null,
+    "filter": {
+      "_and": [
+        {
+          "organization": {
+            "slug": {
+              "_contains": "crow"
+            }
+          }
+        }
+      ]
+    },
+    "icon": "bookmark",
+    "id": 9,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "organization": 196.75,
+          "date_created": 279.53515625,
+          "total_strengths_seen_in_org_at_date": 264,
+          "total_strengths_seen_in_selfs_at_date": 276,
+          "total_strengths_seen_in_others_at_date": 286,
+          "total_strengths_seen_in_org_to_date": 97
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25,
+        "fields": [
+          "organization",
+          "date_created",
+          "total_strengths_seen_in_org_at_date",
+          "total_strengths_seen_in_selfs_at_date",
+          "total_strengths_seen_in_others_at_date",
+          "total_strengths_seen_in_org_to_date",
+          "total_strengths_seen_in_selfs_to_date",
+          "total_strengths_seen_in_others_to_date"
+        ],
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "language",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 12,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_item",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 13,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 327.2421875,
+          "swl_wall_links.swl_wall": 393.390625,
+          "date_created": 334.40234375
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "id",
+          "swl_wall_links.swl_wall",
+          "date_created"
+        ],
+        "limit": 25,
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "language",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 14,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "organization",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 15,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "slug": 202.3125
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug",
+          "status",
+          "type"
+        ],
+        "page": 1,
+        "limit": 25,
+        "sort": [
+          "slug"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "parent_organization",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 16,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug",
+          "status",
+          "type"
+        ],
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_moment",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 18,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 142.9453125,
+          "swl_item": 291.359375
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "created_by",
+          "status",
+          "swl_item",
+          "date_created",
+          "user_created",
+          "created_by.first_name"
+        ],
+        "page": 1,
+        "limit": 25,
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_wall",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 19,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 390.859375
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "date_created",
+          "directus_users.first_name"
+        ],
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_files",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 20,
+    "layout": "cards",
+    "layout_options": {
+      "cards": {
+        "icon": "insert_drive_file",
+        "title": "{{ title }}",
+        "subtitle": "{{ type }} • {{ filesize }}",
+        "size": 4,
+        "imageFit": "crop"
+      }
+    },
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "-uploaded_on"
+        ],
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "user_to_organization",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 21,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "user",
+          "user.email",
+          "organization.slug",
+          "role",
+          "date_created",
+          "last_dashboard_access"
+        ],
+        "page": 1,
+        "limit": 25,
+        "sort": [
+          "date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_level",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 23,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "slug": 207.52734375
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "slug"
+        ],
+        "page": 1,
+        "sort": [
+          "slug"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strengths_valley_state",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark_outline",
+    "id": 24,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 391.8671875,
+          "data": 240.34765625
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "data"
+        ],
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_translations",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 25,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_promotion",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 26,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_presets",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 27,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_webhooks",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 28,
+    "layout": "tabular",
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "method": 100,
+          "name": 210,
+          "collections": 240,
+          "actions": 210
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "method",
+          "name",
+          "collections",
+          "actions"
+        ],
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_moment_to_file",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 29,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_item_to_swl_wall",
+    "color": null,
+    "filter": {
+      "_and": [
+        {
+          "date_created": {
+            "_between": [
+              "2023-08-28T00:00:00",
+              "2023-08-29T23:59:00"
+            ]
+          }
+        }
+      ]
+    },
+    "icon": "bookmark",
+    "id": 30,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "date_created": 301
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "swl_item.id",
+          "swl_wall.id",
+          "date_created"
+        ],
+        "limit": 25,
+        "sort": [
+          "date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "swl_moment_to_strength",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 31,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "id",
+          "strength.slug",
+          "swl_moment"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_activity",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 34,
+    "layout": "tabular",
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "action": 100,
+          "collection": 210,
+          "timestamp": 240,
+          "user": 240
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "sort": [
+          "-timestamp"
+        ],
+        "fields": [
+          "action",
+          "collection",
+          "timestamp",
+          "user"
+        ],
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "websocket_event",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 35,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "type": 229
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 1000,
+        "fields": [
+          "type",
+          "listener_value",
+          "lookup_value",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_users",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 36,
+    "layout": "tabular",
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      },
+      "tabular": {
+        "widths": {
+          "email": 226
+        }
+      }
+    },
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "limit": 25,
+        "page": 1
+      },
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "id",
+          "active_organization",
+          "email",
+          "first_name",
+          "last_name",
+          "organizations",
+          "credit_count",
+          "date_created",
+          "groups",
+          "expires_at"
+        ],
+        "page": 1,
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": "",
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "analytics_event",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 37,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "event": 240,
+          "sessid": 493
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 1000,
+        "fields": [
+          "event",
+          "sessid",
+          "user_created",
+          "date_created",
+          "metadata"
+        ],
+        "sort": [
+          "-date_created"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "analytics_session",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 38,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "browser": 606
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25,
+        "fields": [
+          "sessid",
+          "browser"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "email_delivery_queue_item",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 39,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 111.51171875,
+          "to_address": 195,
+          "template_name": 238.91796875
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25,
+        "fields": [
+          "status",
+          "to_address",
+          "template_name",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "login_token",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 43,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "token": 507
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "token",
+          "scope",
+          "user",
+          "expires_at"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "reward",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 45,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "slug": 190.06640625
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "credits_granted",
+          "slug",
+          "times_granted",
+          "grant_frequency"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "granted_reward",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 46,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "reward": 303.91015625,
+          "user": 298.90234375,
+          "date_created": 294.6796875
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "reward",
+          "user",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 47,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session_strength",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 48,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 1000,
+        "fields": [
+          "id",
+          "strength",
+          "strength_session",
+          "user",
+          "user_created",
+          "is_for_self",
+          "is_for_group",
+          "is_bonus",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session_strength",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 50,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 1000,
+        "fields": [
+          "id",
+          "strength",
+          "strength_session",
+          "user",
+          "user_created",
+          "is_for_self",
+          "is_for_group",
+          "is_bonus",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session_new_strength",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 51,
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "strength_session_strength": 221.69140625
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "limit": 1000,
+        "fields": [
+          "strength_session",
+          "strength_session_strength",
+          "date_created"
+        ],
+        "sort": [
+          "-date_created"
+        ],
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session_new_status",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 52,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "user_to_group",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 53,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "group",
+          "user",
+          "date_created"
+        ],
+        "limit": 25
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "bookmark": null,
+    "collection": "strength_session_new_player",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "id": 54,
+    "layout": null,
+    "layout_options": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "refresh_interval": null,
+    "role": null,
+    "search": null,
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  }
+]

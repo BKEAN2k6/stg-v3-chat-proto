@@ -1,0 +1,21 @@
+# build and run the container:
+# - docker build -t stg-backend:production -f Dockerfile.production .
+# - docker run -it -p 4000:4000 stg-backend:production
+
+FROM node:20-bullseye
+
+ENV NODE_ENV development
+
+WORKDIR /stg-backend
+
+ADD package.json ./
+ADD package-lock.json ./
+RUN npm install
+
+ADD . .
+
+ENV NODE_ENV production
+
+RUN npm run build
+
+CMD ["npm", "run", "container-start", "prod"]

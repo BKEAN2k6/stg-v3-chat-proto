@@ -1,0 +1,177 @@
+[
+  {
+    "coordinates": null,
+    "id": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "slug": "story1-round2-level10",
+    "sort": 5,
+    "strengths_valley_round": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "slug": "story1-round2-level6",
+    "sort": 1,
+    "strengths_valley_round": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "slug": "story1-round2-level9",
+    "sort": 4,
+    "strengths_valley_round": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "translation": []
+  },
+  {
+    "coordinates": {
+      "x": 1343,
+      "y": 617
+    },
+    "id": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "slug": "story1-round1-level5",
+    "sort": 5,
+    "strengths_valley_round": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "slug": "story2-round1-level5",
+    "sort": 5,
+    "strengths_valley_round": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "slug": "story2-round1-level3",
+    "sort": 3,
+    "strengths_valley_round": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "slug": "story1-round2-level7",
+    "sort": 2,
+    "strengths_valley_round": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "539d508a-1ede-496d-a1dc-415af50947da",
+    "slug": "story1-round2-level8",
+    "sort": 3,
+    "strengths_valley_round": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "slug": "story2-round1-level1",
+    "sort": 1,
+    "strengths_valley_round": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "7070d955-4fb8-4528-a58b-e4b068d9995b",
+    "slug": "story3-round1-level2",
+    "sort": 2,
+    "strengths_valley_round": "939693bd-6155-435f-beab-89daf2f3a173",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "slug": "story3-round1-level1",
+    "sort": 1,
+    "strengths_valley_round": "939693bd-6155-435f-beab-89daf2f3a173",
+    "translation": []
+  },
+  {
+    "coordinates": {
+      "x": 383,
+      "y": 532
+    },
+    "id": "84de0174-3294-482d-8d89-00c45f581feb",
+    "slug": "story1-round1-level1",
+    "sort": 1,
+    "strengths_valley_round": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "translation": []
+  },
+  {
+    "coordinates": {
+      "x": 863,
+      "y": 569
+    },
+    "id": "8a28be7c-040c-4de0-9c82-6b3212916980",
+    "slug": "story1-round1-level3",
+    "sort": 3,
+    "strengths_valley_round": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "slug": "story3-round1-level4",
+    "sort": 4,
+    "strengths_valley_round": "939693bd-6155-435f-beab-89daf2f3a173",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "slug": "story3-round1-level3",
+    "sort": 3,
+    "strengths_valley_round": "939693bd-6155-435f-beab-89daf2f3a173",
+    "translation": []
+  },
+  {
+    "coordinates": {
+      "x": 1103,
+      "y": 625
+    },
+    "id": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "slug": "story1-round1-level4",
+    "sort": 4,
+    "strengths_valley_round": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "slug": "story3-round1-level5",
+    "sort": 5,
+    "strengths_valley_round": "939693bd-6155-435f-beab-89daf2f3a173",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "slug": "story2-round1-level4",
+    "sort": 4,
+    "strengths_valley_round": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "translation": []
+  },
+  {
+    "coordinates": {
+      "x": 623,
+      "y": 516
+    },
+    "id": "e3d04395-d8d7-4dd1-8bbc-a85a5ee1fa06",
+    "slug": "story1-round1-level2",
+    "sort": 2,
+    "strengths_valley_round": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "translation": []
+  },
+  {
+    "coordinates": null,
+    "id": "fed2a296-8651-4ebd-ac55-ff39631669df",
+    "slug": "story2-round1-level2",
+    "sort": 2,
+    "strengths_valley_round": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "translation": []
+  }
+]

@@ -1,0 +1,2371 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-02-20 08:51+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/games/quiz/StrengthSelect.tsx:76
+msgid "— None —"
+msgstr "— None —"
+
+#. placeholder {0}: comments.length
+#: src/components/ui/PostCard/PostInteractions.tsx:167
+msgid "{0, plural, one {# comment} other {# comments}}"
+msgstr "{0, plural, one {# comment} other {# comments}}"
+
+#. placeholder {0}: reactions.length
+#: src/components/ui/PostCard/PostInteractions.tsx:146
+msgid "{0, plural, one {# reaction} other {# reactions}}"
+msgstr "{0, plural, one {# reaction} other {# reactions}}"
+
+#. placeholder {0}: game.players.length
+#. placeholder {0}: quiz.players.length
+#: src/pages/games/GroupGameLobbyPage.tsx:250
+#: src/pages/games/quiz/host/StartScreen.tsx:109
+msgid "{0, plural, one {participant} other {participants}}"
+msgstr "{0, plural, one {participant} other {participants}}"
+
+#. placeholder {0}: results.length
+#: src/pages/games/memory-game/HighestScores.tsx:57
+msgid "{0, plural, one {Winner} other {Winners}}"
+msgstr "{0, plural, one {Winner} other {Winners}}"
+
+#. placeholder {0}: createdBy.firstName
+#. placeholder {1}: createdBy.lastName
+#: src/components/ui/PostCard/OnboardingCompletedContent.tsx:19
+msgid "{0} {1} completed the onboarding!"
+msgstr "{0} {1} completed the onboarding!"
+
+#. placeholder {0}: created.name
+#: src/pages/community-settings/CommunitySubcription.tsx:278
+#: src/pages/community-settings/CommunitySubcription.tsx:320
+msgid "{0} has been added."
+msgstr "{0} has been added."
+
+#. placeholder {0}: result.nickname
+#. placeholder {1}: result.pairs
+#. placeholder {2}: result.pairs
+#: src/pages/games/memory-game/HighestScores.tsx:64
+msgid "{0} with {1} {2, plural, one {pair} other {pairs}}."
+msgstr "{0} with {1} {2, plural, one {pair} other {pairs}}."
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:38
+msgid "{capitalizedGroupName} completed a goal!"
+msgstr "{capitalizedGroupName} completed a goal!"
+
+#: src/components/ui/PostCard/LessonCompletedContent.tsx:40
+msgid "{capitalizedGroupName} completed a lesson!"
+msgstr "{capitalizedGroupName} completed a lesson!"
+
+#: src/components/ui/PostCard/StrengthCompletedContent.tsx:39
+msgid "{capitalizedGroupName} completed the strength!"
+msgstr "{capitalizedGroupName} completed the strength!"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:78
+msgid "{completedCount} times"
+msgstr "{completedCount} times"
+
+#: src/components/ui/PostCard/StrengthCompletedContent.tsx:44
+msgid "{strengthTranslation} completed!"
+msgstr "{strengthTranslation} completed!"
+
+#: src/pages/home/components/CommunityStats.tsx:145
+#: src/pages/home/components/TopContributorsModal.tsx:32
+msgid "{totalContributors, plural, one {Contributor this week} other {Contributors this week}}"
+msgstr "{totalContributors, plural, one {Contributor this week} other {Contributors this week}}"
+
+#: src/pages/home/components/CommunityStats.tsx:105
+#: src/pages/home/components/TopStrengthsModal.tsx:34
+msgid "{totalStrengths, plural, one {Strength this week} other {Strengths this week}}"
+msgstr "{totalStrengths, plural, one {Strength this week} other {Strengths this week}}"
+
+#: src/components/MediaUpload.tsx:177
+msgid "<0>Add</0> <1>Images</1>"
+msgstr "<0>Add</0> <1>Images</1>"
+
+#: src/components/MomentForm.tsx:176
+msgid "<0>Add</0> <1>Strength</1>"
+msgstr "<0>Add</0> <1>Strength</1>"
+
+#: src/pages/register/components/EmailSent.tsx:17
+msgid "<0>An email has been sent to {email}.</0><1>Please check your inbox to log in.</1>"
+msgstr "<0>An email has been sent to {email}.</0><1>Please check your inbox to log in.</1>"
+
+#: src/pages/materials/article/ArticlePage.tsx:87
+msgid "<0>Article not available in this language.</0>"
+msgstr "<0>Article not available in this language.</0>"
+
+#: src/pages/materials/article-gategory/ArticleCategoryPage.tsx:179
+msgid "<0>Category not available in this language.</0>"
+msgstr "<0>Category not available in this language.</0>"
+
+#: src/pages/strength-goals/GoalsPage.tsx:227
+msgid "<0>Clear goals strengthen learning and teamwork!</0><1>Are there challenges in the group with maintaining a peaceful work environment, perseverance, or friendly interaction? The goal-setting tool helps to establish shared, positively framed objectives and tracks the progress.</1><2>Pedagogically valuable feedback supports motivation and engages the group in skill development.</2>"
+msgstr "<0>Clear goals strengthen learning and teamwork!</0><1>Are there challenges in the group with maintaining a peaceful work environment, perseverance, or friendly interaction? The goal-setting tool helps to establish shared, positively framed objectives and tracks the progress.</1><2>Pedagogically valuable feedback supports motivation and engages the group in skill development.</2>"
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:15
+msgid "<0>See the Good!</0> is a positive pedagogy method that offers tools for strengthening character strengths as well as social and emotional skills."
+msgstr "<0>See the Good!</0> is a positive pedagogy method that offers tools for strengthening character strengths as well as social and emotional skills."
+
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:55
+msgid "<0>To keep young learners engaged, your lesson slides include a fun goal-setting feature!</0><1>Each lesson can have a goal, and every time a student participates, whether by answering a question, sharing a thought, or taking part in an activity, the teacher or a student can tap the goal button on the screen. This moves the progress bar forward, creating a sense of achievement.</1><2>Once the goal is reached, a celebration appears, reinforcing positive engagement and participation. Use this feature to make learning about character strengths interactive and rewarding!</2>"
+msgstr "<0>To keep young learners engaged, your lesson slides include a fun goal-setting feature!</0><1>Each lesson can have a goal, and every time a student participates, whether by answering a question, sharing a thought, or taking part in an activity, the teacher or a student can tap the goal button on the screen. This moves the progress bar forward, creating a sense of achievement.</1><2>Once the goal is reached, a celebration appears, reinforcing positive engagement and participation. Use this feature to make learning about character strengths interactive and rewarding!</2>"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:104
+msgid "16 cards"
+msgstr "16 cards"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:107
+msgid "36 cards"
+msgstr "36 cards"
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:25
+msgid "A good rhythm is one lesson per week, but you can move faster or slower to suit your schedule."
+msgstr "A good rhythm is one lesson per week, but you can move faster or slower to suit your schedule."
+
+#: src/pages/ForgotPasswordPage.tsx:44
+msgid "A link has been sent to your email. Please open it with the device that you want to login with."
+msgstr "A link has been sent to your email. Please open it with the device that you want to login with."
+
+#: src/components/UiVersionCheck.tsx:100
+msgid "A new version of the app is available. Please reload the page to update."
+msgstr "A new version of the app is available. Please reload the page to update."
+
+#: src/pages/home/components/Onboarding/steps/Games.tsx:9
+msgid "A strength sprint is an exercise that boosts positive interaction within your group! It helps everyone notice the good and recognize strengths in each other."
+msgstr "A strength sprint is an exercise that boosts positive interaction within your group! It helps everyone notice the good and recognize strengths in each other."
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:9
+msgid "A warm welcome to the <0>See the Good!</0> service. We’re glad to have you on board!"
+msgstr "A warm welcome to the <0>See the Good!</0> service. We’re glad to have you on board!"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:91
+msgid "A4"
+msgstr "A4"
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:94
+msgid "Accept"
+msgstr "Accept"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:66
+msgid "Accept challenge"
+msgstr "Accept challenge"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:76
+msgid "Accepted"
+msgstr "Accepted"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:86
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:114
+msgid "Achievements"
+msgstr "Achievements"
+
+#: src/pages/home/components/GoalBanner.tsx:93
+msgid "Achieving goals becomes a shared experience - one that builds connection and motivation."
+msgstr "Achieving goals becomes a shared experience - one that builds connection and motivation."
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:107
+msgid "Actions"
+msgstr "Actions"
+
+#: src/pages/strength-goals/GoalsPage.tsx:293
+msgid "Active"
+msgstr "Active"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:68
+msgid "Active (manual billing)"
+msgstr "Active (manual billing)"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:67
+msgid "Active (online billing)"
+msgstr "Active (online billing)"
+
+#: src/components/ui/LockedOverlay.tsx:57
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:113
+msgid "Active subscription required"
+msgstr "Active subscription required"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:113
+msgid "Add an optional description for the goal."
+msgstr "Add an optional description for the goal."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:153
+msgid "Add an optional welcome message"
+msgstr "Add an optional welcome message"
+
+#: src/pages/materials/article/ArticleDetailsForm.tsx:91
+#: src/pages/scheduled-posts/CoachPostForm.tsx:116
+msgid "Add Strength"
+msgstr "Add Strength"
+
+#: src/components/MomentForm.tsx:200
+#: src/components/ui/PostCard/CommentForm.tsx:123
+msgid "Add text or image to post"
+msgstr "Add text or image to post"
+
+#: src/pages/games/GroupGameJoinPage.tsx:279
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:190
+#: src/pages/register/components/NamesForm.tsx:46
+msgid "Add your name"
+msgstr "Add your name"
+
+#: src/pages/register/components/OrganizationForm.tsx:62
+msgid "Add your organization details"
+msgstr "Add your organization details"
+
+#: src/pages/materials/article-gategory/ArticleCategoryGridView.tsx:48
+msgid "Additional materials"
+msgstr "Additional materials"
+
+#: src/pages/community-settings/CommunityMembers.tsx:142
+msgid "Admin"
+msgstr "Admin"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:52
+msgid "After completing a lesson, mark it as finished on the last page. Your group will then receive a badge! The next lesson will automatically appear on your home page."
+msgstr "After completing a lesson, mark it as finished on the last page. Your group will then receive a badge! The next lesson will automatically appear on your home page."
+
+#: src/components/menu/SideMenuLinks.tsx:150
+msgid "AI Logs"
+msgstr "AI Logs"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:119
+msgid "All done, great job!"
+msgstr "All done, great job!"
+
+#: src/components/menu/GroupDropdown.tsx:47
+#: src/pages/groups/GroupsPage.tsx:190
+msgid "All groups"
+msgstr "All groups"
+
+#: src/pages/home/components/Onboarding/steps/CookieConsent.tsx:33
+#: src/pages/profile/ConsentsForm.tsx:54
+msgid "Allow Vimeo cookies"
+msgstr "Allow Vimeo cookies"
+
+#: src/components/LoginModal.tsx:97
+msgid "An account with this email already exists."
+msgstr "An account with this email already exists."
+
+#: src/pages/profile/EmailForm.tsx:40
+msgid "An email has been sent to <0>{email}</0>. Check your inbox for further instructions."
+msgstr "An email has been sent to <0>{email}</0>. Check your inbox for further instructions."
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:85
+msgid "and"
+msgstr "and"
+
+#: src/components/menu/SideMenuLinks.tsx:102
+msgid "Animations"
+msgstr "Animations"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:103
+msgid "Answered"
+msgstr "Answered"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:102
+msgid "Answers"
+msgstr "Answers"
+
+#: src/pages/strength-goals/GoalsPage.tsx:173
+msgid "Are you sure you want to remove all completed and active goals for this strength? This can't be undone."
+msgstr "Are you sure you want to remove all completed and active goals for this strength? This can't be undone."
+
+#: src/pages/games/GroupGameLobbyPage.tsx:120
+#: src/pages/games/quiz/host/useHostQuizController.ts:160
+msgid "Are you sure you want to remove the player."
+msgstr "Are you sure you want to remove the player."
+
+#: src/components/ui/PostCard/Comment.tsx:91
+msgid "Are you sure you want to remove this comment. This can't be undone."
+msgstr "Are you sure you want to remove this comment. This can't be undone."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:106
+msgid "Are you sure you want to remove this invitation from the community? This can't be undone."
+msgstr "Are you sure you want to remove this invitation from the community? This can't be undone."
+
+#: src/components/ui/PostCard/PostTools.tsx:28
+msgid "Are you sure you want to remove this moment. This can't be undone."
+msgstr "Are you sure you want to remove this moment. This can't be undone."
+
+#: src/pages/community-settings/CommunityMembers.tsx:79
+msgid "Are you sure you want to remove this user from the community. This can't be undone."
+msgstr "Are you sure you want to remove this user from the community. This can't be undone."
+
+#: src/components/ui/AvatarInput.tsx:124
+msgid "Are you sure you want to remove your avatar image? This can't be undone."
+msgstr "Are you sure you want to remove your avatar image? This can't be undone."
+
+#: src/pages/home/components/StrengthCarousel/StrengthDropdownItem.tsx:145
+msgid "Articles read"
+msgstr "Articles read"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:93
+msgid "At the end of the sprint, you’ll receive a summary of both your individual strengths and the shared strengths within the group. Positive feedback not only boosts self-awareness but also strengthens community bonds and creates a joyful, inspiring atmosphere."
+msgstr "At the end of the sprint, you’ll receive a summary of both your individual strengths and the shared strengths within the group. Positive feedback not only boosts self-awareness but also strengthens community bonds and creates a joyful, inspiring atmosphere."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:135
+msgid "At the moment, you can only invite users that are already registered to the service."
+msgstr "At the moment, you can only invite users that are already registered to the service."
+
+#: src/pages/community-settings/CommunityAvatar.tsx:120
+#: src/pages/community-settings/CommunitySettings.tsx:101
+#: src/pages/profile/AvatarForm.tsx:71
+#: src/pages/profile/EditProfilePage.tsx:41
+msgid "Avatar"
+msgstr "Avatar"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:67
+#: src/pages/profile/AvatarForm.tsx:43
+msgid "Avatar image updated"
+msgstr "Avatar image updated"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:47
+msgid "Awesome!"
+msgstr "Awesome!"
+
+#: src/components/menu/SideMenuLinks.tsx:144
+msgid "Billing"
+msgstr "Billing"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:647
+msgid "Billing contact"
+msgstr "Billing contact"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:400
+#: src/pages/community-settings/CommunitySubcription.tsx:573
+msgid "Billing group"
+msgstr "Billing group"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:319
+msgid "Billing group created"
+msgstr "Billing group created"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:378
+msgid "Billing settings updated"
+msgstr "Billing settings updated"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:48
+msgid "Brilliant!"
+msgstr "Brilliant!"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:686
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/components/MomentForm.tsx:194
+#: src/components/ui/PostCard/CommentForm.tsx:117
+msgid "Cancel edit"
+msgstr "Cancel edit"
+
+#: src/components/ui/PostCard/ChallengeParticipantModal.tsx:24
+msgid "Challenge participants"
+msgstr "Challenge participants"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:102
+msgid "Chapters"
+msgstr "Chapters"
+
+#: src/pages/register/RegisterCodePage.tsx:48
+msgid "Check the code and try again."
+msgstr "Check the code and try again."
+
+#: src/pages/register/components/EmailSent.tsx:14
+msgid "Check your email"
+msgstr "Check your email"
+
+#: src/components/LoginModal.tsx:73
+msgid "Check your email and password."
+msgstr "Check your email and password."
+
+#: src/pages/games/GroupGameJoinPage.tsx:349
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:260
+msgid "Choose avatar"
+msgstr "Choose avatar"
+
+#: src/pages/games/GroupGameJoinPage.tsx:366
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:279
+msgid "Choose avatar {slug}"
+msgstr "Choose avatar {slug}"
+
+#: src/pages/games/GroupGameJoinPage.tsx:317
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:228
+msgid "Choose color"
+msgstr "Choose color"
+
+#: src/pages/games/GroupGameJoinPage.tsx:334
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:245
+msgid "Choose color {avatarColor}"
+msgstr "Choose color {avatarColor}"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:72
+msgid "Choose the strength you want to work on."
+msgstr "Choose the strength you want to work on."
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:22
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:41
+msgid "Class 1 - 2"
+msgstr "Class 1 - 2"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:23
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:42
+msgid "Class 3 - 4"
+msgstr "Class 3 - 4"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:24
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:43
+msgid "Class 5 - 6"
+msgstr "Class 5 - 6"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:25
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:44
+msgid "Class 7 - 9"
+msgstr "Class 7 - 9"
+
+#: src/components/ui/AvatarInput.tsx:200
+msgid "Clear"
+msgstr "Clear"
+
+#: src/components/ui/AvatarInput.tsx:230
+msgid "Clear current"
+msgstr "Clear current"
+
+#: src/components/menu/NotificationsMenu.tsx:128
+msgid "Clear Notifications"
+msgstr "Clear Notifications"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:272
+msgid "Click here to set a goal for the lesson!"
+msgstr "Click here to set a goal for the lesson!"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:269
+msgid "Click here to start a new goal!"
+msgstr "Click here to start a new goal!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:170
+msgid "Click me!"
+msgstr "Click me!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:75
+msgid "Click the goal to record your group’s progress."
+msgstr "Click the goal to record your group’s progress."
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:135
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:86
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:141
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:54
+#: src/pages/groups/GroupModal.tsx:137
+#: src/pages/home/components/GoalBanner.tsx:107
+#: src/pages/StartPage.tsx:106
+msgid "Close"
+msgstr "Close"
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:43
+#: src/components/ui/PostCard/CoachPostHeader.tsx:37
+msgid "Coach"
+msgstr "Coach"
+
+#: src/components/ui/PostCard/PostInteractions.tsx:162
+msgid "Comment"
+msgstr "Comment"
+
+#: src/components/menu/NotificationsMenuItem.tsx:99
+msgid "commented on your post"
+msgstr "commented on your post"
+
+#: src/pages/community-settings/CommunityDetails.tsx:92
+msgid "Community description"
+msgstr "Community description"
+
+#: src/pages/community-settings/CommunityDetails.tsx:53
+msgid "Community details updated"
+msgstr "Community details updated"
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:71
+msgid "Community Invitations"
+msgstr "Community Invitations"
+
+#: src/pages/community-settings/CommunityDetails.tsx:72
+msgid "Community Name"
+msgstr "Community Name"
+
+#: src/components/menu/CommunityDropdown.tsx:89
+msgid "Community Settings"
+msgstr "Community Settings"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:31
+msgid "Complete lessons to earn trophies"
+msgstr "Complete lessons to earn trophies"
+
+#: src/pages/strength-goals/GoalsPage.tsx:338
+msgid "Completed"
+msgstr "Completed"
+
+#: src/components/ui/StrengthGoal/GoalCardContent.tsx:73
+msgid "Completed {completedCount, plural, one {# time} other {# times}}"
+msgstr "Completed {completedCount, plural, one {# time} other {# times}}"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:107
+msgid "Completed 1 time"
+msgstr "Completed 1 time"
+
+#: src/pages/register/components/ConfirmJoin.tsx:19
+msgid "Confirm"
+msgstr "Confirm"
+
+#: src/pages/register/components/ConfirmJoin.tsx:15
+msgid "Confirm that you want to join the community."
+msgstr "Confirm that you want to join the community."
+
+#: src/pages/profile/PasswordForm.tsx:94
+msgid "Confirm your new password"
+msgstr "Confirm your new password"
+
+#: src/pages/profile/EditProfilePage.tsx:35
+msgid "Consents"
+msgstr "Consents"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:277
+msgid "Contact created"
+msgstr "Contact created"
+
+#: src/components/ui/StrengthGoal/CelebrationScreen.tsx:56
+#: src/pages/games/GroupGameJoinPage.tsx:268
+#: src/pages/games/GroupGameJoinPage.tsx:306
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:179
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:217
+#: src/pages/register/components/ConfirmOnboarding.tsx:22
+#: src/pages/register/components/RegisterForm.tsx:23
+#: src/pages/register/RegisterCodePage.tsx:75
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:106
+msgid "Cookies"
+msgstr "Cookies"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:106
+msgid "Correct"
+msgstr "Correct"
+
+#: src/pages/register/components/OrganizationForm.tsx:68
+msgid "Country"
+msgstr "Country"
+
+#: src/pages/groups/GroupsPage.tsx:115
+msgid "Create a group and start practicing your strength related skills together."
+msgstr "Create a group and start practicing your strength related skills together."
+
+#: src/pages/home/components/CreateGoalCard.tsx:25
+msgid "Create a new goal"
+msgstr "Create a new goal"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:74
+#: src/pages/home/components/CreateGoalCard.tsx:51
+#: src/pages/strength-goals/GoalsPage.tsx:244
+#: src/pages/strength-goals/GoalsPage.tsx:285
+msgid "Create goal"
+msgstr "Create goal"
+
+#: src/pages/groups/GroupModal.tsx:84
+#: src/pages/groups/GroupsPage.tsx:127
+#: src/pages/groups/GroupsPage.tsx:169
+msgid "Create group"
+msgstr "Create group"
+
+#: src/pages/community-settings/Invitation.tsx:41
+msgid "Create Invitation"
+msgstr "Create Invitation"
+
+#: src/pages/profile/PasswordForm.tsx:61
+msgid "Current password"
+msgstr "Current password"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:97
+msgid "Day"
+msgstr "Day"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:99
+msgid "Days"
+msgstr "Days"
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:100
+msgid "Decline"
+msgstr "Decline"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:107
+msgid "Description"
+msgstr "Description"
+
+#: src/pages/community-settings/CommunitySettings.tsx:90
+#: src/pages/profile/EditProfilePage.tsx:29
+msgid "Details"
+msgstr "Details"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:84
+msgid "Develop strengths"
+msgstr "Develop strengths"
+
+#: src/pages/home/components/CreateGoalCard.tsx:49
+msgid "Develop your groups's strengths with a new goal."
+msgstr "Develop your groups's strengths with a new goal."
+
+#: src/pages/home/components/Achievements/Achievements.tsx:58
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:37
+msgid "Diplomas"
+msgstr "Diplomas"
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:112
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: src/pages/home/components/GoalBanner.tsx:68
+msgid "Do you know that moment when the whole class succeeds together? We want to help make those moments part of your everyday classroom experience."
+msgstr "Do you know that moment when the whole class succeeds together? We want to help make those moments part of your everyday classroom experience."
+
+#: src/components/ui/FortuneWheel/TaskModal.tsx:69
+msgid "Done"
+msgstr "Done"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:87
+msgid "Download diploma"
+msgstr "Download diploma"
+
+#: src/pages/register/components/OrganizationForm.tsx:102
+msgid "Early childhood education"
+msgstr "Early childhood education"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:39
+msgid "Earned by completing all lessons for a strength"
+msgstr "Earned by completing all lessons for a strength"
+
+#: src/components/ui/PostCard/Comment.tsx:196
+#: src/components/ui/PostCard/PostTools.tsx:72
+#: src/pages/groups/GroupControls.tsx:17
+msgid "Edit"
+msgstr "Edit"
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:49
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:74
+msgid "Edit goal"
+msgstr "Edit goal"
+
+#: src/pages/groups/GroupModal.tsx:84
+msgid "Edit group"
+msgstr "Edit group"
+
+#: src/pages/profile/EditProfilePage.tsx:47
+msgid "Email"
+msgstr "Email"
+
+#: src/components/LoginModal.tsx:114
+#: src/components/LoginModal.tsx:115
+#: src/pages/ForgotPasswordPage.tsx:60
+msgid "Email address"
+msgstr "Email address"
+
+#: src/components/menu/SideMenuLinks.tsx:126
+#: src/pages/community-settings/CommunitySettings.tsx:120
+msgid "Emails"
+msgstr "Emails"
+
+#: src/components/ui/VimeoPlayer.tsx:233
+msgid "Enable Vimeo cookies"
+msgstr "Enable Vimeo cookies"
+
+#: src/pages/profile/ConsentsForm.tsx:61
+msgid "Enabling Vimeo cookies allows videos hosted on <0>vimeo.com</0> to be displayed on our site. If you disable this option, videos from Vimeo will not be visible."
+msgstr "Enabling Vimeo cookies allows videos hosted on <0>vimeo.com</0> to be displayed on our site. If you disable this option, videos from Vimeo will not be visible."
+
+#: src/pages/games/quiz/host/RunScreen.tsx:110
+msgid "End game"
+msgstr "End game"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:199
+msgid "End Game"
+msgstr "End Game"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:186
+msgid "End Sprint"
+msgstr "End Sprint"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:148
+msgid "End subscription"
+msgstr "End subscription"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:146
+msgid "Ending..."
+msgstr "Ending..."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:506
+msgid "Ends"
+msgstr "Ends"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:104
+msgid "Ends at"
+msgstr "Ends at"
+
+#: src/pages/games/GroupGameJoinPage.tsx:249
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:160
+msgid "Enter code to join"
+msgstr "Enter code to join"
+
+#: src/pages/register/RegisterCodePage.tsx:65
+msgid "Enter code to join your community"
+msgstr "Enter code to join your community"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:143
+msgid "Enter email"
+msgstr "Enter email"
+
+#: src/pages/groups/GroupModal.tsx:110
+msgid "Enter group description"
+msgstr "Enter group description"
+
+#: src/pages/groups/GroupModal.tsx:96
+msgid "Enter group name"
+msgstr "Enter group name"
+
+#: src/pages/ForgotPasswordPage.tsx:65
+#: src/pages/register/components/EmailForm.tsx:29
+#: src/pages/register/components/EmailForm.tsx:37
+msgid "Enter your email"
+msgstr "Enter your email"
+
+#: src/pages/register/components/NamesForm.tsx:52
+msgid "Enter your first name"
+msgstr "Enter your first name"
+
+#: src/pages/register/components/NamesForm.tsx:67
+msgid "Enter your last name"
+msgstr "Enter your last name"
+
+#: src/pages/register/components/OrganizationForm.tsx:82
+msgid "Enter your organization"
+msgstr "Enter your organization"
+
+#: src/pages/register/components/PasswordForm.tsx:35
+#: src/pages/register/components/PasswordForm.tsx:43
+msgid "Enter your password"
+msgstr "Enter your password"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:166
+msgid "Everyone has completed!"
+msgstr "Everyone has completed!"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingIntro.tsx:8
+msgid "Everything in See the Good! happens in groups. We’ve created the first group for you and next you can adjust its settings."
+msgstr "Everything in See the Good! happens in groups. We’ve created the first group for you and next you can adjust its settings."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:70
+msgid "Expired"
+msgstr "Expired"
+
+#: src/components/menu/NotificationsMenu.tsx:106
+msgid "Failed to clear notifications."
+msgstr "Failed to clear notifications."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:190
+msgid "Failed to load subscription"
+msgstr "Failed to load subscription"
+
+#: src/components/menu/NotificationsMenu.tsx:76
+msgid "Failed to read notifications."
+msgstr "Failed to read notifications."
+
+#: src/components/ui/PostModal.tsx:44
+msgid "Failed to read the post"
+msgstr "Failed to read the post"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:142
+#: src/pages/games/quiz/host/useHostQuizController.ts:182
+msgid "Failed to remove player from the game."
+msgstr "Failed to remove player from the game."
+
+#: src/pages/profile/EmailForm.tsx:31
+msgid "Failed to update email. Check your password and try again."
+msgstr "Failed to update email. Check your password and try again."
+
+#: src/pages/profile/PasswordForm.tsx:47
+msgid "Failed to update password"
+msgstr "Failed to update password"
+
+#: src/components/ui/AvatarInput.tsx:105
+msgid "Failed to upload the image. Please try again with another image."
+msgstr "Failed to upload the image. Please try again with another image."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:80
+msgid "Failed to verify email."
+msgstr "Failed to verify email."
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:117
+msgid "Finish"
+msgstr "Finish"
+
+#: src/pages/profile/DetailsForm.tsx:61
+#: src/pages/profile/DetailsForm.tsx:67
+#: src/pages/profile/DetailsForm.tsx:86
+#: src/pages/register/components/NamesForm.tsx:51
+msgid "First name"
+msgstr "First name"
+
+#: src/components/LoginModal.tsx:153
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:66
+msgid "Free trial"
+msgstr "Free trial"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:20
+msgid "Fri"
+msgstr "Fri"
+
+#: src/pages/games/memory-game/HighestScores.tsx:52
+msgid "Game Over"
+msgstr "Game Over"
+
+#: src/pages/games/GroupGameJoinPage.tsx:258
+msgid "Game with this code was not found"
+msgstr "Game with this code was not found"
+
+#: src/components/menu/SideMenuLinks.tsx:79
+#: src/pages/games/GamesPage.tsx:12
+#: src/pages/home/components/Achievements/Achievements.tsx:76
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:53
+msgid "Games"
+msgstr "Games"
+
+#: src/pages/NotFoundPage.tsx:23
+msgid "Go back home"
+msgstr "Go back home"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:74
+msgid "Goal in strength {strengthTranslation} completed"
+msgstr "Goal in strength {strengthTranslation} completed"
+
+#: src/components/menu/SideMenuLinks.tsx:73
+#: src/pages/home/components/Achievements/Achievements.tsx:67
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:45
+#: src/pages/strength-goals/GoalsPage.tsx:223
+msgid "Goals"
+msgstr "Goals"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:225
+msgid "Good job!"
+msgstr "Good job!"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:44
+msgid "Good!"
+msgstr "Good!"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:69
+msgid "Grace period"
+msgstr "Grace period"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:45
+msgid "Great!"
+msgstr "Great!"
+
+#: src/pages/groups/GroupModal.tsx:104
+msgid "Group description"
+msgstr "Group description"
+
+#: src/pages/groups/GroupModal.tsx:90
+msgid "Group name"
+msgstr "Group name"
+
+#: src/pages/groups/GroupModal.tsx:118
+msgid "Group owner"
+msgstr "Group owner"
+
+#: src/pages/games/quiz/host/ResultScreen.tsx:453
+msgid "Group Results"
+msgstr "Group Results"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:58
+msgid "Group Settings"
+msgstr "Group Settings"
+
+#: src/components/menu/SideMenuLinks.tsx:87
+#: src/pages/groups/GroupsPage.tsx:160
+msgid "Groups"
+msgstr "Groups"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:69
+msgid "have accepted"
+msgstr "have accepted"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:55
+msgid "Have fun while learning strengths"
+msgstr "Have fun while learning strengths"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:118
+msgid "have opened"
+msgstr "have opened"
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:79
+msgid "Hey, nice to see you!"
+msgstr "Hey, nice to see you!"
+
+#: src/pages/home/components/GoalBanner.tsx:65
+msgid "Hi Teacher!"
+msgstr "Hi Teacher!"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:81
+msgid "Holiday calendar"
+msgstr "Holiday calendar"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:79
+msgid "Holiday calendar starts in..."
+msgstr "Holiday calendar starts in..."
+
+#: src/components/menu/SideMenuLinks.tsx:59
+#: src/pages/home/HomePage.tsx:25
+msgid "Home"
+msgstr "Home"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:17
+msgid "How did the practised strength show in your group?"
+msgstr "How did the practised strength show in your group?"
+
+#: src/pages/home/components/GoalBanner.tsx:83
+msgid "How does it work?"
+msgstr "How does it work?"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:18
+msgid "How will you use this skill in future?"
+msgstr "How will you use this skill in future?"
+
+#: src/components/ui/AvatarInput.tsx:103
+msgid "Image upload failed."
+msgstr "Image upload failed."
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:10
+msgid "In this task, you used <0>curiosity</0>, <1>love of learning</1>, and <2>perseverance</2>. You’ve earned your first See the Good! badge!"
+msgstr "In this task, you used <0>curiosity</0>, <1>love of learning</1>, and <2>perseverance</2>. You’ve earned your first See the Good! badge!"
+
+#: src/components/ui/AvatarInput.tsx:69
+msgid "Invalid file"
+msgstr "Invalid file"
+
+#: src/pages/register/RegisterCodePage.tsx:47
+msgid "Invitation not found."
+msgstr "Invitation not found."
+
+#: src/pages/community-settings/CommunitySettings.tsx:111
+msgid "Invitations"
+msgstr "Invitations"
+
+#: src/pages/community-settings/CommunitySettings.tsx:133
+msgid "Invite"
+msgstr "Invite"
+
+#: src/pages/community-settings/Invitation.tsx:38
+msgid "Invite people"
+msgstr "Invite people"
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:24
+msgid "Invite your fellow teachers to see the good every single day of the year!"
+msgstr "Invite your fellow teachers to see the good every single day of the year!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:82
+msgid "Invite your students to see the good and click the goal setting tool together. It motivates the whole group to practice."
+msgstr "Invite your students to see the good and click the goal setting tool together. It motivates the whole group to practice."
+
+#: src/components/menu/NotificationsMenuItem.tsx:143
+msgid "invited you to join the community "
+msgstr "invited you to join the community "
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:52
+msgid "It all starts with your group"
+msgstr "It all starts with your group"
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:18
+msgid "It’s best to go through the lessons in order, but you can always revisit previous ones. The strengths have a default order, which you can adjust if you wish."
+msgstr "It’s best to go through the lessons in order, but you can always revisit previous ones. The strengths have a default order, which you can adjust if you wish."
+
+#: src/pages/StartPage.tsx:83
+msgid "Join a community"
+msgstr "Join a community"
+
+#: src/pages/games/GroupGameJoinPage.tsx:409
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:222
+msgid "Just a moment, waiting for the game to start."
+msgstr "Just a moment, waiting for the game to start."
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:44
+#: src/components/ui/PostCard/CoachPostHeader.tsx:38
+msgid "Kaisa"
+msgstr "Kaisa"
+
+#: src/pages/profile/DetailsForm.tsx:99
+msgid "Language"
+msgstr "Language"
+
+#: src/pages/register/components/NamesForm.tsx:66
+msgid "Last name"
+msgstr "Last name"
+
+#: src/pages/profile/DetailsForm.tsx:80
+msgid "Last Name"
+msgstr "Last Name"
+
+#: src/pages/home/components/GoalBanner.tsx:34
+msgid "Latest addition to See The Good! tools. Try already today!"
+msgstr "Latest addition to See The Good! tools. Try already today!"
+
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:46
+msgid "Lesson goals"
+msgstr "Lesson goals"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:49
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:29
+msgid "Lessons"
+msgstr "Lessons"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:102
+msgid "Let’s discover and celebrate the good together!"
+msgstr "Let’s discover and celebrate the good together!"
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:31
+msgid "Let’s start by going through a few basics!"
+msgstr "Let’s start by going through a few basics!"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:94
+msgid "Letter"
+msgstr "Letter"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:581
+msgid "Loading billing group…"
+msgstr "Loading billing group…"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:152
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:186
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:196
+msgid "Loading..."
+msgstr "Loading..."
+
+#: src/components/menu/UserMenu.tsx:38
+msgid "Log out"
+msgstr "Log out"
+
+#: src/components/LoginModal.tsx:142
+#: src/pages/StartPage.tsx:69
+msgid "Login"
+msgstr "Login"
+
+#: src/components/LoginModal.tsx:146
+msgid "Login failed"
+msgstr "Login failed"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:49
+msgid "Magnificent!"
+msgstr "Magnificent!"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:170
+msgid "Manage Subscription"
+msgstr "Manage Subscription"
+
+#: src/components/menu/SideMenuLinks.tsx:120
+msgid "Materials"
+msgstr "Materials"
+
+#: src/pages/community-settings/CommunityMembers.tsx:139
+msgid "Member"
+msgstr "Member"
+
+#: src/pages/community-settings/CommunitySettings.tsx:108
+msgid "Members"
+msgstr "Members"
+
+#: src/pages/home/components/Achievements/GamesTab.tsx:17
+msgid "Memory game"
+msgstr "Memory game"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:50
+msgid "Memory Game"
+msgstr "Memory Game"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:85
+msgid "Memory game is a fun and interactive game that helps you to improve your memory and focus. It is a great way to challenge yourself and have fun at the same time."
+msgstr "Memory game is a fun and interactive game that helps you to improve your memory and focus. It is a great way to challenge yourself and have fun at the same time."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:258
+#: src/pages/community-settings/CommunitySubcription.tsx:300
+msgid "Missing information"
+msgstr "Missing information"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:16
+msgid "Mon"
+msgstr "Mon"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:101
+#: src/pages/community-settings/CommunitySubcription.tsx:632
+msgid "Name"
+msgstr "Name"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:626
+msgid "New billing group"
+msgstr "New billing group"
+
+#: src/pages/profile/EmailForm.tsx:67
+msgid "New email"
+msgstr "New email"
+
+#: src/pages/home/components/GoalBanner.tsx:31
+msgid "New feature: Goals"
+msgstr "New feature: Goals"
+
+#: src/pages/home/components/GoalBanner.tsx:60
+msgid "New goalsetter"
+msgstr "New goalsetter"
+
+#: src/pages/profile/PasswordForm.tsx:76
+msgid "New password"
+msgstr "New password"
+
+#: src/components/UiVersionCheck.tsx:97
+msgid "New version available"
+msgstr "New version available"
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:117
+msgid "Next"
+msgstr "Next"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:113
+msgid "Next question"
+msgstr "Next question"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:537
+msgid "No"
+msgstr "No"
+
+#: src/pages/strength-goals/GoalsPage.tsx:277
+msgid "No active goals"
+msgstr "No active goals"
+
+#: src/pages/games/quiz/host/useHostQuizController.ts:114
+msgid "No active group found for creating the game."
+msgstr "No active group found for creating the game."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:610
+msgid "No billing group selected."
+msgstr "No billing group selected."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:495
+msgid "No changes yet."
+msgstr "No changes yet."
+
+#: src/pages/register/RegisterCodePage.tsx:32
+msgid "No code provided."
+msgstr "No code provided."
+
+#: src/pages/home/components/Achievements/GoalsTab.tsx:25
+msgid "No completed goals yet"
+msgstr "No completed goals yet"
+
+#: src/pages/games/quiz/host/ResultScreen.tsx:483
+msgid "No data"
+msgstr "No data"
+
+#: src/pages/home/components/Achievements/DiplomasTab.tsx:88
+msgid "No diplomas completed yet"
+msgstr "No diplomas completed yet"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:94
+msgid "No expiring subscriptions found."
+msgstr "No expiring subscriptions found."
+
+#: src/pages/home/components/Achievements/GamesTab.tsx:43
+msgid "No games played yet"
+msgstr "No games played yet"
+
+#: src/pages/strength-goals/GoalsPage.tsx:261
+msgid "No group selected"
+msgstr "No group selected"
+
+#: src/pages/groups/GroupsPage.tsx:112
+msgid "No groups created"
+msgstr "No groups created"
+
+#: src/components/menu/NotificationsMenu.tsx:148
+msgid "No unread notifications"
+msgstr "No unread notifications"
+
+#: src/components/ui/AvatarInput.tsx:126
+#: src/components/ui/PostCard/Comment.tsx:94
+#: src/components/ui/PostCard/PostTools.tsx:31
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:109
+#: src/pages/community-settings/CommunityMembers.tsx:82
+#: src/pages/games/GroupGameLobbyPage.tsx:121
+#: src/pages/games/quiz/host/useHostQuizController.ts:161
+#: src/pages/strength-goals/GoalsPage.tsx:175
+msgid "No, cancel"
+msgstr "No, cancel"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:465
+#: src/pages/community-settings/CommunitySubcription.tsx:523
+msgid "Not set"
+msgstr "Not set"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:446
+msgid "Not updated yet."
+msgstr "Not updated yet."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:669
+msgid "Notes"
+msgstr "Notes"
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:17
+msgid "Now it’s your turn to continue the journey from strength to strength with your group!"
+msgstr "Now it’s your turn to continue the journey from strength to strength with your group!"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:244
+msgid "of"
+msgstr "of"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:43
+msgid "OK!"
+msgstr "OK!"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:76
+msgid "once"
+msgstr "once"
+
+#: src/components/LoginModal.tsx:72
+#: src/components/menu/CommunityDropdown.tsx:23
+#: src/components/menu/NotificationsMenu.tsx:75
+#: src/components/menu/NotificationsMenu.tsx:105
+#: src/components/MomentForm.tsx:98
+#: src/components/ui/PostCard/ChallengeContent.tsx:51
+#: src/components/ui/PostCard/Comment.tsx:106
+#: src/components/ui/PostCard/CommentForm.tsx:81
+#: src/components/ui/PostCard/PostTools.tsx:43
+#: src/components/ui/PostCard/ReactionButton.tsx:60
+#: src/components/ui/PostCard/ReactionButton.tsx:73
+#: src/components/ui/PostCard/ReactionButton.tsx:89
+#: src/components/ui/PostModal.tsx:43
+#: src/components/ui/StrengthGoal/ArticleGoal.tsx:86
+#: src/components/ui/VimeoPlayer.tsx:195
+#: src/pages/AuthCallbackPage.tsx:58
+#: src/pages/AuthCallbackPage.tsx:87
+#: src/pages/community-settings/CommunityAvatar.tsx:71
+#: src/pages/community-settings/CommunityAvatar.tsx:111
+#: src/pages/community-settings/CommunityDetails.tsx:57
+#: src/pages/community-settings/CommunityEmails.tsx:29
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:43
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:55
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:67
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:77
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:95
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:122
+#: src/pages/community-settings/CommunityMembers.tsx:35
+#: src/pages/community-settings/CommunityMembers.tsx:68
+#: src/pages/community-settings/CommunityMembers.tsx:97
+#: src/pages/community-settings/CommunitySubcription.tsx:189
+#: src/pages/community-settings/CommunitySubcription.tsx:286
+#: src/pages/community-settings/CommunitySubcription.tsx:325
+#: src/pages/community-settings/CommunitySubcription.tsx:336
+#: src/pages/community-settings/CommunitySubcription.tsx:382
+#: src/pages/community-settings/Invitation.tsx:29
+#: src/pages/ForgotPasswordPage.tsx:33
+#: src/pages/games/GroupGameJoinPage.tsx:109
+#: src/pages/games/GroupGameJoinPage.tsx:231
+#: src/pages/games/GroupGameLobbyPage.tsx:38
+#: src/pages/games/GroupGameLobbyPage.tsx:141
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:41
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:79
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:94
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:145
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:61
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:93
+#: src/pages/games/quiz/host/useHostQuizController.ts:79
+#: src/pages/games/quiz/host/useHostQuizController.ts:113
+#: src/pages/games/quiz/host/useHostQuizController.ts:126
+#: src/pages/games/quiz/host/useHostQuizController.ts:181
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:74
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:70
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:152
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:36
+#: src/pages/games/sprint/host/HostSprintPage.tsx:79
+#: src/pages/games/sprint/host/HostSprintPage.tsx:130
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:116
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:177
+#: src/pages/groups/GroupModal.tsx:63
+#: src/pages/groups/GroupsPage.tsx:47
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:229
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:252
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:539
+#: src/pages/home/components/CommunityStats.tsx:64
+#: src/pages/home/components/LastActiveGoal.tsx:82
+#: src/pages/home/components/LastActiveGoal.tsx:194
+#: src/pages/home/components/LastActiveGoal.tsx:217
+#: src/pages/home/components/Posts.tsx:69
+#: src/pages/profile/AvatarForm.tsx:47
+#: src/pages/profile/AvatarForm.tsx:62
+#: src/pages/profile/ConsentsForm.tsx:43
+#: src/pages/profile/DetailsForm.tsx:46
+#: src/pages/profile/EmailForm.tsx:29
+#: src/pages/profile/PasswordForm.tsx:21
+#: src/pages/profile/PasswordForm.tsx:29
+#: src/pages/profile/PasswordForm.tsx:46
+#: src/pages/register/RegisterCodePage.tsx:54
+#: src/pages/register/RegisterUserPage.tsx:56
+#: src/pages/strength-goals/GoalsPage.tsx:84
+msgid "Oops!"
+msgstr "Oops!"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:114
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:97
+msgid "Open"
+msgstr "Open"
+
+#: src/pages/home/components/GoalBanner.tsx:40
+msgid "Open goals"
+msgstr "Open goals"
+
+#: src/components/ui/SlideShow/ArticleSlideshow.tsx:63
+msgid "Open slideshow"
+msgstr "Open slideshow"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:219
+#: src/pages/games/quiz/host/StartScreen.tsx:84
+msgid "or enter code at"
+msgstr "or enter code at"
+
+#: src/pages/register/components/OrganizationForm.tsx:81
+msgid "Organization name"
+msgstr "Organization name"
+
+#: src/pages/register/components/OrganizationForm.tsx:95
+msgid "Organization type"
+msgstr "Organization type"
+
+#: src/pages/register/components/OrganizationForm.tsx:105
+#: src/pages/register/components/OrganizationForm.tsx:119
+msgid "Other"
+msgstr "Other"
+
+#: src/pages/community-settings/CommunityMembers.tsx:146
+#: src/pages/groups/GroupCardContent.tsx:50
+msgid "Owner"
+msgstr "Owner"
+
+#: src/pages/NotFoundPage.tsx:16
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: src/components/LoginModal.tsx:126
+#: src/components/LoginModal.tsx:127
+#: src/pages/AuthCallbackPage.tsx:128
+#: src/pages/profile/EditProfilePage.tsx:44
+#: src/pages/profile/EmailForm.tsx:81
+msgid "Password"
+msgstr "Password"
+
+#: src/pages/profile/PasswordForm.tsx:42
+msgid "Password updated"
+msgstr "Password updated"
+
+#: src/components/menu/SideMenuLinks.tsx:67
+msgid "Pedagogy"
+msgstr "Pedagogy"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:168
+msgid "Pending Invitations"
+msgstr "Pending Invitations"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:50
+msgid "Perfect!"
+msgstr "Perfect!"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:100
+msgid "Player"
+msgstr "Player"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:136
+#: src/pages/games/quiz/host/useHostQuizController.ts:176
+msgid "Player removed"
+msgstr "Player removed"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:79
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:74
+msgid "players"
+msgstr "players"
+
+#: src/components/LoginModal.tsx:100
+msgid "Please enter your password and you will be added to {targetCommunityName}"
+msgstr "Please enter your password and you will be added to {targetCommunityName}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:301
+msgid "Please provide a name and billing contact for the group."
+msgstr "Please provide a name and billing contact for the group."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:259
+msgid "Please provide a name and email for the billing contact."
+msgstr "Please provide a name and email for the billing contact."
+
+#: src/pages/register/RegisterCodePage.tsx:33
+msgid "Please provide an invitation code."
+msgstr "Please provide an invitation code."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:337
+msgid "Please select a status valid until date."
+msgstr "Please select a status valid until date."
+
+#: src/components/MomentForm.tsx:212
+msgid "Post"
+msgstr "Post"
+
+#: src/components/MomentForm.tsx:118
+msgid "Post a message to your community's wall."
+msgstr "Post a message to your community's wall."
+
+#: src/components/menu/SideMenuLinks.tsx:114
+msgid "Posts"
+msgstr "Posts"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:47
+msgid "Practice strengths in everyday life"
+msgstr "Practice strengths in everyday life"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:21
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:40
+msgid "Preschool"
+msgstr "Preschool"
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:240
+#: src/pages/home/components/Onboarding/Wizard.tsx:298
+msgid "Previous"
+msgstr "Previous"
+
+#: src/pages/register/components/OrganizationForm.tsx:117
+msgid "Principal / Manager"
+msgstr "Principal / Manager"
+
+#: src/components/menu/UserMenu.tsx:33
+#: src/pages/profile/EditProfilePage.tsx:20
+msgid "Profile"
+msgstr "Profile"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:88
+msgid "Quiz Winner"
+msgstr "Quiz Winner"
+
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:169
+msgid "Quiz with this code was not found"
+msgstr "Quiz with this code was not found"
+
+#: src/components/menu/SideMenuLinks.tsx:132
+msgid "Quizzes"
+msgstr "Quizzes"
+
+#: src/components/ui/PostCard/ReactionTrigger.tsx:110
+#: src/components/ui/PostCard/ReactionTrigger.tsx:131
+msgid "React"
+msgstr "React"
+
+#: src/components/menu/NotificationsMenuItem.tsx:121
+msgid "reacted to your comment"
+msgstr "reacted to your comment"
+
+#: src/components/menu/NotificationsMenuItem.tsx:73
+msgid "reacted to your post"
+msgstr "reacted to your post"
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:28
+msgid "Reactions"
+msgstr "Reactions"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:285
+#: src/pages/home/components/GoalBanner.tsx:43
+msgid "Read more"
+msgstr "Read more"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:76
+msgid "Ready-made lesson materials"
+msgstr "Ready-made lesson materials"
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:73
+msgid "Received strengths"
+msgstr "Received strengths"
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:56
+msgid "Redo goal"
+msgstr "Redo goal"
+
+#: src/pages/StartPage.tsx:76
+msgid "Register"
+msgstr "Register"
+
+#: src/components/UiVersionCheck.tsx:113
+msgid "Reload"
+msgstr "Reload"
+
+#: src/components/LoginModal.tsx:134
+msgid "Remember me"
+msgstr "Remember me"
+
+#: src/components/ui/PostCard/Comment.tsx:199
+#: src/components/ui/PostCard/PostTools.tsx:77
+msgid "Remove"
+msgstr "Remove"
+
+#: src/pages/strength-goals/GoalsPage.tsx:171
+msgid "Remove all goals for this strength"
+msgstr "Remove all goals for this strength"
+
+#: src/components/ui/AvatarInput.tsx:122
+msgid "Remove avatar"
+msgstr "Remove avatar"
+
+#: src/components/ui/PostCard/Comment.tsx:89
+msgid "Remove comment"
+msgstr "Remove comment"
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:42
+msgid "Remove goal"
+msgstr "Remove goal"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:104
+#: src/pages/community-settings/CommunityMembers.tsx:77
+msgid "Remove member"
+msgstr "Remove member"
+
+#: src/components/ui/PostCard/PostTools.tsx:26
+msgid "Remove moment"
+msgstr "Remove moment"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:119
+#: src/pages/games/quiz/host/useHostQuizController.ts:159
+msgid "Remove player"
+msgstr "Remove player"
+
+#: src/pages/ForgotPasswordPage.tsx:72
+msgid "Reset my password"
+msgstr "Reset my password"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:116
+msgid "Restart"
+msgstr "Restart"
+
+#: src/components/menu/SideMenuLinks.tsx:96
+msgid "Retention"
+msgstr "Retention"
+
+#: src/pages/register/components/OrganizationForm.tsx:112
+msgid "Role in organization"
+msgstr "Role in organization"
+
+#: src/components/MomentForm.tsx:212
+#: src/components/ui/AvatarInput.tsx:197
+#: src/components/ui/PostCard/CommentForm.tsx:135
+#: src/pages/community-settings/CommunitySubcription.tsx:557
+#: src/pages/profile/ConsentsForm.tsx:73
+msgid "Save"
+msgstr "Save"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:144
+#: src/pages/groups/GroupModal.tsx:140
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:695
+msgid "Save group"
+msgstr "Save group"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:287
+msgid "Saving the billing contact failed."
+msgstr "Saving the billing contact failed."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:326
+msgid "Saving the billing group failed."
+msgstr "Saving the billing group failed."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:557
+#: src/pages/community-settings/CommunitySubcription.tsx:692
+msgid "Saving…"
+msgstr "Saving…"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:193
+#: src/pages/games/quiz/host/StartScreen.tsx:69
+msgid "Scan QR"
+msgstr "Scan QR"
+
+#: src/pages/register/components/OrganizationForm.tsx:104
+msgid "School"
+msgstr "School"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:109
+msgid "Score"
+msgstr "Score"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:93
+msgid "Scores"
+msgstr "Scores"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:95
+msgid "See all"
+msgstr "See all"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:100
+msgid "Select"
+msgstr "Select"
+
+#: src/components/menu/GroupDropdown.tsx:22
+msgid "Select a group"
+msgstr "Select a group"
+
+#: src/pages/strength-goals/GoalsPage.tsx:264
+msgid "Select a group or create a new one to start using the goals."
+msgstr "Select a group or create a new one to start using the goals."
+
+#: src/components/ui/SelectInput.tsx:49
+msgid "Select an option"
+msgstr "Select an option"
+
+#: src/components/ui/AvatarInput.tsx:226
+msgid "Select image"
+msgstr "Select image"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:348
+msgid "Select one strength"
+msgstr "Select one strength"
+
+#: src/components/ui/StrengthModal.tsx:72
+msgid "Select strength"
+msgstr "Select strength"
+
+#: src/pages/register/components/OrganizationForm.tsx:71
+msgid "Select your country"
+msgstr "Select your country"
+
+#: src/pages/register/components/OrganizationForm.tsx:98
+msgid "Select your organization type"
+msgstr "Select your organization type"
+
+#: src/pages/register/components/OrganizationForm.tsx:114
+msgid "Select your role in organization"
+msgstr "Select your role in organization"
+
+#: src/components/ui/PostCard/CommentForm.tsx:135
+msgid "Send"
+msgstr "Send"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:161
+msgid "Send Invitation"
+msgstr "Send Invitation"
+
+#: src/pages/home/components/GoalBanner.tsx:86
+msgid "Set a goal with your students. Notice their efforts and use the tool to document their practice. Invite students to reflect on what went well and celebrate their progress together."
+msgstr "Set a goal with your students. Notice their efforts and use the tool to document their practice. Invite students to reflect on what went well and celebrate their progress together."
+
+#: src/pages/AuthCallbackPage.tsx:115
+msgid "Set a password for your account"
+msgstr "Set a password for your account"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:144
+msgid "Settings"
+msgstr "Settings"
+
+#: src/pages/AuthCallbackPage.tsx:145
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:194
+msgid "Skip"
+msgstr "Skip"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:123
+msgid "Slides"
+msgstr "Slides"
+
+#: src/pages/register/RegisterUserPage.tsx:57
+msgid "Something did not work as expected. Please try again later."
+msgstr "Something did not work as expected. Please try again later."
+
+#: src/pages/home/components/LastActiveGoal.tsx:83
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+#: src/components/ui/PostCard/ChallengeContent.tsx:52
+msgid "Something went wrong while accepting the challenge"
+msgstr "Something went wrong while accepting the challenge"
+
+#: src/components/menu/CommunityDropdown.tsx:24
+msgid "Something went wrong while changing community"
+msgstr "Something went wrong while changing community"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:42
+msgid "Something went wrong while creating game"
+msgstr "Something went wrong while creating game"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:37
+msgid "Something went wrong while creating sprint"
+msgstr "Something went wrong while creating sprint"
+
+#: src/pages/groups/GroupModal.tsx:64
+msgid "Something went wrong while creating the event"
+msgstr "Something went wrong while creating the event"
+
+#: src/pages/games/quiz/host/useHostQuizController.ts:127
+msgid "Something went wrong while creating the game"
+msgstr "Something went wrong while creating the game"
+
+#: src/components/ui/StrengthGoal/ArticleGoal.tsx:87
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:230
+#: src/pages/home/components/LastActiveGoal.tsx:195
+msgid "Something went wrong while creating the goal"
+msgstr "Something went wrong while creating the goal"
+
+#: src/pages/community-settings/Invitation.tsx:30
+msgid "Something went wrong while creating the invitation"
+msgstr "Something went wrong while creating the invitation"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:146
+#: src/pages/games/sprint/host/HostSprintPage.tsx:131
+msgid "Something went wrong while ending sprint"
+msgstr "Something went wrong while ending sprint"
+
+#: src/pages/home/components/CommunityStats.tsx:65
+msgid "Something went wrong while fetching community stats"
+msgstr "Something went wrong while fetching community stats"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:94
+msgid "Something went wrong while fetching the memoryGame"
+msgstr "Something went wrong while fetching the memoryGame"
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:71
+msgid "Something went wrong while fetching the quiz"
+msgstr "Something went wrong while fetching the quiz"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:117
+msgid "Something went wrong while fetching the sprint"
+msgstr "Something went wrong while fetching the sprint"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:62
+msgid "Something went wrong while flipping the card"
+msgstr "Something went wrong while flipping the card"
+
+#: src/pages/games/GroupGameJoinPage.tsx:110
+#: src/pages/games/GroupGameJoinPage.tsx:232
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:75
+msgid "Something went wrong while joining the game"
+msgstr "Something went wrong while joining the game"
+
+#: src/pages/community-settings/CommunityEmails.tsx:31
+#: src/pages/community-settings/CommunityMembers.tsx:37
+msgid "Something went wrong while loading the community members"
+msgstr "Something went wrong while loading the community members"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:39
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:80
+#: src/pages/games/quiz/host/useHostQuizController.ts:80
+msgid "Something went wrong while loading the game"
+msgstr "Something went wrong while loading the game"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:44
+msgid "Something went wrong while loading the invitations"
+msgstr "Something went wrong while loading the invitations"
+
+#: src/pages/home/components/Posts.tsx:70
+msgid "Something went wrong while loading the moments"
+msgstr "Something went wrong while loading the moments"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:80
+msgid "Something went wrong while loading the sprint"
+msgstr "Something went wrong while loading the sprint"
+
+#: src/pages/AuthCallbackPage.tsx:59
+msgid "Something went wrong while logging in"
+msgstr "Something went wrong while logging in"
+
+#: src/pages/strength-goals/GoalsPage.tsx:85
+msgid "Something went wrong while processing the goal."
+msgstr "Something went wrong while processing the goal."
+
+#: src/pages/groups/GroupsPage.tsx:48
+msgid "Something went wrong while processing the group."
+msgstr "Something went wrong while processing the group."
+
+#: src/components/ui/PostCard/ReactionButton.tsx:61
+msgid "Something went wrong while reacting"
+msgstr "Something went wrong while reacting"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:74
+msgid "Something went wrong while removing a reaction"
+msgstr "Something went wrong while removing a reaction"
+
+#: src/components/ui/PostCard/Comment.tsx:107
+msgid "Something went wrong while removing the comment"
+msgstr "Something went wrong while removing the comment"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:123
+msgid "Something went wrong while removing the invitation"
+msgstr "Something went wrong while removing the invitation"
+
+#: src/components/ui/PostCard/PostTools.tsx:44
+msgid "Something went wrong while removing the moment"
+msgstr "Something went wrong while removing the moment"
+
+#: src/pages/community-settings/CommunityMembers.tsx:98
+msgid "Something went wrong while removing the user"
+msgstr "Something went wrong while removing the user"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:383
+msgid "Something went wrong while saving the billing settings"
+msgstr "Something went wrong while saving the billing settings"
+
+#: src/components/ui/PostCard/CommentForm.tsx:82
+msgid "Something went wrong while saving the comment"
+msgstr "Something went wrong while saving the comment"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:112
+msgid "Something went wrong while saving the community"
+msgstr "Something went wrong while saving the community"
+
+#: src/components/MomentForm.tsx:99
+msgid "Something went wrong while saving the moment"
+msgstr "Something went wrong while saving the moment"
+
+#: src/pages/AuthCallbackPage.tsx:88
+msgid "Something went wrong while saving the password"
+msgstr "Something went wrong while saving the password"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:178
+msgid "Something went wrong while saving the strength"
+msgstr "Something went wrong while saving the strength"
+
+#: src/pages/profile/AvatarForm.tsx:63
+#: src/pages/profile/DetailsForm.tsx:47
+msgid "Something went wrong while saving the user"
+msgstr "Something went wrong while saving the user"
+
+#: src/components/ui/VimeoPlayer.tsx:197
+msgid "Something went wrong while saving your consent settings."
+msgstr "Something went wrong while saving your consent settings."
+
+#: src/pages/profile/ConsentsForm.tsx:44
+msgid "Something went wrong while saving your profile settings."
+msgstr "Something went wrong while saving your profile settings."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:96
+msgid "Something went wrong while sending the invitation"
+msgstr "Something went wrong while sending the invitation"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:95
+msgid "Something went wrong while skipping the player"
+msgstr "Something went wrong while skipping the player"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:253
+msgid "Something went wrong while starting the game"
+msgstr "Something went wrong while starting the game"
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:153
+msgid "Something went wrong while submitting your answer"
+msgstr "Something went wrong while submitting your answer"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:90
+msgid "Something went wrong while updating a reaction"
+msgstr "Something went wrong while updating a reaction"
+
+#: src/pages/community-settings/CommunityDetails.tsx:58
+msgid "Something went wrong while updating the community"
+msgstr "Something went wrong while updating the community"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:540
+#: src/pages/home/components/LastActiveGoal.tsx:218
+msgid "Something went wrong while updating the goal"
+msgstr "Something went wrong while updating the goal"
+
+#: src/pages/community-settings/CommunityMembers.tsx:69
+msgid "Something went wrong while updating the user role"
+msgstr "Something went wrong while updating the user role"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:72
+#: src/pages/profile/AvatarForm.tsx:48
+msgid "Something went wrong while uploading your image"
+msgstr "Something went wrong while uploading your image"
+
+#: src/pages/ForgotPasswordPage.tsx:34
+#: src/pages/register/RegisterCodePage.tsx:55
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+#: src/pages/NotFoundPage.tsx:19
+msgid "Sorry, the page you are looking for does not exist."
+msgstr "Sorry, the page you are looking for does not exist."
+
+#: src/components/ui/PostCard/OnboardingCompletedContent.tsx:25
+msgid "Spectacular!"
+msgstr "Spectacular!"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:287
+#: src/pages/games/GroupGameLobbyPage.tsx:312
+#: src/pages/games/quiz/host/EmbeddedQuiz.tsx:31
+#: src/pages/games/quiz/host/EmbeddedQuiz.tsx:39
+#: src/pages/games/quiz/host/StartScreen.tsx:144
+msgid "Start"
+msgstr "Start"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:111
+msgid "Start game"
+msgstr "Start game"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:109
+msgid "Start sprint"
+msgstr "Start sprint"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:503
+msgid "Status"
+msgstr "Status"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:423
+#: src/pages/community-settings/CommunitySubcription.tsx:509
+msgid "Status valid until"
+msgstr "Status valid until"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:80
+msgid "Strength"
+msgstr "Strength"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:80
+msgid "Strength Guide"
+msgstr "Strength Guide"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:45
+#: src/pages/home/components/Achievements/GamesTab.tsx:22
+msgid "Strength sprint"
+msgstr "Strength sprint"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:100
+msgid "Strength Sprint"
+msgstr "Strength Sprint"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:177
+msgid "Strengths sent"
+msgstr "Strengths sent"
+
+#: src/pages/AuthCallbackPage.tsx:150
+#: src/pages/ForgotPasswordPage.tsx:79
+#: src/pages/profile/DetailsForm.tsx:118
+#: src/pages/profile/EmailForm.tsx:95
+#: src/pages/profile/PasswordForm.tsx:108
+msgid "Submit"
+msgstr "Submit"
+
+#: src/pages/community-settings/CommunitySettings.tsx:146
+msgid "Subscription"
+msgstr "Subscription"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:477
+msgid "Subscription ends"
+msgstr "Subscription ends"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:491
+msgid "Subscription history"
+msgstr "Subscription history"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:453
+msgid "Subscription status"
+msgstr "Subscription status"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:66
+#: src/pages/community-settings/CommunityDetails.tsx:52
+#: src/pages/community-settings/CommunityMembers.tsx:63
+#: src/pages/community-settings/CommunitySubcription.tsx:377
+#: src/pages/profile/AvatarForm.tsx:42
+#: src/pages/profile/ConsentsForm.tsx:38
+#: src/pages/profile/DetailsForm.tsx:41
+#: src/pages/profile/PasswordForm.tsx:41
+msgid "Success!"
+msgstr "Success!"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:121
+msgid "Target date"
+msgstr "Target date"
+
+#: src/components/menu/SideMenuLinks.tsx:61
+msgid "Teach"
+msgstr "Teach"
+
+#: src/pages/register/components/OrganizationForm.tsx:118
+msgid "Teacher / Instructor"
+msgstr "Teacher / Instructor"
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:32
+msgid "Thank you for being part of this!"
+msgstr "Thank you for being part of this!"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:46
+msgid "The Best!"
+msgstr "The Best!"
+
+#: src/components/ui/AvatarInput.tsx:71
+msgid "The file might be too large or be in an unsupported format"
+msgstr "The file might be too large or be in an unsupported format"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:231
+#: src/pages/games/quiz/host/StartScreen.tsx:71
+msgid "The game has expired."
+msgstr "The game has expired."
+
+#: src/pages/home/components/GoalBanner.tsx:99
+msgid "The Goal Setter is ready to use in the See the Good! lesson materials. Try it out today!"
+msgstr "The Goal Setter is ready to use in the See the Good! lesson materials. Try it out today!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:66
+msgid "The Goal Setting Tool helps your group practice a chosen strength."
+msgstr "The Goal Setting Tool helps your group practice a chosen strength."
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:10
+msgid "The lesson materials help you teach character strengths and social and emotional skills to your group. Each strength includes four lessons: <0>Start</0>, <1>Speak</1>, <2>Act</2>, and <3>Assess</3>."
+msgstr "The lesson materials help you teach character strengths and social and emotional skills to your group. Each strength includes four lessons: <0>Start</0>, <1>Speak</1>, <2>Act</2>, and <3>Assess</3>."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:96
+msgid "The link has expired."
+msgstr "The link has expired."
+
+#: src/pages/AuthCallbackPage.tsx:98
+msgid "The link has expired. Please request a new link<0>here</0>."
+msgstr "The link has expired. Please request a new link<0>here</0>."
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:23
+msgid "The method supports students’ wellbeing and learning, helps build a positive school culture, and reduces bullying."
+msgstr "The method supports students’ wellbeing and learning, helps build a positive school culture, and reduces bullying."
+
+#: src/pages/home/components/GoalBanner.tsx:75
+msgid "The new Goal Setter supports the intentional practice of social-emotional skills and character strengths. It makes progress visible, helps students put their successes into words, and strengthens your classroom community in concrete, measurable ways."
+msgstr "The new Goal Setter supports the intentional practice of social-emotional skills and character strengths. It makes progress visible, helps students put their successes into words, and strengthens your classroom community in concrete, measurable ways."
+
+#: src/pages/profile/PasswordForm.tsx:30
+msgid "The new passwords do not match"
+msgstr "The new passwords do not match"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:137
+#: src/pages/games/quiz/host/useHostQuizController.ts:177
+msgid "The player has been successfully removed from the game."
+msgstr "The player has been successfully removed from the game."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:78
+msgid "This email address is not registered in the system"
+msgstr "This email address is not registered in the system"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:44
+msgid "This is the strength guide. It always recommends the next lesson for your group. You can adjust the strength guide’s <0>settings</0> at any time."
+msgstr "This is the strength guide. It always recommends the next lesson for your group. You can adjust the strength guide’s <0>settings</0> at any time."
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:87
+msgid "This list contains communities with active manual subscriptions that are not yet marked to end."
+msgstr "This list contains communities with active manual subscriptions that are not yet marked to end."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:68
+msgid "This user already has a pending invitation"
+msgstr "This user already has a pending invitation"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:56
+msgid "This user is already a member of the community"
+msgstr "This user is already a member of the community"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:19
+msgid "Thu"
+msgstr "Thu"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:168
+msgid "Time to send strengths!"
+msgstr "Time to send strengths!"
+
+#: src/pages/community-settings/CommunityDetails.tsx:111
+msgid "Timezone"
+msgstr "Timezone"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:85
+msgid "To join the strength sprint, you’ll need at least two people and can participate easily using a mobile phone or computer. During the sprint, you’ll have the chance to give each other encouraging feedback on your character strengths."
+msgstr "To join the strength sprint, you’ll need at least two people and can participate easily using a mobile phone or computer. During the sprint, you’ll have the chance to give each other encouraging feedback on your character strengths."
+
+#: src/pages/home/components/TopContributorsModal.tsx:25
+msgid "Top contributors"
+msgstr "Top contributors"
+
+#: src/pages/home/components/TopStrengthsModal.tsx:27
+msgid "Top strengths"
+msgstr "Top strengths"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:207
+msgid "Top strengths from session..."
+msgstr "Top strengths from session..."
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:34
+msgid "Total"
+msgstr "Total"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:59
+msgid "Try it now: click through the <0>lessons</0> to explore their contents. Click a <1>slide</1> to view it in full screen."
+msgstr "Try it now: click through the <0>lessons</0> to explore their contents. Click a <1>slide</1> to view it in full screen."
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:88
+msgid "Try it now: press the button <0>three times</0>!"
+msgstr "Try it now: press the button <0>three times</0>!"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:83
+#: src/pages/EmailConfirmCallbackPage.tsx:99
+msgid "Try setting your email again. In the <0>profile page</0>"
+msgstr "Try setting your email again. In the <0>profile page</0>"
+
+#: src/pages/home/components/Onboarding/steps/Games.tsx:16
+msgid "Try the strength sprint with your students and fellow teachers! You can find it in the main menu."
+msgstr "Try the strength sprint with your students and fellow teachers! You can find it in the main menu."
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:17
+msgid "Tue"
+msgstr "Tue"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:135
+msgid "Update subscription"
+msgstr "Update subscription"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:141
+msgid "Updated {formattedUpdatedAt}"
+msgstr "Updated {formattedUpdatedAt}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:515
+msgid "Updated at"
+msgstr "Updated at"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:512
+msgid "Updated by"
+msgstr "Updated by"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:139
+msgid "Updated by {updatedByName}"
+msgstr "Updated by {updatedByName}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:137
+msgid "Updated by {updatedByName} · {formattedUpdatedAt}"
+msgstr "Updated by {updatedByName} · {formattedUpdatedAt}"
+
+#: src/components/ui/VimeoPlayer.tsx:231
+msgid "Updating..."
+msgstr "Updating..."
+
+#: src/pages/community-settings/CommunityMembers.tsx:64
+msgid "User role updated"
+msgstr "User role updated"
+
+#: src/components/menu/SideMenuLinks.tsx:108
+msgid "Users"
+msgstr "Users"
+
+#: src/pages/AuthCallbackPage.tsx:170
+#: src/pages/EmailConfirmCallbackPage.tsx:111
+msgid "Verifying your account."
+msgstr "Verifying your account."
+
+#: src/components/menu/SideMenuLinks.tsx:138
+msgid "Video jobs"
+msgstr "Video jobs"
+
+#: src/pages/home/components/CommunityStats.tsx:136
+#: src/pages/home/components/CommunityStats.tsx:177
+msgid "View all"
+msgstr "View all"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:258
+#: src/pages/games/quiz/host/StartScreen.tsx:117
+msgid "Waiting for participants to join..."
+msgstr "Waiting for participants to join..."
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:228
+msgid "Waiting for results..."
+msgstr "Waiting for results..."
+
+#: src/components/ui/PostCard/SprintResultsContent.tsx:61
+msgid "We also saw these strengths in the sprint."
+msgstr "We also saw these strengths in the sprint."
+
+#: src/components/menu/NotificationsMenuItem.tsx:59
+#: src/components/menu/NotificationsMenuItem.tsx:84
+#: src/components/ui/PostCard/SprintResultsContent.tsx:28
+msgid "We played a strength sprint! The top strengths were these."
+msgstr "We played a strength sprint! The top strengths were these."
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingIntro.tsx:15
+msgid "We recommend suitable content for your group based on the chosen age group and language. You can change these settings at any time."
+msgstr "We recommend suitable content for your group based on the chosen age group and language. You can change these settings at any time."
+
+#: src/components/ui/VimeoPlayer.tsx:216
+msgid "We use <0>Vimeo</0> to host videos on our site. To view this video, you need to enable Vimeo cookies. You can later update this setting in your profile."
+msgstr "We use <0>Vimeo</0> to host videos on our site. To view this video, you need to enable Vimeo cookies. You can later update this setting in your profile."
+
+#: src/pages/home/components/Onboarding/steps/CookieConsent.tsx:21
+msgid "We use <0>Vimeo</0> to host videos on our site. To view videos, you need to enable Vimeo cookies. You can later update this setting in your profile."
+msgstr "We use <0>Vimeo</0> to host videos on our site. To view videos, you need to enable Vimeo cookies. You can later update this setting in your profile."
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:31
+msgid "We’ll always recommend the next lesson on your home page, but you can find all lesson materials in the main menu under <0>Teach</0>."
+msgstr "We’ll always recommend the next lesson on your home page, but you can find all lesson materials in the main menu under <0>Teach</0>."
+
+#: src/pages/StartPage.tsx:94
+msgid "We've moved to a new version!"
+msgstr "We've moved to a new version!"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:18
+msgid "Wed"
+msgstr "Wed"
+
+#: src/components/LoginModal.tsx:90
+msgid "Welcome back"
+msgstr "Welcome back"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:82
+msgid "Welcome to share and receive strength-based feedback!"
+msgstr "Welcome to share and receive strength-based feedback!"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:47
+msgid "Welcome!"
+msgstr "Welcome!"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:247
+msgid "What have you seen in?"
+msgstr "What have you seen in?"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:16
+msgid "What were the benefits of practising the skill?"
+msgstr "What were the benefits of practising the skill?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:32
+msgid "What would you like to call your group?"
+msgstr "What would you like to call your group?"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:78
+msgid "When the goal is achieved, you’ll earn a badge."
+msgstr "When the goal is achieved, you’ll earn a badge."
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:19
+msgid "Where did you succeed in practising the skill?"
+msgstr "Where did you succeed in practising the skill?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:67
+msgid "Which age group best describes your students?"
+msgstr "Which age group best describes your students?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:46
+msgid "Which language will your group use?"
+msgstr "Which language will your group use?"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:537
+msgid "Yes"
+msgstr "Yes"
+
+#: src/components/ui/AvatarInput.tsx:127
+#: src/components/ui/PostCard/Comment.tsx:93
+#: src/components/ui/PostCard/PostTools.tsx:30
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:108
+#: src/pages/community-settings/CommunityMembers.tsx:81
+#: src/pages/games/GroupGameLobbyPage.tsx:122
+#: src/pages/games/quiz/host/useHostQuizController.ts:162
+#: src/pages/strength-goals/GoalsPage.tsx:176
+msgid "Yes, remove"
+msgstr "Yes, remove"
+
+#: src/pages/register/components/ConfirmOnboarding.tsx:15
+msgid "You are already a member of this community."
+msgstr "You are already a member of this community."
+
+#: src/pages/games/GroupGameJoinPage.tsx:389
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:202
+msgid "You are ready to go!"
+msgstr "You are ready to go!"
+
+#: src/pages/AuthCallbackPage.tsx:157
+msgid "You can also skip this step and log in again with a email."
+msgstr "You can also skip this step and log in again with a email."
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:289
+msgid "You can still change your answer until everyone is ready."
+msgstr "You can still change your answer until everyone is ready."
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:75
+msgid "You have no pending invitations."
+msgstr "You have no pending invitations."
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:82
+msgid "You left the introduction early — no problem! You can always come back to the onboarding whenever you'd like to explore more about how See the Good works. Glad to have you with us!"
+msgstr "You left the introduction early — no problem! You can always come back to the onboarding whenever you'd like to explore more about how See the Good works. Glad to have you with us!"
+
+#: src/pages/StartPage.tsx:98
+msgid "You were redirected from the old version of our service, which is no longer in use. Log in if you already have an account on the new version, or please sign up if you haven't yet."
+msgstr "You were redirected from the old version of our service, which is no longer in use. Log in if you already have an account on the new version, or please sign up if you haven't yet."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:67
+msgid "You will now redicted to the <0>profile page</0> in a few seconds."
+msgstr "You will now redicted to the <0>profile page</0> in a few seconds."
+
+#. placeholder {0}: currentUser.email
+#: src/pages/profile/EmailForm.tsx:60
+msgid "Your current email is <0>{0}</0>."
+msgstr "Your current email is <0>{0}</0>."
+
+#: src/pages/profile/EmailForm.tsx:87
+#: src/pages/profile/PasswordForm.tsx:67
+msgid "Your current password"
+msgstr "Your current password"
+
+#: src/pages/register/components/EmailForm.tsx:35
+msgid "Your email"
+msgstr "Your email"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:64
+msgid "Your email has been verified."
+msgstr "Your email has been verified."
+
+#: src/pages/strength-goals/GoalsPage.tsx:280
+msgid "Your group does not have any active goals at the moment."
+msgstr "Your group does not have any active goals at the moment."
+
+#: src/components/menu/GroupDropdown.tsx:30
+#: src/pages/groups/GroupsPage.tsx:182
+msgid "Your groups"
+msgstr "Your groups"
+
+#: src/components/menu/CommunityDropdown.tsx:97
+msgid "Your Invitations"
+msgstr "Your Invitations"
+
+#: src/pages/profile/EmailForm.tsx:73
+msgid "Your new email address"
+msgstr "Your new email address"
+
+#: src/pages/profile/PasswordForm.tsx:83
+msgid "Your new password"
+msgstr "Your new password"
+
+#: src/pages/profile/PasswordForm.tsx:100
+msgid "Your new password again"
+msgstr "Your new password again"
+
+#: src/pages/register/components/PasswordForm.tsx:41
+msgid "Your password"
+msgstr "Your password"
+
+#: src/pages/AuthCallbackPage.tsx:134
+#: src/pages/profile/PasswordForm.tsx:22
+#: src/pages/profile/PasswordForm.tsx:89
+#: src/pages/register/components/PasswordForm.tsx:46
+msgid "Your password must be at least 8 characters long."
+msgstr "Your password must be at least 8 characters long."
+
+#: src/pages/profile/DetailsForm.tsx:42
+msgid "Your profile details have been updated"
+msgstr "Your profile details have been updated"
+
+#: src/pages/profile/ConsentsForm.tsx:39
+msgid "Your profile settings have been updated."
+msgstr "Your profile settings have been updated."

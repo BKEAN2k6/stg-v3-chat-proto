@@ -1,0 +1,46 @@
+[
+  {
+    "admin_access": true,
+    "app_access": true,
+    "description": "$t:admin_description",
+    "enforce_tfa": false,
+    "icon": "verified",
+    "id": "12528d26-d4b3-4d9d-b968-98d716b856de",
+    "ip_access": null,
+    "name": "Positive Administrator",
+    "persistent": true
+  },
+  {
+    "admin_access": false,
+    "app_access": true,
+    "description": null,
+    "enforce_tfa": false,
+    "icon": "supervised_user_circle",
+    "id": "3818d025-2f4a-4a4e-880d-83ac46a9fcd9",
+    "ip_access": null,
+    "name": "Organisation controller",
+    "persistent": true
+  },
+  {
+    "admin_access": false,
+    "app_access": false,
+    "description": null,
+    "enforce_tfa": false,
+    "icon": "supervised_user_circle",
+    "id": "4ef52b90-dc34-4f69-a97c-8b16ccaa88e3",
+    "ip_access": null,
+    "name": "Anonymous",
+    "persistent": true
+  },
+  {
+    "admin_access": false,
+    "app_access": false,
+    "description": null,
+    "enforce_tfa": false,
+    "icon": "supervised_user_circle",
+    "id": "ba8a13aa-4991-4fef-a0c0-a525e70fa2f5",
+    "ip_access": null,
+    "name": "User",
+    "persistent": true
+  }
+]

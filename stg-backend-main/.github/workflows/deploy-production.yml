@@ -1,0 +1,38 @@
+name: "Deploy production"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-lint-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Run tests
+        run: npm run test
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy
+        working-directory: ./
+        env:
+          FLY_ACCESS_TOKEN: ${{ secrets.FLY_ACCESS_TOKEN }}
+          STG_ENV_NAME: production
+        run: ./scripts/deploy-fly-app.sh

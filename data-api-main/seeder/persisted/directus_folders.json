@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2da1db72-0240-4806-95f4-8d86c0f1d09f",
+    "name": "public",
+    "parent": null
+  },
+  {
+    "id": "38886e02-9d28-43a0-8afd-9016d5eb4375",
+    "name": "user_swl_media",
+    "parent": null
+  },
+  {
+    "id": "5068838b-0abd-4eb6-b052-635ae3ba5d92",
+    "name": "org_swl_media",
+    "parent": null
+  },
+  {
+    "id": "a38795ba-36c4-4dd6-acd7-4355ae0ba2c9",
+    "name": "avatars",
+    "parent": null
+  },
+  {
+    "id": "bced8eb3-4688-44fd-b64a-065326e022b3",
+    "name": "user_8e37148d_swl_media",
+    "parent": "38886e02-9d28-43a0-8afd-9016d5eb4375"
+  },
+  {
+    "id": "c517830a-32d6-4337-b798-72e14076462c",
+    "name": "org_cca66e77_swl_media",
+    "parent": "5068838b-0abd-4eb6-b052-635ae3ba5d92"
+  }
+]

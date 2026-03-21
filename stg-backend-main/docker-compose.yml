@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
+  s3rver:
+    image: dcordz/s3rver
+    command: "s3rver -a 0.0.0.0 -d /tmp/s3rver --configure-bucket stg-backend-development"
+    ports:
+      - "4568:4568"
+    volumes:
+      - s3rver_data:/tmp/s3rver
+
+  mongo-express:
+    image: mongo-express:latest
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongodb:27017
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: admin
+      ME_CONFIG_SITE_COOKIESECRET: mongo-express-cookiesecret-123
+      ME_CONFIG_SITE_SESSIONSECRET: mongo-express-sessionsecret-123
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: true
+
+volumes:
+  mongo_data:
+  s3rver_data:

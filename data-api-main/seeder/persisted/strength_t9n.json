@@ -1,0 +1,470 @@
+[
+  {
+    "id": "0e9ab13c-61d0-4882-9179-0e2ea7464d02",
+    "language_code": "fi-FI",
+    "name": "Oppimisen ilo",
+    "strength": "d9dadec3-6a9b-4554-b10c-10e1f388c808"
+  },
+  {
+    "id": "10e23acb-258e-49f5-9115-748ced73740c",
+    "language_code": "fi-FI",
+    "name": "Kauneuden arvostus",
+    "strength": "604212b3-680b-4f0f-bc66-8f2fb9c71e28"
+  },
+  {
+    "id": "12c9fa86-bc19-4d14-803b-407410b6a578",
+    "language_code": "fi-FI",
+    "name": "Rakkaus",
+    "strength": "79ac39bb-9abe-45da-a6c2-2cb2b990cbf9"
+  },
+  {
+    "id": "132ca752-549d-4333-a529-dbd0dbba5658",
+    "language_code": "sv-SE",
+    "name": "Sisu",
+    "strength": "eab87b14-2fcd-4b76-b1c1-3c87af21c076"
+  },
+  {
+    "id": "1501889f-9270-4067-948d-0f1195d736cf",
+    "language_code": "sv-SE",
+    "name": "Rättvisa",
+    "strength": "adc013fe-757f-47b6-97ab-5cbefa367973"
+  },
+  {
+    "id": "15e1da0f-9c66-4c1d-9223-b8edcd83c394",
+    "language_code": "sv-SE",
+    "name": "Kärlek",
+    "strength": "79ac39bb-9abe-45da-a6c2-2cb2b990cbf9"
+  },
+  {
+    "id": "214da1f3-efe0-4c38-964d-cb03d13c4830",
+    "language_code": "sv-SE",
+    "name": "Humor",
+    "strength": "157013a4-dd03-4930-a156-195155c1fcf3"
+  },
+  {
+    "id": "219e5b22-caf2-48ae-a917-ea3e7ed343bf",
+    "language_code": "en-US",
+    "name": "Forgiveness",
+    "strength": "0418d77d-617c-44a6-98a5-97ad5efedce4"
+  },
+  {
+    "id": "21aae836-fdc6-4052-beca-fc1019dbe190",
+    "language_code": "sv-SE",
+    "name": "Tacksamhet",
+    "strength": "b3173176-cf47-441a-96f0-e24b26736ea8"
+  },
+  {
+    "id": "241bfd27-18b0-444c-a4c5-61cff5c2dbf9",
+    "language_code": "en-US",
+    "name": "Hope",
+    "strength": "f151083b-171b-4123-884e-5bee988014d4"
+  },
+  {
+    "id": "28b7bc14-b32e-4902-8ee5-a5dcf5f6cd9b",
+    "language_code": "fi-FI",
+    "name": "Hengellisyys",
+    "strength": "e9d30d66-4103-4a9a-92cf-aad476d11877"
+  },
+  {
+    "id": "2aff632f-a29f-4160-b848-aa24cb78c906",
+    "language_code": "en-US",
+    "name": "Humour",
+    "strength": "157013a4-dd03-4930-a156-195155c1fcf3"
+  },
+  {
+    "id": "30a8198e-acb5-4130-a5c6-6d7a97099e7b",
+    "language_code": "en-US",
+    "name": "Social Intelligence",
+    "strength": "a6680492-fab9-4b31-a203-1dd31223739b"
+  },
+  {
+    "id": "326b2c69-3e9d-439b-a88c-6b3a85953263",
+    "language_code": "sv-SE",
+    "name": "Uthållighet",
+    "strength": "21dbe3a5-fd0d-40c9-b363-4b0c0f9eb1ff"
+  },
+  {
+    "id": "3347274f-edfb-4e5e-a2cb-03c5f3eac187",
+    "language_code": "sv-SE",
+    "name": "Mod",
+    "strength": "889f2b4b-0730-4825-8962-48db602e647a"
+  },
+  {
+    "id": "37c5309a-2e47-4f2b-a30b-08296fc9950c",
+    "language_code": "fi-FI",
+    "name": "Ryhmätyötaidot",
+    "strength": "39302a21-24b1-4e97-a4e7-97a173150fe9"
+  },
+  {
+    "id": "3ba3a7a5-7b55-437d-b45f-d7d397b06b91",
+    "language_code": "sv-SE",
+    "name": "Kreativitet",
+    "strength": "f89c4a9f-1dc4-4ccf-bd15-3c93e0087cc6"
+  },
+  {
+    "id": "3c10e192-8568-4011-bfc5-8250e7379636",
+    "language_code": "fi-FI",
+    "name": "Innostus",
+    "strength": "f690128f-2b0b-486c-839e-7e160a395d31"
+  },
+  {
+    "id": "433255c0-7a61-4b23-83b0-4cbc2f355854",
+    "language_code": "fi-FI",
+    "name": "Myötätunto",
+    "strength": "3e44b716-de08-48e1-bbf5-e0def589ad3b"
+  },
+  {
+    "id": "46d26f26-cca5-4160-91ea-e148083f5317",
+    "language_code": "en-US",
+    "name": "Love of Learning",
+    "strength": "d9dadec3-6a9b-4554-b10c-10e1f388c808"
+  },
+  {
+    "id": "47c1645c-74cc-4289-a865-79525b30f370",
+    "language_code": "en-US",
+    "name": "Perseverance",
+    "strength": "21dbe3a5-fd0d-40c9-b363-4b0c0f9eb1ff"
+  },
+  {
+    "id": "49833127-eff3-4cf9-a2b9-b1cf1c03bb3e",
+    "language_code": "en-US",
+    "name": "Kindness",
+    "strength": "2cde6616-2b78-4274-9562-e856c9dc0260"
+  },
+  {
+    "id": "4b01c218-b044-49a2-a733-66934a14e7f5",
+    "language_code": "sv-SE",
+    "name": "Uppskatta det vackra",
+    "strength": "604212b3-680b-4f0f-bc66-8f2fb9c71e28"
+  },
+  {
+    "id": "4c9dd6d3-e970-4852-945b-28bf8ca51075",
+    "language_code": "fi-FI",
+    "name": "Rohkeus",
+    "strength": "889f2b4b-0730-4825-8962-48db602e647a"
+  },
+  {
+    "id": "531adc9d-31ef-4ea9-84f8-e318af81c2a9",
+    "language_code": "en-US",
+    "name": "Spirituality",
+    "strength": "e9d30d66-4103-4a9a-92cf-aad476d11877"
+  },
+  {
+    "id": "54e3004b-6dcc-4f00-81f3-b8237bb12acd",
+    "language_code": "sv-SE",
+    "name": "Omdöme",
+    "strength": "b621a4d2-97b0-4fca-8fef-70caf427a7c4"
+  },
+  {
+    "id": "55004800-776d-4056-a66c-1e2df80ea428",
+    "language_code": "en-US",
+    "name": "Modesty",
+    "strength": "ae4ec648-a33a-4183-a155-4637f9c02b06"
+  },
+  {
+    "id": "561060fe-52e4-4b5a-a3f3-0f921493c5e8",
+    "language_code": "fi-FI",
+    "name": "Itsesäätely",
+    "strength": "d7875ebe-2f73-4e1a-b77b-c40fa249f515"
+  },
+  {
+    "id": "57963a44-b72b-4132-b903-64950ee08232",
+    "language_code": "sv-SE",
+    "name": "Vänlighet",
+    "strength": "2cde6616-2b78-4274-9562-e856c9dc0260"
+  },
+  {
+    "id": "5a6b8d13-4cc4-48ef-8852-d299db47b195",
+    "language_code": "fi-FI",
+    "name": "Toiveikkuus",
+    "strength": "f151083b-171b-4123-884e-5bee988014d4"
+  },
+  {
+    "id": "5dd345f8-69aa-488e-b97c-4d9418238bed",
+    "language_code": "sv-SE",
+    "name": "Samarbetsförmåga",
+    "strength": "39302a21-24b1-4e97-a4e7-97a173150fe9"
+  },
+  {
+    "id": "60bcca52-ec8d-4455-b036-a3887780d0bb",
+    "language_code": "fi-FI",
+    "name": "Rehellisyys",
+    "strength": "9424de85-acb8-4fbf-baf2-ed66c101a920"
+  },
+  {
+    "id": "61cbdee9-5896-4681-8c25-32f395194847",
+    "language_code": "en-US",
+    "name": "Grit",
+    "strength": "eab87b14-2fcd-4b76-b1c1-3c87af21c076"
+  },
+  {
+    "id": "65161761-3689-42a5-998b-027178caa86f",
+    "language_code": "fi-FI",
+    "name": "Näkökulmanottokyky",
+    "strength": "49bc1850-595d-4ab3-981d-911d94b85624"
+  },
+  {
+    "id": "68f06811-e583-4baa-802b-a87b77575f1f",
+    "language_code": "fi-FI",
+    "name": "Ystävällisyys",
+    "strength": "2cde6616-2b78-4274-9562-e856c9dc0260"
+  },
+  {
+    "id": "6be3fe62-fa46-47de-bfbb-36ae4097b6b3",
+    "language_code": "sv-SE",
+    "name": "Förlåtelse",
+    "strength": "0418d77d-617c-44a6-98a5-97ad5efedce4"
+  },
+  {
+    "id": "7083784f-36d4-4ae0-88d8-2610b639d6ca",
+    "language_code": "sv-SE",
+    "name": "Andlighet",
+    "strength": "e9d30d66-4103-4a9a-92cf-aad476d11877"
+  },
+  {
+    "id": "7513b833-8e30-4423-9722-5e00bf970233",
+    "language_code": "en-US",
+    "name": "Love of Beauty",
+    "strength": "604212b3-680b-4f0f-bc66-8f2fb9c71e28"
+  },
+  {
+    "id": "76264ef2-4fb4-48f5-9630-8f9d7556cba4",
+    "language_code": "fi-FI",
+    "name": "Reiluus",
+    "strength": "adc013fe-757f-47b6-97ab-5cbefa367973"
+  },
+  {
+    "id": "7822f266-19ea-490c-8eef-fa9a2aeeecfe",
+    "language_code": "en-US",
+    "name": "Love",
+    "strength": "79ac39bb-9abe-45da-a6c2-2cb2b990cbf9"
+  },
+  {
+    "id": "7a9f3fda-4703-4e52-9e38-5b5105313439",
+    "language_code": "en-US",
+    "name": "Gratitude",
+    "strength": "b3173176-cf47-441a-96f0-e24b26736ea8"
+  },
+  {
+    "id": "7cfdf1a3-cad0-456f-b4c8-7bc30cae9e98",
+    "language_code": "en-US",
+    "name": "Self-regulation",
+    "strength": "d7875ebe-2f73-4e1a-b77b-c40fa249f515"
+  },
+  {
+    "id": "7dfe5c38-0201-450f-9328-1aa01c7f38bf",
+    "language_code": "fi-FI",
+    "name": "Huumorintaju",
+    "strength": "157013a4-dd03-4930-a156-195155c1fcf3"
+  },
+  {
+    "id": "7e4b3fa3-0ae4-4e4e-9d7d-1d2e4aa33bb1",
+    "language_code": "sv-SE",
+    "name": "Självkontroll",
+    "strength": "d7875ebe-2f73-4e1a-b77b-c40fa249f515"
+  },
+  {
+    "id": "8128f333-193f-4553-8251-4b107e5a5886",
+    "language_code": "fi-FI",
+    "name": "Anteeksiantavuus",
+    "strength": "0418d77d-617c-44a6-98a5-97ad5efedce4"
+  },
+  {
+    "id": "8132d840-c802-4743-b6b2-5bda17b51535",
+    "language_code": "sv-SE",
+    "name": "Ärlighet",
+    "strength": "9424de85-acb8-4fbf-baf2-ed66c101a920"
+  },
+  {
+    "id": "83cc3171-747d-47bc-9e82-48a025cef9af",
+    "language_code": "sv-SE",
+    "name": "Lärandets glädje",
+    "strength": "d9dadec3-6a9b-4554-b10c-10e1f388c808"
+  },
+  {
+    "id": "84c5fd47-20f4-4961-97ca-0342b5a84b85",
+    "language_code": "en-US",
+    "name": "Compassion",
+    "strength": "3e44b716-de08-48e1-bbf5-e0def589ad3b"
+  },
+  {
+    "id": "87f9f88a-b707-4821-9f03-303e07d54198",
+    "language_code": "en-US",
+    "name": "Curiosity",
+    "strength": "04463d6a-ad3a-49da-98eb-1bc8dac0226e"
+  },
+  {
+    "id": "897111ac-4a63-443a-9bb8-ffd47aa25b7a",
+    "language_code": "fi-FI",
+    "name": "Kiitollisuus",
+    "strength": "b3173176-cf47-441a-96f0-e24b26736ea8"
+  },
+  {
+    "id": "8bc9f89e-f9ff-4704-a694-b59f21530e53",
+    "language_code": "en-US",
+    "name": "Leadership",
+    "strength": "ce5f5f41-1a21-493d-93bb-d3f3b201e980"
+  },
+  {
+    "id": "8c79c02a-7d19-4791-a7b6-84effdb6d24c",
+    "language_code": "en-US",
+    "name": "Carefulness",
+    "strength": "ac0ce5b7-1fb0-44f5-995a-296cbffb0abf"
+  },
+  {
+    "id": "92618306-1f33-42f5-bfbe-9bcbba360559",
+    "language_code": "sv-SE",
+    "name": "Perspektivförmåga",
+    "strength": "49bc1850-595d-4ab3-981d-911d94b85624"
+  },
+  {
+    "id": "92b4fe9b-d31e-49f1-abab-bc5f70f37fc7",
+    "language_code": "sv-SE",
+    "name": "Anspråkslöshet",
+    "strength": "ae4ec648-a33a-4183-a155-4637f9c02b06"
+  },
+  {
+    "id": "9821e6a4-fed1-4b95-b621-263235bcc2d9",
+    "language_code": "fi-FI",
+    "name": "Sosiaalinen älykkyys",
+    "strength": "a6680492-fab9-4b31-a203-1dd31223739b"
+  },
+  {
+    "id": "98e9abfb-5e84-4499-a9cc-65c883336e37",
+    "language_code": "fi-FI",
+    "name": "Vaatimattomuus",
+    "strength": "ae4ec648-a33a-4183-a155-4637f9c02b06"
+  },
+  {
+    "id": "9abd0293-7c69-4a40-a08c-37a62433f84f",
+    "language_code": "fi-FI",
+    "name": "Harkitsevaisuus",
+    "strength": "ac0ce5b7-1fb0-44f5-995a-296cbffb0abf"
+  },
+  {
+    "id": "aae608eb-23c4-477d-814b-a096209df229",
+    "language_code": "en-US",
+    "name": "Enthusiasm",
+    "strength": "f690128f-2b0b-486c-839e-7e160a395d31"
+  },
+  {
+    "id": "ab5f44ee-9ef0-4930-9569-47dcc2341590",
+    "language_code": "fi-FI",
+    "name": "Sinnikkyys",
+    "strength": "21dbe3a5-fd0d-40c9-b363-4b0c0f9eb1ff"
+  },
+  {
+    "id": "b17c1394-dc2b-4e5d-93b6-f487e1564293",
+    "language_code": "sv-SE",
+    "name": "Eftertänksamhet",
+    "strength": "ac0ce5b7-1fb0-44f5-995a-296cbffb0abf"
+  },
+  {
+    "id": "b83ed53c-e7e8-4830-b0a1-615a8f48b949",
+    "language_code": "fi-FI",
+    "name": "Luovuus",
+    "strength": "f89c4a9f-1dc4-4ccf-bd15-3c93e0087cc6"
+  },
+  {
+    "id": "bca17cbe-d0d7-4852-b553-9e4b55198f16",
+    "language_code": "fi-FI",
+    "name": "Uteliaisuus",
+    "strength": "04463d6a-ad3a-49da-98eb-1bc8dac0226e"
+  },
+  {
+    "id": "bca8fab3-46c3-4247-af48-b5e1aa4437f7",
+    "language_code": "sv-SE",
+    "name": "Empati",
+    "strength": "3e44b716-de08-48e1-bbf5-e0def589ad3b"
+  },
+  {
+    "id": "bdb2e7aa-2738-4236-9e36-52485f8a4e25",
+    "language_code": "sv-SE",
+    "name": "Nyfikenhet",
+    "strength": "04463d6a-ad3a-49da-98eb-1bc8dac0226e"
+  },
+  {
+    "id": "c0aee6d9-9187-4473-b7ee-96d7afda86eb",
+    "language_code": "fi-FI",
+    "name": "Johtajuus",
+    "strength": "ce5f5f41-1a21-493d-93bb-d3f3b201e980"
+  },
+  {
+    "id": "cc782d8c-cc36-4f03-8571-6434e52e10b9",
+    "language_code": "en-US",
+    "name": "Creativity",
+    "strength": "f89c4a9f-1dc4-4ccf-bd15-3c93e0087cc6"
+  },
+  {
+    "id": "ceef756c-623a-45c6-9b23-1ed3184d417f",
+    "language_code": "en-US",
+    "name": "Fairness",
+    "strength": "adc013fe-757f-47b6-97ab-5cbefa367973"
+  },
+  {
+    "id": "d0bc199f-dcea-4b63-9757-177df427a120",
+    "language_code": "sv-SE",
+    "name": "Entusiasm",
+    "strength": "f690128f-2b0b-486c-839e-7e160a395d31"
+  },
+  {
+    "id": "d3ee4772-7186-475c-bfe6-c631193b51cd",
+    "language_code": "fi-FI",
+    "name": "Sisukkuus",
+    "strength": "eab87b14-2fcd-4b76-b1c1-3c87af21c076"
+  },
+  {
+    "id": "d83a3d9c-cbd9-4348-bd76-f48789d3ade7",
+    "language_code": "en-US",
+    "name": "Perspective",
+    "strength": "49bc1850-595d-4ab3-981d-911d94b85624"
+  },
+  {
+    "id": "dd9b0291-4b1f-4350-9bf3-f383f8d77fbe",
+    "language_code": "en-US",
+    "name": "Honesty",
+    "strength": "9424de85-acb8-4fbf-baf2-ed66c101a920"
+  },
+  {
+    "id": "e1cb73d1-10bc-4950-992b-d69e0b72b89f",
+    "language_code": "sv-SE",
+    "name": "Hopp",
+    "strength": "f151083b-171b-4123-884e-5bee988014d4"
+  },
+  {
+    "id": "ea097fb9-b640-4d53-aa64-2b3a6b7475d4",
+    "language_code": "sv-SE",
+    "name": "Ledarskap",
+    "strength": "ce5f5f41-1a21-493d-93bb-d3f3b201e980"
+  },
+  {
+    "id": "ef666571-4d12-4127-b1c7-1fef26eaa26a",
+    "language_code": "fi-FI",
+    "name": "Arviointikyky",
+    "strength": "b621a4d2-97b0-4fca-8fef-70caf427a7c4"
+  },
+  {
+    "id": "ef97ddaa-d092-4775-926e-ab6e8e198920",
+    "language_code": "sv-SE",
+    "name": "Social intelligens",
+    "strength": "a6680492-fab9-4b31-a203-1dd31223739b"
+  },
+  {
+    "id": "f31c968c-3947-415f-b34d-7ad15ae49f7b",
+    "language_code": "en-US",
+    "name": "Teamwork",
+    "strength": "39302a21-24b1-4e97-a4e7-97a173150fe9"
+  },
+  {
+    "id": "f72383e4-00ca-41c1-b753-ae9649b393a0",
+    "language_code": "en-US",
+    "name": "Courage",
+    "strength": "889f2b4b-0730-4825-8962-48db602e647a"
+  },
+  {
+    "id": "fe188606-7558-43e8-aa3b-aadaaaa73ca5",
+    "language_code": "en-US",
+    "name": "Judgement",
+    "strength": "b621a4d2-97b0-4fca-8fef-70caf427a7c4"
+  }
+]

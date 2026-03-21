@@ -1,0 +1,18 @@
+# build and run the container:
+# - docker build -t stg-frontend:production -f Dockerfile.production .
+# - docker run -it -p 8080:80 stg-frontend:production
+
+# Build stage
+FROM node:22-bullseye AS build
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
+
+# Run stage
+FROM nginx AS run
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY ./nginx/nginx.production.conf /etc/nginx/nginx.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

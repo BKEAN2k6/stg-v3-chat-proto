@@ -1,0 +1,114 @@
+.wizard-modal {
+  padding-left: 0 !important;
+}
+
+.wizard-modal .modal-dialog {
+  max-width: 740px;
+
+  @media (max-width: 837px) {
+    max-width: 100%;
+  }
+}
+
+.wizard-modal .modal-content {
+  @media (min-width: 838px) {
+    height: 545px;
+  }
+}
+
+.wizard-modal .carousel-inner {
+  height: 100%;
+}
+
+.wizard-modal .carousel-item {
+  height: 100%;
+}
+
+
+.wizard-modal .carousel-item[data-prevent-scrolling="true"] {
+  overflow: hidden;
+}
+
+.wizard-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wizard-modal .carousel,
+.wizard-modal .carousel-inner {
+  height: 100%;
+}
+
+.wizard-modal .carousel-item {
+  height: 100%;
+}
+
+.wizard-step-scroll {
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.wizard-modal .carousel-item>.wizard-step-scroll {
+  width: 100%;
+}
+
+.wizard-tooltip {
+  position: absolute;
+  background: var(--bs-primary);
+  color: #fff;
+  padding: 8px 12px 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  font-weight: 500;
+  z-index: 1000;
+  line-height: 1.15;
+}
+
+@property --bounce-y {
+  syntax: '<length>';
+  initial-value: 0px;
+  inherits: false;
+}
+
+@keyframes tooltip-bounce {
+
+  0%,
+  100% {
+    --bounce-y: 0px;
+  }
+
+  50% {
+    --bounce-y: -2px;
+  }
+}
+
+.tooltip-bounce-y {
+  animation: tooltip-bounce 1.2s ease-in-out infinite;
+  will-change: transform;
+}
+
+@property --bounce-x {
+  syntax: '<length>';
+  initial-value: 0px;
+  inherits: false;
+}
+
+@keyframes tooltip-bounce-x {
+
+  0%,
+  100% {
+    --bounce-x: 0px;
+  }
+
+  50% {
+    --bounce-x: 2px;
+  }
+}
+
+.tooltip-bounce-x {
+  animation: tooltip-bounce-x 1.2s ease-in-out infinite;
+  will-change: transform;
+}

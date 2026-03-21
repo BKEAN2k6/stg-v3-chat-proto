@@ -1,0 +1,125 @@
+{
+  "name": "stg-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --collectCoverage",
+    "test:integration": "node --experimental-vm-modules node_modules/.bin/jest --collectCoverage --testMatch \"**/*(*.)+(intTest|test).ts\"",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watch --collectCoverage",
+    "lint": "tsc && xo",
+    "lint:fix": "xo --fix",
+    "api-client": "node dist/typegenerator && xo --fix src/api/client/",
+    "build": "npx tsc",
+    "copy-files": "copyfiles .env dist/",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\" \"npm run copy-files\"",
+    "container-start": "./scripts/container-start.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.534.0",
+    "@json2csv/plainjs": "^7.0.6",
+    "@socket.io/redis-adapter": "^8.3.0",
+    "@typegoose/typegoose": "^12.2.0",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "archiver": "^7.0.1",
+    "argon2": "^0.40.1",
+    "connect-mongo": "^5.1.0",
+    "connect-redis": "^7.1.1",
+    "date-fns": "^3.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.3.2",
+    "json-schema-to-typescript": "^13.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "mongoose": "^8.2.1",
+    "mongoose-delete": "^1.0.2",
+    "morgan": "^1.10.0",
+    "newrelic": "^11.13.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "path-parser": "^6.1.0",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.3.1",
+    "rate-limit-redis": "^4.2.0",
+    "redlock": "^4.2.0",
+    "sequelize": "^6.37.1",
+    "sharp": "^0.33.2",
+    "sidemail": "^0.1.6",
+    "socket.io": "^4.7.5",
+    "yaml": "^2.4.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@shelf/jest-mongodb": "^4.2.0",
+    "@types/archiver": "^6.0.2",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/ioredis-mock": "^8.2.5",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mime-types": "^2.1.4",
+    "@types/mongoose-delete": "^1.0.4",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.28",
+    "@types/passport": "^1.0.16",
+    "@types/passport-local": "^1.0.38",
+    "@types/passport-strategy": "^0.2.38",
+    "@types/redlock": "^4.0.7",
+    "@types/supertest": "^6.0.2",
+    "concurrently": "^8.2.2",
+    "copyfiles": "^2.4.1",
+    "ioredis-mock": "^8.9.0",
+    "node-mocks-http": "^1.14.1",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "29.1.2",
+    "ts-node": "10.9.2",
+    "typescript": "^5.5.4",
+    "xo": "^0.58.0"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "rules": {
+      "import/extensions": "off",
+      "@typescript-eslint/naming-convention": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error"
+      ],
+      "unicorn/filename-case": [
+        "error",
+        {
+          "cases": {
+            "pascalCase": true,
+            "camelCase": true
+          }
+        }
+      ],
+      "max-depth": [
+        "error",
+        10
+      ],
+      "no-console": "warn"
+    },
+    "ignores": [
+      "ecosystem.config.js",
+      "jest-mongodb-config.js",
+      "src/migrations/directus/models/*.ts"
+    ]
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^6.0.3"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0f5fac13-e2dc-4594-a592-eb8d5770d193",
+    "inviter": null,
+    "organization": "cca66e77-0b6d-4cf1-aca9-79549acc09c9",
+    "role": "admin",
+    "user": "a2c1f989-ee4f-48fb-88af-1b320eb2de21"
+  },
+  {
+    "id": "ef66ff20-3c44-40f8-87b4-0bdb5888a1c6",
+    "inviter": null,
+    "organization": "cca66e77-0b6d-4cf1-aca9-79549acc09c9",
+    "role": "member",
+    "user": "8e37148d-369d-41c6-a716-ae074b6235c5"
+  }
+]

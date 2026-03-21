@@ -1,0 +1,18 @@
+FROM node:19-bullseye
+
+# set for base and all layer that inherit from it
+ENV NODE_ENV production
+
+WORKDIR /data-api
+
+ADD package.json ./
+ADD patches ./patches
+RUN yarn install
+
+ENV NODE_ENV="production"
+
+WORKDIR /data-api
+
+ADD . .
+
+CMD ["yarn", "run", "container-start", "staging"]

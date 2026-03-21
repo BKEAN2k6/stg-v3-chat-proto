@@ -1,0 +1,23 @@
+[
+  {
+    "avatar": null,
+    "avatar_slug": null,
+    "color": "#61c4b4",
+    "created_from_admin_tools": true,
+    "default_language": "en-US",
+    "has_access_to_v1_learn": null,
+    "id": "cca66e77-0b6d-4cf1-aca9-79549acc09c9",
+    "join_short_code": "123456",
+    "join_short_code_expires_at": "2099-07-31T09:00:00.000Z",
+    "parent_organization": "ee96e30f-1320-4d01-bbf7-659f8e0dbb21",
+    "persistent": true,
+    "skolon_uuid": null,
+    "slug": "crow-valley-school",
+    "sort": null,
+    "status": "published",
+    "stg_v1_id": null,
+    "swl_wall": "091f592f-4c3f-454e-bf7c-de6567310d29",
+    "type": "school",
+    "use_nov23_structure_update": true
+  }
+]

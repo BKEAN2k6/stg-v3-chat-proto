@@ -1,0 +1,48 @@
+# fly.toml app configuration file generated for stg-frontend-production on 2024-01-06T12:22:11+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "stg-frontend-production"
+primary_region = "arn"
+
+[deploy]
+  strategy = "bluegreen"
+
+[build]
+  dockerfile = "Dockerfile.production"
+  
+[[services]]
+  http_checks = []
+  internal_port = 80
+  processes = ["app"]
+  protocol = "tcp"
+  script_checks = []
+  [services.concurrency]
+    hard_limit = 250
+    soft_limit = 200
+    type = "connections"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+  [[services.tcp_checks]]
+    grace_period = "1s"
+    interval = "15s"
+    restart_limit = 0
+    timeout = "2s"
+
+[[statics]]
+  guest_path = "/usr/share/nginx/html/"
+  url_prefix = "/"
+
+[[vm]]
+  cpu_kind = "performance"
+  cpus = 1
+  memory_mb = 2048

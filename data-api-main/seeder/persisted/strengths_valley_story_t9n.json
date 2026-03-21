@@ -1,0 +1,20 @@
+[
+  {
+    "id": "8e890f3a-c57e-4d0c-b701-83b2b6db5c8b",
+    "language_code": "en-US",
+    "name": "Kindness",
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  },
+  {
+    "id": "dd9fea5e-f267-4b99-8b47-0a1ec1306ef1",
+    "language_code": "fi-FI",
+    "name": "Ystävällisyys",
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  },
+  {
+    "id": "f2239919-96b4-4051-bad8-80c70874cfc6",
+    "language_code": "fi-FI",
+    "name": "Itsesäätely",
+    "strengths_valley_story": "3abc8254-db51-4768-bf86-e08432a18711"
+  }
+]

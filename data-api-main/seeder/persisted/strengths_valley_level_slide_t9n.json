@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Content",
+    "id": "c275d4fb-92ac-4183-b352-540aebab1dcf",
+    "language_code": "en-US",
+    "strengths_valley_level_slide": "d7c64dc5-8db9-492a-b01c-01231a3bd3e7"
+  },
+  {
+    "content": "Content for level 1 slide 2",
+    "id": "e7408263-6d91-420c-ae3f-14f918b6d1e0",
+    "language_code": "en-US",
+    "strengths_valley_level_slide": "ba733e4e-6176-4210-be2a-79e8bcf46030"
+  },
+  {
+    "content": "Content for level 1 slide 1",
+    "id": "e91218bf-92fa-489b-8ed1-bba7c3b7e846",
+    "language_code": "en-US",
+    "strengths_valley_level_slide": "8b13c542-7d13-4be9-8c2b-b7c9dfaf2902"
+  }
+]

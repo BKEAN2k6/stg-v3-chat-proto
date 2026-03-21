@@ -1,0 +1,102 @@
+[
+  {
+    "accountability": "all",
+    "color": "#FFB35C",
+    "description": "Creates a random access code for a newly created organization",
+    "icon": "qr_code_2",
+    "id": "55529062-5b19-4160-8acb-db3bfe00e89e",
+    "name": "Add access code for organization",
+    "operation": "b8427723-042c-4fc6-976e-5a48e2829035",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create"
+      ],
+      "collections": [
+        "organization"
+      ]
+    },
+    "status": "inactive",
+    "trigger": "event"
+  },
+  {
+    "accountability": "all",
+    "color": "#FF64FF",
+    "description": null,
+    "icon": "rowing",
+    "id": "6da6aeb0-1a65-46c5-a2c0-cc7092265986",
+    "name": "Add organization creator to organization",
+    "operation": "0a67f069-d928-415b-a4b4-b53d77af6306",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create"
+      ],
+      "collections": [
+        "organization"
+      ]
+    },
+    "status": "inactive",
+    "trigger": "event"
+  },
+  {
+    "accountability": "all",
+    "color": "#2ECDA7",
+    "description": null,
+    "icon": "done_all",
+    "id": "a27db8a6-0dd8-46c8-8bb0-3c03c662d22f",
+    "name": "Publish promoted user's swl_items",
+    "operation": "4511b134-7c53-4b78-bf23-da279523d420",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.update"
+      ],
+      "collections": [
+        "directus_users"
+      ]
+    },
+    "status": "active",
+    "trigger": "event"
+  },
+  {
+    "accountability": "all",
+    "color": null,
+    "description": null,
+    "icon": "bolt",
+    "id": "c1a7b718-26c1-44fe-ac77-5b5e1ef0ac00",
+    "name": "Example",
+    "operation": "62ce4df1-1cfd-4309-9d7b-5345f126dd84",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create"
+      ],
+      "collections": [
+        "classroom_game"
+      ]
+    },
+    "status": "active",
+    "trigger": "event"
+  },
+  {
+    "accountability": "all",
+    "color": "#21C700",
+    "description": null,
+    "icon": "invert_colors",
+    "id": "ca0c3e6f-6c4c-4528-9917-092cd06ced8c",
+    "name": "Add color to organization",
+    "operation": "5cea56c6-6c2e-4125-a42e-885dca9d93e4",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create"
+      ],
+      "collections": [
+        "organization"
+      ]
+    },
+    "status": "active",
+    "trigger": "event"
+  }
+]

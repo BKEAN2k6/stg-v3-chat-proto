@@ -1,0 +1,26 @@
+[
+  {
+    "id": "5d939d50-f63c-4c78-b093-744b26425945",
+    "slug": "story2-level1-slide1",
+    "sort": 1,
+    "strengths_valley_level": "179c9e2e-66d7-4a72-b11e-dee31276d413"
+  },
+  {
+    "id": "8b13c542-7d13-4be9-8c2b-b7c9dfaf2902",
+    "slug": "story1-level1-slide1",
+    "sort": 1,
+    "strengths_valley_level": "7fa75d0e-a159-4451-b27c-56982018d7ad"
+  },
+  {
+    "id": "ba733e4e-6176-4210-be2a-79e8bcf46030",
+    "slug": "story1-level1-slide2",
+    "sort": 2,
+    "strengths_valley_level": "7fa75d0e-a159-4451-b27c-56982018d7ad"
+  },
+  {
+    "id": "d7c64dc5-8db9-492a-b01c-01231a3bd3e7",
+    "slug": "story1-level2-slide1",
+    "sort": 1,
+    "strengths_valley_level": "a45f1c29-a90d-4b31-88f6-3ce932ff506f"
+  }
+]

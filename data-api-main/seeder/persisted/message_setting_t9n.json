@@ -1,0 +1,50 @@
+[
+  {
+    "id": "38a56446-8331-41bf-9a2c-65912bb06f74",
+    "language_code": "en-US",
+    "message_setting": "d44edb6a-51c8-44d8-9d84-d01f82ab143c",
+    "name": "Group invitation"
+  },
+  {
+    "id": "54e6c4e2-5eff-4bdf-83ac-30499ab8d133",
+    "language_code": "fi-FI",
+    "message_setting": "d44edb6a-51c8-44d8-9d84-d01f82ab143c",
+    "name": "Ryhmäkutsu"
+  },
+  {
+    "id": "7118d247-898a-4557-9e13-70f8cec66492",
+    "language_code": "en-US",
+    "message_setting": "0d07a3c5-de8e-49e0-b84f-fd02bc343c96",
+    "name": "New moments"
+  },
+  {
+    "id": "7275d913-e1dc-40b3-ae43-8cdbf1abeb3c",
+    "language_code": "en-US",
+    "message_setting": "a8272cdb-511a-466b-acf8-0244eae74e41",
+    "name": "Strength spotting flow reminder"
+  },
+  {
+    "id": "b6f8d264-a650-4516-a7ad-015ff34facda",
+    "language_code": "sv-SE",
+    "message_setting": "0d07a3c5-de8e-49e0-b84f-fd02bc343c96",
+    "name": null
+  },
+  {
+    "id": "ce401843-3b27-4e33-8fbc-478be33bc9dd",
+    "language_code": "en-US",
+    "message_setting": "0c16ee86-767f-4eaa-b9aa-c6b9859d2b28",
+    "name": "Strength spotting flow moments"
+  },
+  {
+    "id": "d21594a1-9458-4e7a-9cc6-58a0aa3f546c",
+    "language_code": "fi-FI",
+    "message_setting": "0d07a3c5-de8e-49e0-b84f-fd02bc343c96",
+    "name": "Uudet hetket"
+  },
+  {
+    "id": "dee29672-00ac-4abe-89c0-7c72c95caee4",
+    "language_code": "sv-SE",
+    "message_setting": "d44edb6a-51c8-44d8-9d84-d01f82ab143c",
+    "name": "Gruppinbjudan"
+  }
+]

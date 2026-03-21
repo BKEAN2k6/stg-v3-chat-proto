@@ -1,0 +1,20 @@
+FROM node:19-bullseye
+
+# set for base and all layer that inherit from it
+ENV NODE_ENV production
+
+RUN yarn global add typescript @types/node ts-node
+WORKDIR /data-api
+
+ADD package.json ./
+ADD patches ./patches
+RUN yarn install
+RUN yarn add deep-diff @types/deep-diff
+
+ENV NODE_ENV="production"
+
+WORKDIR /data-api
+
+ADD . .
+
+CMD ["yarn", "run", "container-start", "branch"]

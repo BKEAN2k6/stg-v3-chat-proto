@@ -1,0 +1,33 @@
+name: Check the source code
+on:
+  pull_request:
+    branches:
+      - main
+
+  push:
+    branches-ignore:
+      - main
+      - production
+
+jobs:
+  test:
+    name: Typecheck, lint, format and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install packages
+        run: yarn install
+      
+      - name: Typecheck
+        run: yarn typecheck
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Test
+        run: yarn test

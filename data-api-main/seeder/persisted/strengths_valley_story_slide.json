@@ -1,0 +1,20 @@
+[
+  {
+    "id": "22a5125a-1e1d-4756-afc3-4b90e10f534b",
+    "slug": "story1-slide2",
+    "sort": 2,
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  },
+  {
+    "id": "729761fc-bdac-4c35-bad8-bfc2a77bcb89",
+    "slug": "story1-slide1",
+    "sort": 1,
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  },
+  {
+    "id": "86ee4669-1b67-4baf-84d3-860a271363a7",
+    "slug": "story2-slide1",
+    "sort": 1,
+    "strengths_valley_story": "458adbe9-f1e6-4759-a825-fc06236bdf3b"
+  }
+]

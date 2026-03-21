@@ -1,0 +1,16 @@
+[
+  {
+    "credits_granted": "500.00000",
+    "grant_frequency": "once",
+    "id": "5660f68e-5f64-4105-8417-258d69a159fe",
+    "slug": "onboarding",
+    "times_granted": 1
+  },
+  {
+    "credits_granted": "50.00000",
+    "grant_frequency": "daily",
+    "id": "fb276c10-1518-42e4-b288-90ee8435a8e9",
+    "slug": "daily-see-the-good-flow",
+    "times_granted": -1
+  }
+]

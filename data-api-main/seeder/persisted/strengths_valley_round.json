@@ -1,0 +1,30 @@
+[
+  {
+    "background": null,
+    "id": "516408b7-807e-42fb-ab77-9816ff1cc24b",
+    "slug": "story1-round2",
+    "sort": 2,
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  },
+  {
+    "background": null,
+    "id": "6135a9e5-9204-4372-8fd5-873e32728bc2",
+    "slug": "story2-round1",
+    "sort": 3,
+    "strengths_valley_story": "3abc8254-db51-4768-bf86-e08432a18711"
+  },
+  {
+    "background": null,
+    "id": "939693bd-6155-435f-beab-89daf2f3a173",
+    "slug": "story3-round1",
+    "sort": 4,
+    "strengths_valley_story": "d7162137-dc1a-4a1c-8000-9b9efb5ceda9"
+  },
+  {
+    "background": null,
+    "id": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "slug": "story1-round1",
+    "sort": 1,
+    "strengths_valley_story": "9e49dafb-621c-439e-9d42-bd0d9fafd30b"
+  }
+]

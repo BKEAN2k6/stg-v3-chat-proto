@@ -1,0 +1,36 @@
+[
+  {
+    "accepted_channels": [
+      "push_notification"
+    ],
+    "id": "0c16ee86-767f-4eaa-b9aa-c6b9859d2b28",
+    "message_slug": "strength-wall:new-ssf-moment-004",
+    "persistent": true
+  },
+  {
+    "accepted_channels": [
+      "email",
+      "push_notification"
+    ],
+    "id": "0d07a3c5-de8e-49e0-b84f-fd02bc343c96",
+    "message_slug": "strength-wall:new-moment-003",
+    "persistent": true
+  },
+  {
+    "accepted_channels": [
+      "email",
+      "push_notification"
+    ],
+    "id": "a8272cdb-511a-466b-acf8-0244eae74e41",
+    "message_slug": "ssf-trigger-002",
+    "persistent": true
+  },
+  {
+    "accepted_channels": [
+      "email"
+    ],
+    "id": "d44edb6a-51c8-44d8-9d84-d01f82ab143c",
+    "message_slug": "welcome-email-001",
+    "persistent": true
+  }
+]

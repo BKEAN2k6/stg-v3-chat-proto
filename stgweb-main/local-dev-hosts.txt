@@ -1,0 +1,5 @@
+127.0.0.1 dev.seethegood.fi
+127.0.0.1 dev.stg.fun
+127.0.0.1 fi.dev.stg.fun
+127.0.0.1 sv.dev.stg.fun
+127.0.0.1 en.dev.stg.fun

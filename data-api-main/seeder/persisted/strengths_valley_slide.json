@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "008085e5-2d5e-4b3b-86d9-9126682ac51b",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide5",
+    "sort": 5,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "01756c3d-332a-4cfe-8c46-0b57c096ff92",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level3-slide5",
+    "sort": 5,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0374aa3d-d25a-40f2-86f4-371f5cc69b0f",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level4-slide1",
+    "sort": 1,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0473af20-c8e4-4e84-86b8-c7d647565b1d",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level2-slide3",
+    "sort": 3,
+    "strengths_valley_level": "fed2a296-8651-4ebd-ac55-ff39631669df",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "04948cde-1ac7-4e43-80c4-27c76f7f45b0",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide3",
+    "sort": 3,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "04b7c436-40af-485a-adfc-4cdac735a835",
+    "layout": "DualContentPrioritizeRight",
+    "slug": "story1-round1-level2-slide2",
+    "sort": 2,
+    "strengths_valley_level": "e3d04395-d8d7-4dd1-8bbc-a85a5ee1fa06",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "04f0fe6e-7530-49c9-a7ba-015fe9a1d5ea",
+    "layout": "DualContentPrioritizeRight",
+    "slug": "story1-round1-level4-slide6",
+    "sort": 6,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "05da67da-07d3-4656-8acc-fc5674f2bcda",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level9-slide8",
+    "sort": 8,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "08675dc4-4c9a-455a-aa11-682241200e9f",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level8-slide1",
+    "sort": 1,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0c410b04-f31a-4660-b7f8-412815b6325a",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level1-slide3",
+    "sort": 3,
+    "strengths_valley_level": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0d30ff51-c9a6-48ae-9729-f312c366c634",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level4-slide4",
+    "sort": 4,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0d7d46c9-eeb1-4747-b7d1-baa7c7ef23b4",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level4-slide6",
+    "sort": 6,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0d7ee638-1061-410f-bc43-6523db74b930",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide9",
+    "sort": 9,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0eb8c96b-a6ff-4bf7-a599-19d19d92a138",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide11",
+    "sort": 11,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "0f7583d6-b34d-444c-8430-8fd1c282c0b5",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level2-slide1",
+    "sort": 1,
+    "strengths_valley_level": "e3d04395-d8d7-4dd1-8bbc-a85a5ee1fa06",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "10df8c13-741a-4b01-abee-d3cd64c98683",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide1",
+    "sort": 1,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "15436e42-82a1-4333-89a9-151c0efbde6e",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level7-slide6",
+    "sort": 6,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "174529d9-0e83-4428-b629-af7410592985",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide1",
+    "sort": 1,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "1aa7e38e-e760-4c2d-b124-36d5588689fe",
+    "layout": null,
+    "slug": "story3-round1-level3-slide6",
+    "sort": 6,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "1b5a96f1-8006-4098-86c5-14ae2f23c995",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level2-slide4",
+    "sort": 4,
+    "strengths_valley_level": "7070d955-4fb8-4528-a58b-e4b068d9995b",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "20f14618-815f-4480-a5d2-9bb4d3473b38",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level9-slide3",
+    "sort": 3,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "21464611-7475-4d88-8498-7847faeb1562",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level2-slide1",
+    "sort": 1,
+    "strengths_valley_level": "fed2a296-8651-4ebd-ac55-ff39631669df",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "221e0652-82d4-422b-9e5e-ff518729dfb0",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level3-slide3",
+    "sort": 3,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "2241c69c-25bd-4c60-bf00-17e405dfc172",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level7-slide2",
+    "sort": 2,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "228f91f1-f05f-4945-8ef2-c0299fd37b3b",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide7",
+    "sort": 7,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "23c7683a-9dde-4119-8ab5-ee4574fc5c2c",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level1-slide5",
+    "sort": 5,
+    "strengths_valley_level": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "2503edc2-4bad-473d-b493-c37f9f0c53b8",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide3",
+    "sort": 3,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "27460c2e-708f-4fdb-87eb-92d62f09710c",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level2-slide3",
+    "sort": 3,
+    "strengths_valley_level": "7070d955-4fb8-4528-a58b-e4b068d9995b",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "28011a81-91c8-4af9-9fa5-398ad5b0e257",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide1",
+    "sort": 1,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "2983d1e7-c8ac-4545-9712-499a2153109f",
+    "layout": null,
+    "slug": "story3-round1-level5-slide13",
+    "sort": 13,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "29afc78d-306c-42b9-a1e9-e1744fb7d16d",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide2",
+    "sort": 2,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "29e3e651-72bd-4c7f-81c3-fe17b212468f",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level6-slide1",
+    "sort": 1,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "2c62074c-242a-40a3-9f02-6a5e3604b79e",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide6",
+    "sort": 6,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "2ee03ce7-6245-460d-ad8d-33f82cf63040",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level4-slide3",
+    "sort": 3,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3101c38e-6d1a-4f12-af4a-06ee32085ee5",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide7",
+    "sort": 7,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "333f7b14-ac16-4e58-a306-140b036b1f22",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level4-slide9",
+    "sort": 9,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "334c79fa-c04d-442b-af28-b47750e8e816",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level7-slide4",
+    "sort": 4,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "35e59b0d-4205-40b2-bbe5-14926b10c892",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level3-slide4",
+    "sort": 4,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "388f2011-72b3-43c9-94b3-438a346c356a",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide12",
+    "sort": 12,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3c300415-fcaa-4641-b692-13d2c3da7b7c",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide7",
+    "sort": 7,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3d0e0870-90ee-45aa-a692-25a347da5475",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level7-slide8",
+    "sort": 8,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3d38429d-0e88-4f01-b45a-e0dc68c151fa",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide10",
+    "sort": 10,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3d8679f5-c448-42a9-9b0b-de421864fe43",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level3-slide3",
+    "sort": 3,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "3e6358fa-74b2-406b-9553-02e0450f3ad9",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide2",
+    "sort": 2,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "423ea0cb-7aa5-451e-b948-74a8201b0595",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide4",
+    "sort": 4,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "42eefd5c-0ef6-4abb-a36c-274d2cbd2f79",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level1-slide5",
+    "sort": 5,
+    "strengths_valley_level": "84de0174-3294-482d-8d89-00c45f581feb",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "43f14926-1b22-4030-86a6-c0ac15b9699a",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide8",
+    "sort": 8,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "4458d645-5326-45c3-ba31-ed8fede00d7f",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide4",
+    "sort": 4,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "454ee1d5-b654-4237-b2d5-7341839de0ed",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level7-slide7",
+    "sort": 7,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "48625aaa-c69f-4c8c-83c6-86c9a76bb511",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level1-slide3",
+    "sort": 3,
+    "strengths_valley_level": "84de0174-3294-482d-8d89-00c45f581feb",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "4e4a479a-d2a0-4d16-a179-aac0febc05a1",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level3-slide2",
+    "sort": 2,
+    "strengths_valley_level": "8a28be7c-040c-4de0-9c82-6b3212916980",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "4eb5af3e-3a13-4b5d-b9aa-04de74bb8231",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide10",
+    "sort": 10,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "4ecdb800-e0b3-41ab-8b8b-47a0e8ef7807",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide12",
+    "sort": 12,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "500075fb-420b-4712-ac15-7d3e5e0a2244",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level6-slide4",
+    "sort": 4,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "50cd6fd7-700d-458d-8c26-762c979dbbf9",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level3-slide1",
+    "sort": 1,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "5119d367-9ba1-4cc0-bfdc-ecc305ab5bee",
+    "layout": null,
+    "slug": "story1-round2-level9-slide4",
+    "sort": 4,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "560bcedb-cb08-442d-a8f5-242f747d55f2",
+    "layout": null,
+    "slug": "story1-round2-level9-slide6",
+    "sort": 6,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "56219898-bc53-497c-bc00-24f049514736",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide9",
+    "sort": 9,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "5778c97f-358a-4e1a-8d55-0286ddcd528f",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level6-slide5",
+    "sort": 5,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6583ea47-b3a4-48df-b4b7-81a81206c6d3",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide3",
+    "sort": 3,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "65a0980d-9b3c-4fba-8ff6-9567230e44fb",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level3-slide2",
+    "sort": 2,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "695cebbc-3ac4-4995-998e-109937b6503d",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide9",
+    "sort": 9,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "69cbb3f5-47f4-4b3c-9430-89fa2480d17f",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide11",
+    "sort": 11,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "69f922b9-fd2e-4ae8-8fdc-dbc6bb7f8356",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level3-slide1",
+    "sort": 1,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6a9e8ff1-403c-46d6-8b59-1df58c7928b9",
+    "layout": "DualContentPrioritizeLeft",
+    "slug": "story1-round1-level1-slide4",
+    "sort": 4,
+    "strengths_valley_level": "84de0174-3294-482d-8d89-00c45f581feb",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6ce00762-3fe7-4853-b10e-6be3cfb461ee",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level1-slide2",
+    "sort": 2,
+    "strengths_valley_level": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6e1bd6a4-f3d8-4c9f-afe4-5707e2287d14",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide1",
+    "sort": 1,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6e368061-4fee-4b70-afbb-a24ba4ab86d6",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide3",
+    "sort": 3,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6e6f93f6-ab95-48d1-be77-1a68fd4f2b01",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide7",
+    "sort": 7,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "6ef8db45-e5db-4809-bb40-ffc2e52cc721",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide1",
+    "sort": 1,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "71390755-5a18-424c-8761-0c1e6dfa6665",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide2",
+    "sort": 2,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "71d1ff4e-f702-4100-9c09-04add3ff7b10",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level8-slide3",
+    "sort": 3,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "71e81012-1186-47f1-9856-e52a5fc89df9",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level6-slide6",
+    "sort": 6,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7260e590-b611-478f-afab-4f417399fa64",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-startSlide3",
+    "sort": 3,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a"
+  },
+  {
+    "id": "72d3305e-7563-4817-ae8a-9b79cc21ae56",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level3-slide3",
+    "sort": 3,
+    "strengths_valley_level": "8a28be7c-040c-4de0-9c82-6b3212916980",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7410130b-d7e3-475e-8aab-da959921f5ff",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide10",
+    "sort": 10,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7417a937-aa67-44d1-97c7-0cd7312a1a57",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide8",
+    "sort": 8,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7a7ea7dc-2e2d-4883-ad07-e378a48895be",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level2-slide2",
+    "sort": 2,
+    "strengths_valley_level": "fed2a296-8651-4ebd-ac55-ff39631669df",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7bd698cd-25bd-4537-b8e9-a2116f94e04c",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide3",
+    "sort": 3,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7c9cb212-789e-4667-8ba3-a2a3e5e26081",
+    "layout": "DualContentPrioritizeLeft",
+    "slug": "story1-round1-level4-slide1",
+    "sort": 1,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "7ca788ce-1e32-4cfc-88bf-1419d6273fde",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level8-slide5",
+    "sort": 5,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "814640be-121f-4f16-abe5-f0a0c0f7de18",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-startSlide1",
+    "sort": 1,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": "6135a9e5-9204-4372-8fd5-873e32728bc2"
+  },
+  {
+    "id": "8476b840-576c-45e8-998c-86b47ba2cdfc",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide12",
+    "sort": 12,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "84b815c3-7e89-4cf8-91ea-331d13d3d71d",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide4",
+    "sort": 4,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "84df5788-725f-46d0-be9c-88b3598209f4",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-startSlide2",
+    "sort": 2,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a"
+  },
+  {
+    "id": "884c33db-7c58-4635-9aec-9e807334e3b2",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide13",
+    "sort": 13,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "89a05c61-c7a5-40a9-a4f0-376119217219",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level4-slide7",
+    "sort": 7,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "8c33cf80-ae85-47aa-a858-77b692bd1339",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide10",
+    "sort": 10,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "8c63312f-0e9e-4988-8dd6-1070f3240e6a",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level1-slide4",
+    "sort": 4,
+    "strengths_valley_level": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "94c97b09-d034-4195-bb53-14fa2015eec1",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level3-slide7",
+    "sort": 7,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "97726b05-14cd-4a7c-9b66-ca48b63a908a",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide11",
+    "sort": 11,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "977ea387-f659-45c7-b843-416fa90b37d8",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide13",
+    "sort": 13,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "978ca2f6-fadc-442a-8ef0-6a4de44b3da2",
+    "layout": "DualContentPrioritizeRight",
+    "slug": "story1-round1-level2-slide3",
+    "sort": 3,
+    "strengths_valley_level": "e3d04395-d8d7-4dd1-8bbc-a85a5ee1fa06",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "98e63ddb-6d63-4d61-9d16-752f9ed7f132",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide5",
+    "sort": 5,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "a03c417b-8a39-4613-9ff9-9f5ea16d1d93",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level8-slide2",
+    "sort": 2,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "a1567d49-adec-49a1-8a27-99b8b1874536",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide13",
+    "sort": 13,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "a6fd0dea-b988-42c1-986d-8047108dc169",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide4",
+    "sort": 4,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "a844d082-bf71-45f4-837a-783abadca872",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level4-slide4",
+    "sort": 4,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ab024410-7066-46e2-8cb7-ff389f5283dc",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level2-slide2",
+    "sort": 2,
+    "strengths_valley_level": "7070d955-4fb8-4528-a58b-e4b068d9995b",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ab9004c6-3483-4e20-b22a-2ba236bd1811",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide7",
+    "sort": 7,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ad0bba0e-9ab8-428c-b218-5388bb7306a6",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level9-slide2",
+    "sort": 2,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "b2b2a0b2-6148-4f9c-a35d-1df163ca6785",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level7-slide5",
+    "sort": 5,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "b362b789-d1e6-4e20-81af-8dc2073eb003",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level8-slide4",
+    "sort": 4,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "b53e0f25-736c-4ab8-8c7c-bba3852919a0",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide11",
+    "sort": 11,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "b7689ad6-3cd0-4745-bd6f-28eba9a58c85",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide10",
+    "sort": 10,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bb02c2ad-d25e-44fc-adea-b80b2471bbbf",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level1-slide2",
+    "sort": 2,
+    "strengths_valley_level": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bb1e6dfa-03ba-4c53-9f54-186c2652017e",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level3-slide2",
+    "sort": 2,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bba58a70-32c3-46ac-b42c-f86a7a788d04",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-startSlide4",
+    "sort": 4,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a"
+  },
+  {
+    "id": "bc37374b-fc83-438b-8345-e4893769f1ee",
+    "layout": "DualContentPrioritizeRight",
+    "slug": "story1-round1-level4-slide2",
+    "sort": 2,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bd0aa3e5-9ca0-4187-ae50-0052e9b8da58",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level1-slide4",
+    "sort": 4,
+    "strengths_valley_level": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bf2264b8-e9b7-4e98-9c70-a00c2bbe178d",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide6",
+    "sort": 6,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bf3de944-e4ba-4312-bfbe-37d63e239531",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level2-slide4",
+    "sort": 4,
+    "strengths_valley_level": "fed2a296-8651-4ebd-ac55-ff39631669df",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bf65b127-7f1f-482d-8a3a-43e89e21f868",
+    "layout": "DualContentPrioritizeLeft",
+    "slug": "story1-round1-level1-slide1",
+    "sort": 1,
+    "strengths_valley_level": "84de0174-3294-482d-8d89-00c45f581feb",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "bf65ed86-b739-48e2-9a48-569cca61afe9",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide8",
+    "sort": 8,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c07f1f0d-e65d-41f6-b8c3-bce4a8830cf7",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide12",
+    "sort": 12,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c0f6b848-2d18-481b-84ca-4795e659b0fa",
+    "layout": "DualContentPrioritizeLeft",
+    "slug": "story1-round1-level3-slide1",
+    "sort": 1,
+    "strengths_valley_level": "8a28be7c-040c-4de0-9c82-6b3212916980",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c2ab99e6-7931-4938-8d36-d64f94e9f97b",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide9",
+    "sort": 9,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c2e05b44-4491-45a0-9c83-804c1a62267a",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level1-slide3",
+    "sort": 3,
+    "strengths_valley_level": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c53938b0-54f6-4915-9043-7c32e44ec1a6",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide2",
+    "sort": 2,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c711e2d8-a7d2-4fa2-a2cb-4b250f40145f",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level3-slide5",
+    "sort": 5,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "c86a49eb-4c14-4e96-897a-afb263e16973",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level10-slide6",
+    "sort": 6,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ca87655f-fcac-41b3-81b1-a8f6891dbdec",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level9-slide1",
+    "sort": 1,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cb35249e-9986-42d8-bdf3-13ef9626230d",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level9-slide9",
+    "sort": 9,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cb638eee-7624-43b6-80ab-84b285b26d75",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level1-slide1",
+    "sort": 1,
+    "strengths_valley_level": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cc329ec8-2cd6-497a-9760-38517d08d12e",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level2-slide1",
+    "sort": 1,
+    "strengths_valley_level": "7070d955-4fb8-4528-a58b-e4b068d9995b",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cd384c20-ccb2-4c2d-a0e7-e3a5cba412b9",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide2",
+    "sort": 2,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cdbec30f-1ea5-4b89-96b5-e57f5ff50bf5",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide9",
+    "sort": 9,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "cee9cb75-495d-40a2-8367-0743c8d3c034",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level4-slide8",
+    "sort": 8,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d0c9132a-c004-447f-b36a-2375e8670a83",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide6",
+    "sort": 6,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d11cc0a6-bfd1-41e9-a2ff-ccbf63f91af3",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level4-slide11",
+    "sort": 11,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d14c6f0a-4e87-4eff-8301-7575d92d8a9f",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level7-slide1",
+    "sort": 1,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d4f2f212-f3c9-4c3e-89e1-1909300c7b39",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level5-slide2",
+    "sort": 2,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d5b05c93-3a94-4e9e-9f3d-6fca6179525d",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level5-slide5",
+    "sort": 5,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "d72270d5-329b-4669-a8de-797abb7b0d93",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level5-slide5",
+    "sort": 5,
+    "strengths_valley_level": "bcca319f-df16-4785-9eb8-f44d36ddd615",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "da855cfa-acc5-429c-858e-575d3a5d7039",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level4-slide3",
+    "sort": 3,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "daf15772-b28a-4824-a89c-26f12f0f87e8",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level8-slide6",
+    "sort": 6,
+    "strengths_valley_level": "539d508a-1ede-496d-a1dc-415af50947da",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "dd9b368b-8fb8-46a6-9334-0bf420162213",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-startSlide1",
+    "sort": 1,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a"
+  },
+  {
+    "id": "de3bc598-ef57-4863-8dee-714b260c997d",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide7",
+    "sort": 7,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "e30686c8-f06d-4417-bb64-29cfb03f228c",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level6-slide3",
+    "sort": 3,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "e435ae9d-4ddf-4d03-9405-52af962415f3",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level9-slide7",
+    "sort": 7,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "e47d7502-73f0-4c97-ad02-abb4e4c3740f",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level1-slide1",
+    "sort": 1,
+    "strengths_valley_level": "6407b66e-feb5-4462-945b-9a4cad93646d",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "e58e16ab-d99c-463c-854c-ec64678911a6",
+    "layout": "DualContentEqual",
+    "slug": "story3-round1-level3-slide4",
+    "sort": 4,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "e8b0fbd5-24ee-49f2-930c-65fd2778a739",
+    "layout": "DualContentPrioritizeLeft",
+    "slug": "story1-round1-level1-slide2",
+    "sort": 2,
+    "strengths_valley_level": "84de0174-3294-482d-8d89-00c45f581feb",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "eaefcada-ed39-427b-bc20-432b4bb192c3",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level4-slide4",
+    "sort": 4,
+    "strengths_valley_level": "938be5f0-61ed-4e30-bf12-abc0f6fba0bc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "eaff1f6b-97a2-433d-9aa1-379d499adb4a",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level5-slide5",
+    "sort": 5,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ed28429a-e445-4075-9513-95e0e9d38ce1",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level7-slide3",
+    "sort": 3,
+    "strengths_valley_level": "502381c2-80ce-48e0-8664-7b129d7a42ff",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "eded2148-7044-4698-bc6b-a52f1529b276",
+    "layout": "SingleContent",
+    "slug": "story1-round1-endSlide1",
+    "sort": 1,
+    "strengths_valley_level": null,
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": "e6642c67-42ca-4cc4-a085-2ebe6c63e60a",
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "f031aa93-6592-4d71-9d08-404021f4899b",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level9-slide5",
+    "sort": 5,
+    "strengths_valley_level": "2311e610-251e-4199-962b-5560b10a8ac8",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "f13bdda2-79b1-4cef-8367-fa44bbb346b7",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level3-slide6",
+    "sort": 6,
+    "strengths_valley_level": "4b3eb50a-4f99-4146-8622-567ca3e68aad",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "f2aeec91-23e6-4830-bf69-d52a388a16e9",
+    "layout": "DualContentEqual",
+    "slug": "story1-round2-level6-slide2",
+    "sort": 2,
+    "strengths_valley_level": "1525ccda-1c7c-49df-aac2-5057abfdafbc",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "f4f581a2-e2ab-4d36-a9d9-eecfe02292e9",
+    "layout": "SingleContent",
+    "slug": "story1-round2-level10-slide5",
+    "sort": 5,
+    "strengths_valley_level": "05f364cd-c35a-4fa5-a5e0-0d02a7d7aced",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "f74fd7e7-f83f-47ae-b06c-76d6aa526c6f",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level2-slide4",
+    "sort": 4,
+    "strengths_valley_level": "e3d04395-d8d7-4dd1-8bbc-a85a5ee1fa06",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "faf827da-52ab-433c-a781-f38ef502552c",
+    "layout": "SingleContent",
+    "slug": "story1-round1-level4-slide8",
+    "sort": 8,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "fba2f54c-c4de-4cbd-8701-f75c8ef625cd",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level3-slide8",
+    "sort": 8,
+    "strengths_valley_level": "a530958f-a9c0-40fd-b614-83a1c513e19a",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "fc2434ff-3127-4873-936c-42ca68520c31",
+    "layout": "SingleContent",
+    "slug": "story3-round1-level1-slide5",
+    "sort": 5,
+    "strengths_valley_level": "7239d74d-67e1-4f4b-9a75-99885cc11b29",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "fc5ed9bc-0892-4646-8623-e56067dc8724",
+    "layout": "DualContentPrioritizeRight",
+    "slug": "story1-round1-level4-slide5",
+    "sort": 5,
+    "strengths_valley_level": "b947bd44-b2e8-4979-b602-cbdfdb529a10",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "fd9a2235-9217-4aa9-9e7a-b6f54f913f1c",
+    "layout": "DualContentEqual",
+    "slug": "story2-round1-level5-slide6",
+    "sort": 6,
+    "strengths_valley_level": "417e3f86-802f-4f89-ab55-3c14ce680136",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "fdaf2c89-aa58-40d9-8ea2-49379b5faf56",
+    "layout": "SingleContent",
+    "slug": "story2-round1-level4-slide12",
+    "sort": 12,
+    "strengths_valley_level": "c18f0e82-1159-4ef6-9af7-1bf4fab164b6",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  },
+  {
+    "id": "ff1c5b8d-8ae2-4c4e-9e74-7b762722d0ef",
+    "layout": "DualContentEqual",
+    "slug": "story1-round1-level5-slide8",
+    "sort": 8,
+    "strengths_valley_level": "3a4a7aca-c153-4ce8-9a87-5446b1264308",
+    "strengths_valley_round": null,
+    "strengths_valley_round_end": null,
+    "strengths_valley_round_start": null
+  }
+]

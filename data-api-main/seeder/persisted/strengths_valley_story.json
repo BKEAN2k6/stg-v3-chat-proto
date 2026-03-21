@@ -1,0 +1,26 @@
+[
+  {
+    "coordinates": null,
+    "id": "3abc8254-db51-4768-bf86-e08432a18711",
+    "slug": "story2",
+    "sort": 2,
+    "strengths_valley_map": "d291aa47-8590-42ca-a3b7-8e0a63305c04"
+  },
+  {
+    "coordinates": {
+      "x": 245,
+      "y": 161
+    },
+    "id": "9e49dafb-621c-439e-9d42-bd0d9fafd30b",
+    "slug": "story1",
+    "sort": 1,
+    "strengths_valley_map": "d291aa47-8590-42ca-a3b7-8e0a63305c04"
+  },
+  {
+    "coordinates": null,
+    "id": "d7162137-dc1a-4a1c-8000-9b9efb5ceda9",
+    "slug": "story3",
+    "sort": 3,
+    "strengths_valley_map": "d291aa47-8590-42ca-a3b7-8e0a63305c04"
+  }
+]

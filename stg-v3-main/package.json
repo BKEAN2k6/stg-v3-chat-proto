@@ -1,0 +1,40 @@
+{
+  "name": "stg-v3",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "overrides": {
+    "mdast-util-gfm-autolink-literal": "2.0.0"
+  },
+  "scripts": {
+    "api-client": "npm run api-client --prefix backend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "lint:nofix": "npm run lint:nofix --prefix frontend && npm run lint:nofix --prefix backend",
+    "lint": "npm run lint --prefix frontend && npm run lint --prefix backend",
+    "test": "npm run test --prefix frontend && npm run test --prefix backend",
+    "start": "node backend/dist/index.js"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.20",
+    "concurrently": "^9.1.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "@types/svg-to-pdfkit": "^0.1.3",
+    "jsdom": "^26.0.0",
+    "sharp": "^0.34.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4",
+    "xo": "^1.2.3"
+  }
+}

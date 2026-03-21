@@ -1,0 +1,19 @@
+[
+  {
+    "allowed_channels": [
+      "email",
+      "push_notification"
+    ],
+    "id": "bbe1d642-d283-4b7d-ab7c-6e222d5f89ae",
+    "message_setting": "a8272cdb-511a-466b-acf8-0244eae74e41",
+    "user": "8e37148d-369d-41c6-a716-ae074b6235c5"
+  },
+  {
+    "allowed_channels": [
+      "email"
+    ],
+    "id": "de539168-013c-4e80-98c8-7566c27d70c4",
+    "message_setting": "d44edb6a-51c8-44d8-9d84-d01f82ab143c",
+    "user": "8e37148d-369d-41c6-a716-ae074b6235c5"
+  }
+]

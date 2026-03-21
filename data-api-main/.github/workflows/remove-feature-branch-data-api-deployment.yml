@@ -1,0 +1,24 @@
+name: "Remove feature branch data API deployment"
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  remove-data-api-deployment:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'has-branch-deployment') }}
+    runs-on: ubuntu-latest
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      app-name: $(echo stg-v2--${{ github.event.pull_request.head.ref }} | sed 's|--.*/|--|')
+      db-name: $(echo stg-v2--${{ github.event.pull_request.head.ref }}-db | sed 's|--.*/|--|')
+
+    steps:
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Remove database
+        run: flyctl destroy ${{ env.db-name }} --yes
+
+      - name: Remove data API deployment
+        run: flyctl destroy ${{ env.app-name }} --yes

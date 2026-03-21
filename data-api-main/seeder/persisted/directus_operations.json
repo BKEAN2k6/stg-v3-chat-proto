@@ -1,0 +1,213 @@
+[
+  {
+    "flow": "c1a7b718-26c1-44fe-ac77-5b5e1ef0ac00",
+    "id": "739656a3-796b-4493-8d24-c3a586caf2c5",
+    "key": "log_73asj",
+    "name": "Log to Console",
+    "options": {
+      "message": "This is an example"
+    },
+    "position_x": 19,
+    "position_y": 19,
+    "reject": null,
+    "resolve": null,
+    "type": "log"
+  },
+  {
+    "flow": "c1a7b718-26c1-44fe-ac77-5b5e1ef0ac00",
+    "id": "62ce4df1-1cfd-4309-9d7b-5345f126dd84",
+    "key": "exec_hxvyk",
+    "name": "Run Script",
+    "options": {
+      "code": "module.exports = async function(data) {\n\tconsole.log('hello world')\n    return {};\n}"
+    },
+    "position_x": 19,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "739656a3-796b-4493-8d24-c3a586caf2c5",
+    "type": "exec"
+  },
+  {
+    "flow": "55529062-5b19-4160-8acb-db3bfe00e89e",
+    "id": "9deef1de-9645-4ca9-9908-d7b1ed47f5a0",
+    "key": "update_the_organization",
+    "name": "Update the organization",
+    "options": {
+      "collection": "organization",
+      "key": [
+        "{{ $trigger.key }}"
+      ],
+      "payload": {
+        "access_code": "{{ $last.accessCode }}"
+      }
+    },
+    "position_x": 10,
+    "position_y": 19,
+    "reject": null,
+    "resolve": null,
+    "type": "item-update"
+  },
+  {
+    "flow": "55529062-5b19-4160-8acb-db3bfe00e89e",
+    "id": "fd49f976-9d95-4588-b816-6c700cf31434",
+    "key": "create_an_access_token",
+    "name": "Create an access token",
+    "options": {
+      "code": "module.exports = async function(data) {\n\tconst codeChars = '0123456789ABCDEFGHJKLMNPQRSTUVWXYZ';\n    \n    // The used code length can be added to the FLOWS_ENV_ALLOW_LIST\n    // config option with the key ORG_ACCESS_CODE_LEN. If not set,\n    // the default length of 5 will be used.\n    // See https://docs.directus.io/self-hosted/config-options.html#flows\n    // for more details on setting the config options for flows.\n    const nCodeChars = process.env.ORG_ACCESS_CODE_LEN || 5;\n    \n    let accessCode = '';\n    \n    for (let i = 0; i < nCodeChars; i++) {\n    \tconst j = Math.floor(Math.random() * codeChars.length);\n        accessCode += codeChars[j];\n    }\n    \n\treturn { accessCode };\n}"
+    },
+    "position_x": 37,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "9deef1de-9645-4ca9-9908-d7b1ed47f5a0",
+    "type": "exec"
+  },
+  {
+    "flow": "55529062-5b19-4160-8acb-db3bfe00e89e",
+    "id": "b8427723-042c-4fc6-976e-5a48e2829035",
+    "key": "check_if_access_token_is_null",
+    "name": "Check if access token is null",
+    "options": {
+      "filter": {
+        "$trigger": {
+          "payload": {
+            "access_code": {
+              "_eq": null
+            }
+          }
+        }
+      }
+    },
+    "position_x": 19,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "fd49f976-9d95-4588-b816-6c700cf31434",
+    "type": "condition"
+  },
+  {
+    "flow": "a27db8a6-0dd8-46c8-8bb0-3c03c662d22f",
+    "id": "b85762a3-93ea-494f-a9e3-152736b3e1a9",
+    "key": "publish_the_user_s_moments",
+    "name": "Publish the user's moments",
+    "options": {
+      "collection": "swl_moment",
+      "payload": {
+        "status": "published"
+      },
+      "query": {
+        "filter": {
+          "_and": [
+            {
+              "created_by": {
+                "_in": "{{$trigger.keys}}"
+              }
+            },
+            {
+              "status": {
+                "_eq": "draft"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "position_x": 37,
+    "position_y": 1,
+    "reject": null,
+    "resolve": null,
+    "type": "item-update"
+  },
+  {
+    "flow": "a27db8a6-0dd8-46c8-8bb0-3c03c662d22f",
+    "id": "4511b134-7c53-4b78-bf23-da279523d420",
+    "key": "check_that_the_role_has_been_updated_to_user",
+    "name": "Check that the role has been updated to user",
+    "options": {
+      "filter": {
+        "$trigger": {
+          "payload": {
+            "role": {
+              "_eq": "ba8a13aa-4991-4fef-a0c0-a525e70fa2f5"
+            }
+          }
+        }
+      }
+    },
+    "position_x": 19,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "b85762a3-93ea-494f-a9e3-152736b3e1a9",
+    "type": "condition"
+  },
+  {
+    "flow": "6da6aeb0-1a65-46c5-a2c0-cc7092265986",
+    "id": "0a67f069-d928-415b-a4b4-b53d77af6306",
+    "key": "add_user_to_organization",
+    "name": "Add user to organization",
+    "options": {
+      "collection": "user_to_organization",
+      "payload": {
+        "user": "{{ $accountability.user }}",
+        "organization": "{{ $trigger.key }}",
+        "role": "admin"
+      }
+    },
+    "position_x": 19,
+    "position_y": 1,
+    "reject": null,
+    "resolve": null,
+    "type": "item-create"
+  },
+  {
+    "flow": "ca0c3e6f-6c4c-4528-9917-092cd06ced8c",
+    "id": "7b707ae0-e875-4907-88f4-664b9aba95ad",
+    "key": "update_organization",
+    "name": "Update organization",
+    "options": {
+      "collection": "organization",
+      "payload": {
+        "color": "{{ $last.color }}"
+      }
+    },
+    "position_x": 55,
+    "position_y": 1,
+    "reject": null,
+    "resolve": null,
+    "type": "item-update"
+  },
+  {
+    "flow": "ca0c3e6f-6c4c-4528-9917-092cd06ced8c",
+    "id": "2bd1be0c-00e5-4851-860f-34cee9b6e267",
+    "key": "get_random_color",
+    "name": "Get random color",
+    "options": {
+      "code": "module.exports = async function(data) {\n\tconst colors = [\n\t\t'#d7ebd6',\n  \t\t'#d0cbdc',\n  \t\t'#ffe88a',\n  \t\t'#4d97b5',\n  \t\t'#f3a275',\n  \t\t'#fceae0',\n  \t\t'#ddeedf',\n  \t\t'#61c4b4',\n  \t\t'#acd5b1',\n  \t\t'#fce3e2',\n  \t\t'#b0e1d9',\n  \t\t'#3ab5a1',\n  \t\t'#9da5b2',\n  \t\t'#eb524c',\n  \t\t'#ef7570',\n        '#8eafdc',\n        '#ef7f40',\n        '#f9ccb3',\n        '#9bc5d5',\n        '#feecb9',\n        '#a5d7d5',\n        '#f8c9cd',\n        '#fdd662',\n        '#aba2c1',\n        '#97cb9d',\n     \t'#fdc626',\n    ]\n    \n\treturn { color: colors[Math.floor(Math.random() * colors.length)] };\n}"
+    },
+    "position_x": 37,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "7b707ae0-e875-4907-88f4-664b9aba95ad",
+    "type": "exec"
+  },
+  {
+    "flow": "ca0c3e6f-6c4c-4528-9917-092cd06ced8c",
+    "id": "5cea56c6-6c2e-4125-a42e-885dca9d93e4",
+    "key": "check_if_the_organization_s_color_is_null",
+    "name": "Check if the organization's color is null",
+    "options": {
+      "filter": {
+        "$trigger": {
+          "payload": {
+            "color": {
+              "_eq": null
+            }
+          }
+        }
+      }
+    },
+    "position_x": 19,
+    "position_y": 1,
+    "reject": null,
+    "resolve": "2bd1be0c-00e5-4851-860f-34cee9b6e267",
+    "type": "condition"
+  }
+]

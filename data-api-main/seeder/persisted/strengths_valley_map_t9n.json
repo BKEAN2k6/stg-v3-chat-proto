@@ -1,0 +1,36 @@
+[
+  {
+    "id": "6b2d803a-fec5-4c5e-b247-09f1d0162f2f",
+    "language_code": "fi-FI",
+    "strengths_valley_map": "d291aa47-8590-42ca-a3b7-8e0a63305c04",
+    "tutorial_text": [
+      {
+        "key": "welcome-1",
+        "content": "Tervetuloa Varislaaksoon."
+      }
+    ]
+  },
+  {
+    "id": "ecc740ba-f47a-4287-a21f-afe8198ac462",
+    "language_code": "en-US",
+    "strengths_valley_map": "d291aa47-8590-42ca-a3b7-8e0a63305c04",
+    "tutorial_text": [
+      {
+        "content": "Welcome to Crow valley!",
+        "key": "welcome-1"
+      },
+      {
+        "content": "This is a strength adventure filled with tasks. Complete them to unlock more strengths.",
+        "key": "welcome-2"
+      },
+      {
+        "content": "Let’s start with kindness ",
+        "key": "welcome-3"
+      },
+      {
+        "key": "first-level-completed-1",
+        "content": "Great!"
+      }
+    ]
+  }
+]

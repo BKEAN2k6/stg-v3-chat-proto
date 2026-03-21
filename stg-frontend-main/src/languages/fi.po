@@ -1,0 +1,1270 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-11-05 12:22+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fi\n"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:96
+msgid "16 cards"
+msgstr "16 korttia"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:99
+msgid "36 cards"
+msgstr "36 korttia"
+
+#: src/components/MediaUpload.tsx:177
+msgid "<0>Add</0> <1>Images</1>"
+msgstr "<0>Lisää</0> <1>Kuvia</1>"
+
+#: src/components/MomentForm.tsx:179
+msgid "<0>Add</0> <1>Strength</1>"
+msgstr "<0>Lisää</0> <1>Vahvuus</1>"
+
+#: src/pages/register/components/EmailSent.tsx:17
+msgid "<0>An email has been sent to {email}.</0><1>Please check your inbox to log in.</1>"
+msgstr "<0>Sähköposti on lähetetty osoitteeseen {email}.</0><1>Ole hyvä ja tarkista postilaatikkosi kirjautuaksesi sisään.</1>"
+
+#: src/pages/ForgotPasswordPage.tsx:49
+msgid "A link has been sent to your email. Please open it with the device that you want to login with."
+msgstr "Sähköpostiisi on lähetetty linkki. Avaa se laitteella, jolla haluat kirjautua sisään."
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:67
+msgid "Accept challenge"
+msgstr "Hyväksy haaste"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:77
+msgid "Accepted"
+msgstr "Hyväksytty"
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineButton.tsx:47
+msgid "Act"
+msgstr "Treeni"
+
+#: src/pages/materials/articles/ArticleDetailsForm.tsx:91
+#: src/pages/scheduled-posts/CoachPostForm.tsx:113
+msgid "Add Strength"
+msgstr "Lisää vahvuus"
+
+#: src/pages/groups/GroupListPage.tsx:86
+msgid "Add new"
+msgstr "Lisää uusi"
+
+#: src/components/MomentForm.tsx:203
+#: src/components/ui/PostCard/CommentForm.tsx:122
+msgid "Add text or image to post"
+msgstr "Lisää teksti tai kuva viestiin"
+
+#: src/pages/register/components/RegisterAvatar.tsx:46
+msgid "Add your image so others can recognize you"
+msgstr "Lisää kuvasi, jotta muut voivat tunnistaa sinut"
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:177
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:178
+#: src/pages/register/components/NamesForm.tsx:46
+msgid "Add your name"
+msgstr "Lisää nimesi"
+
+#: src/pages/community-settings/CommunityMembers.tsx:108
+#: src/pages/community-settings/CreateUserToCommunity.tsx:72
+msgid "Admin"
+msgstr "Ylläpitäjä"
+
+#: src/components/LoginModal.tsx:95
+msgid "An account with this email already exists."
+msgstr "Käyttäjätili tällä sähköpostiosoitteella on jo olemassa."
+
+#: src/pages/profile/EmailForm.tsx:39
+msgid "An email has been sent to <0>{email}</0>. Check your inbox for further instructions."
+msgstr "Sähköposti on lähetetty osoitteeseen <0>{email}</0>. Tarkista postilaatikkosi saadaksesi lisäohjeita."
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:166
+#: src/pages/games/sprint/host/HostSprintPage.tsx:167
+msgid "Are you sure you want to remove the player."
+msgstr ""
+"Haluatko varmasti poistaa pelaajan.\n"
+""
+
+#: src/components/ui/PostCard/Comment.tsx:84
+msgid "Are you sure you want to remove this comment. This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän kommentin? Tätä ei voi perua."
+
+#: src/components/ui/PostCard/PostTools.tsx:26
+msgid "Are you sure you want to remove this moment. This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän hetken? Tätä ei voi perua."
+
+#: src/components/ui/AvatarInput.tsx:123
+msgid "Are you sure you want to remove your avatar image? This can't be undone."
+msgstr "Oletko varma että haluat poistaa avatar-kuvasi? Tätä ei voi perua."
+
+#: src/components/menu/SideMenuLinks.tsx:67
+msgid "Articles"
+msgstr "Artikkelit"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:88
+msgid "As a teacher, you will guide the activity, setting the stage for an uplifting and reflective experience. At the end of the sprint, students will receive a list of strengths as seen by their classmates, offering a valuable opportunity for personal growth and positive reinforcement."
+msgstr "Opettajana ohjaat toimintaa ja luot pohjan innostavalle ja positiiviselle yhteiselle hetkelle. Vahvuussprintin päätteeksi oppilaat saavat nähdä yhteenvedon luokkatovereidensa heille lähettämistä vahvuuksista. Tämä tarjoaa tärkeä tilaisuuden jokaisen lapsen ja nuoren henkilökohtaiseen kasvuun ja itsetuntemukseen."
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineButton.tsx:48
+msgid "Assess"
+msgstr "Mitä opit?"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:119
+#: src/pages/community-settings/CommunitySettingsPage.tsx:73
+#: src/pages/profile/AvatarForm.tsx:67
+#: src/pages/profile/EditProfilePage.tsx:34
+msgid "Avatar"
+msgstr "Avatar"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:66
+#: src/pages/profile/AvatarForm.tsx:39
+msgid "Avatar image updated"
+msgstr "Avatarin kuva päivitetty"
+
+#: src/components/MomentForm.tsx:197
+#: src/components/ui/PostCard/CommentForm.tsx:116
+msgid "Cancel edit"
+msgstr "Peruuta muokkaus"
+
+#: src/components/ui/PostCard/ChallengeParticipantModal.tsx:24
+msgid "Challenge participants"
+msgstr "Haasteen osallistujat"
+
+#: src/pages/register/RegisterCodePage.tsx:48
+msgid "Check the code and try again."
+msgstr "Tarkista koodi ja yritä uudelleen."
+
+#: src/pages/register/components/EmailSent.tsx:14
+msgid "Check your email"
+msgstr "Tarkista sähköpostisi"
+
+#: src/components/LoginModal.tsx:71
+msgid "Check your email and password."
+msgstr "Tarkista sähköpostiosoitteesi ja salasanasi."
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:208
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:209
+msgid "Choose color"
+msgstr "Valitse väri"
+
+#: src/components/ui/AvatarInput.tsx:199
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: src/components/menu/NotificationsMenu.tsx:141
+msgid "Clear Notifications"
+msgstr "Kuittaa ilmoitukset"
+
+#: src/components/ui/AvatarInput.tsx:229
+msgid "Clear current"
+msgstr "Poista nykyinen"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:135
+#: src/pages/groups/EditGroupModal.tsx:104
+msgid "Close"
+msgstr "Sulje"
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:41
+#: src/components/ui/PostCard/CoachPostHeader.tsx:35
+msgid "Coach"
+msgstr "Koutsi"
+
+#: src/components/ui/PostCard/PostInteractions.tsx:162
+msgid "Comment"
+msgstr "Kommentoi"
+
+#: src/components/menu/SideMenuLinks.tsx:64
+msgid "Communities"
+msgstr "Yhteisöt"
+
+#: src/pages/community-settings/CommunityDetails.tsx:60
+msgid "Community Name"
+msgstr "Yhteisön nimi"
+
+#: src/components/menu/CommunityDropdown.tsx:101
+msgid "Community Settings"
+msgstr "Yhteisön asetukset"
+
+#: src/pages/community-settings/CommunityDetails.tsx:76
+msgid "Community description"
+msgstr "Yhteisön kuvaus"
+
+#: src/pages/community-settings/CommunityDetails.tsx:41
+msgid "Community details updated"
+msgstr "Yhteisön tiedot päivitetty"
+
+#: src/pages/register/components/ConfirmJoin.tsx:19
+msgid "Confirm"
+msgstr "Vahvista"
+
+#: src/pages/register/components/ConfirmJoin.tsx:15
+msgid "Confirm that you want to join the community."
+msgstr "Vahvista, että haluat liittyä yhteisöön."
+
+#: src/pages/profile/PasswordForm.tsx:77
+msgid "Confirm your new password"
+msgstr "Vahvista uusi salasanasi"
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:166
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:197
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:167
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:198
+#: src/pages/register/components/ConfirmOnboarding.tsx:23
+#: src/pages/register/components/RegisterForm.tsx:23
+#: src/pages/register/RegisterCodePage.tsx:74
+msgid "Continue"
+msgstr "Jatka"
+
+#: src/pages/community-settings/Invitation.tsx:41
+msgid "Create Invitation"
+msgstr "Luo kutsu"
+
+#: src/pages/community-settings/CommunitySettingsPage.tsx:88
+msgid "Create User"
+msgstr "Luo käyttäjä"
+
+#: src/pages/groups/EditGroupModal.tsx:71
+msgid "Create group"
+msgstr "Luo ryhmä"
+
+#: src/pages/profile/PasswordForm.tsx:48
+msgid "Current password"
+msgstr "Nykyinen salasana"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:97
+msgid "Day"
+msgstr "Päivä"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:92
+msgid "Days"
+msgstr "Päivää"
+
+#: src/pages/community-settings/CommunitySettingsPage.tsx:65
+#: src/pages/profile/EditProfilePage.tsx:28
+msgid "Details"
+msgstr "Tiedot"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:79
+msgid "During the sprint, students use their devices to select strengths that best describe their peers, such as creativity, courage, kindness, and many others. This experience not only helps students appreciate the diverse qualities within their classroom community but also nurtures self-awareness and empathy."
+msgstr "Vahvuussprintin aikana oppilaat käyttävät laitteita, kuten kännyköitä tai ipadeja ja valitsevat vertaisiaan parhaiten kuvaavia vahvuuksia, kuten luovuutta, rohkeutta, ystävällisyyttä ja monia muita. Tämä yhteinen aktiviteetti auttaa oppilaita paitsi arvostamaan ryhmän erilaisia vahvuuksia sekä edistää jokaisen itsetuntemusta ja lisää empatiaa."
+
+#: src/components/ui/PostCard/Comment.tsx:189
+#: src/components/ui/PostCard/PostTools.tsx:70
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/pages/groups/EditGroupModal.tsx:71
+msgid "Edit group"
+msgstr "Muokkaa ryhmää"
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:109
+#: src/pages/profile/EditProfilePage.tsx:40
+msgid "Email"
+msgstr "Sähköposti"
+
+#: src/components/LoginModal.tsx:112
+#: src/components/LoginModal.tsx:113
+#: src/pages/ForgotPasswordPage.tsx:65
+msgid "Email address"
+msgstr "Sähköpostiosoite"
+
+#: src/components/menu/SideMenuLinks.tsx:69
+#: src/pages/community-settings/CommunitySettingsPage.tsx:84
+msgid "Emails"
+msgstr "Sähköpostit"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:349
+msgid "End Game"
+msgstr "Lopeta peli"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:355
+msgid "End Sprint"
+msgstr "Lopeta tuokio"
+
+#: src/pages/register/RegisterMomentPage.tsx:97
+msgid "Enrich the strength you picked with additional details. You can also add photos or more strengths you saw."
+msgstr "Rikastuta valitsemaasi vahvuutta lisätiedoilla. Voit myös lisätä valokuvia tai muita näkemiäsi vahvuuksia."
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:147
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:148
+msgid "Enter code to join"
+msgstr "Kirjoita koodi liittyäksesi"
+
+#: src/pages/register/RegisterCodePage.tsx:65
+msgid "Enter code to join your community"
+msgstr "Syötä koodi liittyäksesi yhteisöön"
+
+#: src/pages/groups/EditGroupModal.tsx:92
+msgid "Enter description"
+msgstr "Kirjoita kuvaus"
+
+#: src/pages/groups/EditGroupModal.tsx:80
+msgid "Enter name"
+msgstr "Kirjoita nimi"
+
+#: src/pages/ForgotPasswordPage.tsx:70
+#: src/pages/register/components/EmailForm.tsx:29
+#: src/pages/register/components/EmailForm.tsx:37
+msgid "Enter your email"
+msgstr "Kirjoita sähköpostiosoitteesi"
+
+#: src/pages/register/components/NamesForm.tsx:52
+msgid "Enter your first name"
+msgstr "Kirjoita etunimesi"
+
+#: src/pages/register/components/NamesForm.tsx:64
+msgid "Enter your last name"
+msgstr "Kirjoita sukunimesi"
+
+#: src/pages/register/components/PasswordForm.tsx:35
+#: src/pages/register/components/PasswordForm.tsx:43
+msgid "Enter your password"
+msgstr "Syötä salasanasi"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:335
+msgid "Everyone has completed!"
+msgstr "Kaikki ovat valmiina!"
+
+#: src/components/menu/NotificationsMenu.tsx:115
+msgid "Failed to clear notifications."
+msgstr "Ilmoitusten kuittaaminen epäonnistui."
+
+#: src/components/menu/NotificationsMenu.tsx:84
+msgid "Failed to read notifications."
+msgstr "Ilmoitusten hakeminen epäonnistui."
+
+#: src/components/ui/PostModal.tsx:44
+msgid "Failed to read the post"
+msgstr "Julkaisun luku epäonnistui"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:193
+msgid "Failed to remove player from the game."
+msgstr "Pelaajan poistaminen pelistä epäonnistui."
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:194
+msgid "Failed to remove player from the sprint."
+msgstr "Pelaajan poistaminen tuokiosta epäonnistui."
+
+#: src/pages/profile/EmailForm.tsx:30
+msgid "Failed to update email. Check your password and try again."
+msgstr "Sähköpostia ei onnistuttu päivittämään. Tarkista salasanasi ja yritä uudelleen."
+
+#: src/pages/profile/PasswordForm.tsx:34
+msgid "Failed to update password"
+msgstr "Salasanan päivittäminen epäonnistui"
+
+#: src/components/ui/AvatarInput.tsx:104
+msgid "Failed to upload the image. Please try again with another image."
+msgstr "Kuvan lataaminen epäonnistui. Yritä uudelleen toisella kuvalla."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:71
+msgid "Failed to verify email."
+msgstr "Sähköpostia ei onnistuttu vahvistamaan."
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:79
+#: src/pages/profile/DetailsForm.tsx:60
+#: src/pages/profile/DetailsForm.tsx:66
+#: src/pages/profile/DetailsForm.tsx:82
+#: src/pages/register/components/NamesForm.tsx:51
+msgid "First name"
+msgstr "Etunimi"
+
+#: src/pages/register/RegisterMomentPage.tsx:79
+msgid "For example: Kindness, Creativity, Humour"
+msgstr "Esimerkiksi: ystävällisyys, luovuus, huumori"
+
+#: src/components/LoginModal.tsx:141
+msgid "Forgot password?"
+msgstr "Unohditko salasanasi?"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:16
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:23
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:30
+msgid "Fri"
+msgstr "Pe"
+
+#: src/pages/games/memory-game/HighestScores.tsx:52
+msgid "Game Over"
+msgstr "Peli loppui"
+
+#: src/pages/NotFoundPage.tsx:23
+#: src/pages/UnexpectedErrorPage.tsx:30
+msgid "Go back home"
+msgstr "Palaa etusivulle"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:245
+msgid "Good job!"
+msgstr "Hyvää työtä!"
+
+#: src/pages/groups/GroupListPage.tsx:27
+#: src/pages/groups/GroupListPage.tsx:76
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:74
+msgid "Holiday calendar"
+msgstr "Joulukalenteri"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:72
+msgid "Holiday calendar starts in..."
+msgstr "Joulukalenteri alkuun..."
+
+#: src/components/menu/SideMenuLinks.tsx:54
+#: src/pages/home/index.tsx:42
+msgid "Home"
+msgstr "Etusivu"
+
+#: src/pages/home/MoodMeter.tsx:128
+msgid "How are you feeling today?"
+msgstr "Millainen olo sinulla on tänään?"
+
+#: src/pages/UnexpectedErrorPage.tsx:22
+msgid "If the problem persists, please contact<0/>support@positive.fi"
+msgstr "Jos ongelma jatkuu, ota yhteyttä osoitteeseen<0/>support@positive.fi"
+
+#: src/components/ui/AvatarInput.tsx:102
+msgid "Image upload failed."
+msgstr "Kuvan lataus epäonnistui."
+
+#: src/components/ui/AvatarInput.tsx:68
+msgid "Invalid file"
+msgstr "Virheellinen tiedosto"
+
+#: src/pages/register/RegisterCodePage.tsx:47
+msgid "Invitation not found."
+msgstr "Kutsua ei löydy."
+
+#: src/pages/community-settings/CommunitySettingsPage.tsx:91
+msgid "Invite"
+msgstr "Kutsu"
+
+#: src/pages/community-settings/Invitation.tsx:38
+msgid "Invite people"
+msgstr "Kutsu ihmisiä"
+
+#: src/pages/StartPage.tsx:61
+msgid "Join a community"
+msgstr "Liity yhteisöön"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:181
+msgid "Just a moment, waiting for the game to start."
+msgstr "Hetki vain, odotetaan että peli käynnistetään."
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:228
+msgid "Just a moment, waiting for the sprint to start."
+msgstr "Hetki vain, odotetaan että vahvuustuokio käynnistetään."
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:42
+#: src/components/ui/PostCard/CoachPostHeader.tsx:36
+msgid "Kaisa"
+msgstr "Kaisa"
+
+#: src/pages/profile/DetailsForm.tsx:92
+msgid "Language"
+msgstr "Kieli"
+
+#: src/pages/profile/DetailsForm.tsx:76
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:94
+#: src/pages/register/components/NamesForm.tsx:63
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:147
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:178
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: src/components/menu/UserMenu.tsx:37
+#: src/pages/UnexpectedErrorPage.tsx:35
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: src/components/LoginModal.tsx:130
+#: src/pages/StartPage.tsx:54
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: src/components/LoginModal.tsx:134
+msgid "Login failed"
+msgstr "Kirjautuminen epäonnistui"
+
+#: src/pages/community-settings/CommunityMembers.tsx:105
+#: src/pages/community-settings/CreateUserToCommunity.tsx:69
+msgid "Member"
+msgstr "Jäsen"
+
+#: src/pages/community-settings/CommunitySettingsPage.tsx:80
+msgid "Members"
+msgstr "Jäsenet"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:58
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:66
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:228
+msgid "Memory Game"
+msgstr "Muistipeli"
+
+#: src/components/menu/SideMenuLinks.tsx:59
+msgid "Memory game"
+msgstr "Muistipeli"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:77
+msgid "Memory game is a fun and interactive game that helps you to improve your memory and focus. It is a great way to challenge yourself and have fun at the same time."
+msgstr "Muistipeli on hauska ja interaktiivinen peli, joka auttaa sinua parantamaan muistia ja keskittymistä. Se on loistava tapa haastaa itsesi ja pitää hauskaa samaan aikaan."
+
+#: src/pages/home/index.tsx:58
+msgid "Moments"
+msgstr "Hetket"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:12
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:19
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:26
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:33
+msgid "Mon"
+msgstr "Ma"
+
+#: src/pages/home/MoodMeter.tsx:125
+msgid "Mood-o-meter"
+msgstr "Fiilismittari"
+
+#: src/pages/profile/EmailForm.tsx:66
+msgid "New email"
+msgstr "Uusi sähköpostiosoite"
+
+#: src/pages/profile/PasswordForm.tsx:63
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: src/pages/register/RegisterCodePage.tsx:32
+msgid "No code provided."
+msgstr "Koodia ei ole annettu."
+
+#: src/components/menu/NotificationsMenu.tsx:176
+msgid "No unread notifications"
+msgstr "Ei lukemattomia ilmoituksia"
+
+#: src/components/ui/AvatarInput.tsx:125
+#: src/components/ui/PostCard/Comment.tsx:87
+#: src/components/ui/PostCard/PostTools.tsx:29
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:167
+#: src/pages/games/sprint/host/HostSprintPage.tsx:168
+msgid "No, cancel"
+msgstr "Ei, peruuta"
+
+#: src/components/LoginModal.tsx:70
+#: src/components/menu/CommunityDropdown.tsx:28
+#: src/components/menu/NotificationsMenu.tsx:83
+#: src/components/menu/NotificationsMenu.tsx:114
+#: src/components/MomentForm.tsx:101
+#: src/components/ui/PostCard/ChallengeContent.tsx:51
+#: src/components/ui/PostCard/Comment.tsx:99
+#: src/components/ui/PostCard/CommentForm.tsx:80
+#: src/components/ui/PostCard/PostTools.tsx:41
+#: src/components/ui/PostCard/ReactionButton.tsx:60
+#: src/components/ui/PostCard/ReactionButton.tsx:73
+#: src/components/ui/PostCard/ReactionButton.tsx:89
+#: src/components/ui/PostModal.tsx:43
+#: src/pages/AuthCallbackPage.tsx:51
+#: src/pages/AuthCallbackPage.tsx:73
+#: src/pages/community-settings/CommunityAvatar.tsx:70
+#: src/pages/community-settings/CommunityAvatar.tsx:110
+#: src/pages/community-settings/CommunityDetails.tsx:45
+#: src/pages/community-settings/CommunityEmails.tsx:26
+#: src/pages/community-settings/CommunityMembers.tsx:31
+#: src/pages/community-settings/CommunityMembers.tsx:64
+#: src/pages/community-settings/CommunityMembers.tsx:80
+#: src/pages/community-settings/CommunitySettingsPage.tsx:48
+#: src/pages/community-settings/CreateUserToCommunity.tsx:48
+#: src/pages/community-settings/Invitation.tsx:29
+#: src/pages/ForgotPasswordPage.tsx:33
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:51
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:77
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:129
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:152
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:192
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:69
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:56
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:88
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:44
+#: src/pages/games/sprint/host/HostSprintPage.tsx:78
+#: src/pages/games/sprint/host/HostSprintPage.tsx:130
+#: src/pages/games/sprint/host/HostSprintPage.tsx:153
+#: src/pages/games/sprint/host/HostSprintPage.tsx:193
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:69
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:107
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:163
+#: src/pages/groups/EditGroupModal.tsx:61
+#: src/pages/groups/GroupListPage.tsx:60
+#: src/pages/home/CommunityStats.tsx:63
+#: src/pages/home/MoodMeter.tsx:103
+#: src/pages/home/Posts.tsx:69
+#: src/pages/profile/AvatarForm.tsx:43
+#: src/pages/profile/AvatarForm.tsx:58
+#: src/pages/profile/DetailsForm.tsx:45
+#: src/pages/profile/EmailForm.tsx:28
+#: src/pages/profile/PasswordForm.tsx:33
+#: src/pages/register/components/RegisterAvatar.tsx:37
+#: src/pages/register/RegisterCodePage.tsx:54
+#: src/pages/register/RegisterUserPage.tsx:52
+msgid "Oops!"
+msgstr "Hups!"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:114
+msgid "Open"
+msgstr "Avaa"
+
+#: src/pages/materials/articles/ArticleView.tsx:103
+msgid "Open slideshow"
+msgstr "Avaa diaesitys"
+
+#: src/pages/home/index.tsx:67
+msgid "Overview"
+msgstr "Yleiskatsaus"
+
+#: src/pages/NotFoundPage.tsx:16
+msgid "Page Not Found"
+msgstr "Sivua ei löydy"
+
+#: src/components/LoginModal.tsx:124
+#: src/components/LoginModal.tsx:125
+#: src/pages/profile/EditProfilePage.tsx:37
+#: src/pages/profile/EmailForm.tsx:80
+msgid "Password"
+msgstr "Salasana"
+
+#: src/pages/profile/PasswordForm.tsx:29
+msgid "Password updated"
+msgstr "Salasana päivitetty"
+
+#: src/pages/register/RegisterMomentPage.tsx:86
+msgid "Pick one"
+msgstr "Valitse yksi"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:187
+#: src/pages/games/sprint/host/HostSprintPage.tsx:188
+msgid "Player removed"
+msgstr "Pelaaja poistettu"
+
+#: src/components/LoginModal.tsx:98
+msgid "Please enter your password and you will be added to {targetCommunityName}"
+msgstr "Kirjoita salasanasi, niin sinut lisätään yhteisöön {targetCommunityName}"
+
+#: src/pages/register/RegisterCodePage.tsx:33
+msgid "Please provide an invitation code."
+msgstr "Anna kutsukoodi."
+
+#: src/components/MomentForm.tsx:215
+msgid "Post"
+msgstr "Lähetä"
+
+#: src/components/MomentForm.tsx:121
+msgid "Post a message to your community's wall."
+msgstr "Lisää viesti yhteisön seinälle."
+
+#: src/components/menu/SideMenuLinks.tsx:66
+msgid "Posts"
+msgstr "Julkaisut"
+
+#: src/components/menu/UserMenu.tsx:32
+#: src/pages/profile/EditProfilePage.tsx:19
+msgid "Profile"
+msgstr "Profiili"
+
+#: src/components/ui/PostCard/ReactionTrigger.tsx:106
+#: src/components/ui/PostCard/ReactionTrigger.tsx:127
+msgid "React"
+msgstr "Reagoi"
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:28
+msgid "Reactions"
+msgstr "Reaktiot"
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineButton.tsx:109
+msgid "Read the article <0>here.</0>"
+msgstr "Lue artikkeli <0>täältä</0>."
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:62
+msgid "Received strengths"
+msgstr "Vastaanotetut vahvuudet"
+
+#: src/components/ui/PostCard/Comment.tsx:192
+#: src/components/ui/PostCard/PostTools.tsx:75
+msgid "Remove"
+msgstr "Poista"
+
+#: src/components/ui/AvatarInput.tsx:121
+msgid "Remove avatar"
+msgstr "Poista avatar"
+
+#: src/components/ui/PostCard/Comment.tsx:82
+msgid "Remove comment"
+msgstr "Poista kommentti"
+
+#: src/components/ui/PostCard/PostTools.tsx:24
+msgid "Remove moment"
+msgstr "Poista hetki"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:165
+#: src/pages/games/sprint/host/HostSprintPage.tsx:166
+msgid "Remove player"
+msgstr "Poista pelaaja"
+
+#: src/pages/ForgotPasswordPage.tsx:77
+msgid "Reset my password"
+msgstr "Nollaa salasanani"
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:60
+msgid "Role"
+msgstr "Rooli"
+
+#: src/components/MomentForm.tsx:215
+#: src/components/ui/AvatarInput.tsx:196
+#: src/components/ui/PostCard/CommentForm.tsx:134
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/pages/groups/EditGroupModal.tsx:107
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:238
+#: src/pages/games/sprint/host/HostSprintPage.tsx:242
+msgid "Scan QR"
+msgstr "Skannaa QR"
+
+#: src/components/ui/AvatarInput.tsx:225
+msgid "Select image"
+msgstr "Valitse kuva"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:365
+msgid "Select one strength"
+msgstr "Valitse yksi vahvuus"
+
+#: src/components/ui/StrengthModal.tsx:58
+msgid "Select strength"
+msgstr "Valitse vahvuus"
+
+#: src/components/ui/PostCard/CommentForm.tsx:134
+msgid "Send"
+msgstr "Lähetä"
+
+#: src/pages/register/components/RegisterAvatar.tsx:56
+msgid "Skip"
+msgstr "Ohita"
+
+#: src/pages/register/components/ConfirmOnboarding.tsx:33
+msgid "Skip onboarding"
+msgstr "Ohita aloitus"
+
+#: src/pages/register/RegisterUserPage.tsx:53
+msgid "Something did not work as expected. Please try again later."
+msgstr "Jokin ei toiminut odotetulla tavalla. Yritä myöhemmin uudelleen."
+
+#: src/components/ui/PostCard/ChallengeContent.tsx:52
+msgid "Something went wrong while accepting the challenge"
+msgstr "Jokin meni pieleen haasteen hyväksymisessä "
+
+#: src/components/menu/CommunityDropdown.tsx:29
+msgid "Something went wrong while changing community"
+msgstr "Jotain meni pieleen yhteisöä vaihdettaessa"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:52
+msgid "Something went wrong while creating game"
+msgstr "Jotain meni pieleen peliä luotaessa"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:45
+msgid "Something went wrong while creating sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota luotaessa"
+
+#: src/pages/community-settings/Invitation.tsx:30
+msgid "Something went wrong while creating the invitation"
+msgstr "Jokin meni pieleen kutsua luotaessa"
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:50
+msgid "Something went wrong while creating the user to the community. Most likely an user with the same email already exists."
+msgstr "Jotain meni pieleen, kun käyttäjää luotiin yhteisöön. Todennäköisesti käyttäjä, jolla on sama sähköpostiosoite, on jo olemassa."
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:153
+#: src/pages/games/sprint/host/HostSprintPage.tsx:154
+msgid "Something went wrong while ending sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota päätettäessä"
+
+#: src/pages/home/CommunityStats.tsx:64
+msgid "Something went wrong while fetching community stats"
+msgstr "Jokin meni pieleen yhteisön tilastoja noudettaessa"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:89
+msgid "Something went wrong while fetching the memoryGame"
+msgstr "Jokin meni pieleen muistipeliä noudettaessa"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:108
+msgid "Something went wrong while fetching the sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota noudettaessa"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:57
+msgid "Something went wrong while flipping the card"
+msgstr "Jokin meni pieleen kun korttia käännettiin"
+
+#: src/pages/groups/GroupListPage.tsx:61
+msgid "Something went wrong while getting groups"
+msgstr "Jokin meni pieleen ryhmiä haettaessa"
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:70
+msgid "Something went wrong while joining the game"
+msgstr "Jotain meni pieleen peliin liittyessä"
+
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:70
+msgid "Something went wrong while joining the sprint"
+msgstr "Jokin meni pieleen vahvuustuokioon liityttäessä"
+
+#: src/pages/community-settings/CommunitySettingsPage.tsx:49
+msgid "Something went wrong while loading the community"
+msgstr "Jotain meni pieleen yhteisön lataamisen aikana"
+
+#: src/pages/community-settings/CommunityEmails.tsx:28
+#: src/pages/community-settings/CommunityMembers.tsx:33
+msgid "Something went wrong while loading the community members"
+msgstr "Jokin meni pieleen yhteisön jäsenten lataamisen aikana"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:78
+msgid "Something went wrong while loading the game"
+msgstr "Pelin lataus epäonnistui"
+
+#: src/pages/home/Posts.tsx:70
+msgid "Something went wrong while loading the moments"
+msgstr "Jokin meni pieleen hetkiä haettaessa."
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:79
+msgid "Something went wrong while loading the sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota ladattaessa"
+
+#: src/pages/AuthCallbackPage.tsx:52
+#: src/pages/ForgotPasswordPage.tsx:34
+msgid "Something went wrong while logging in"
+msgstr "Jokin meni pieleen sisäänkirjautumisessa"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:61
+msgid "Something went wrong while reacting"
+msgstr "Jokin meni pieleen reagoinnissa"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:74
+msgid "Something went wrong while removing a reaction"
+msgstr "Jokin meni pieleen reaktiota poistettaessa"
+
+#: src/components/ui/PostCard/Comment.tsx:100
+msgid "Something went wrong while removing the comment"
+msgstr "Jotain meni pieleen poistettaessa kommenttia"
+
+#: src/components/ui/PostCard/PostTools.tsx:42
+msgid "Something went wrong while removing the moment"
+msgstr "Jokin meni pieleen hetkeä poistettaessa"
+
+#: src/pages/community-settings/CommunityMembers.tsx:81
+msgid "Something went wrong while removing the user"
+msgstr "Jokin meni pieleen käyttäjän poistamisen aikana"
+
+#: src/components/ui/PostCard/CommentForm.tsx:81
+msgid "Something went wrong while saving the comment"
+msgstr "Jokin meni pieleen kommenttia tallennettaessa"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:111
+msgid "Something went wrong while saving the community"
+msgstr "Jotain meni pieleen yhteisön tietoja tallennettaessa"
+
+#: src/pages/groups/EditGroupModal.tsx:62
+msgid "Something went wrong while saving the group"
+msgstr "Jokin meni pieleen ryhmää tallennettaessa"
+
+#: src/components/MomentForm.tsx:102
+msgid "Something went wrong while saving the moment"
+msgstr "Jokin meni pieleen hetkeä tallennettaessa"
+
+#: src/pages/home/MoodMeter.tsx:104
+msgid "Something went wrong while saving the mood"
+msgstr "Jokin meni pieleen tunnelman tallentamisen aikana"
+
+#: src/pages/AuthCallbackPage.tsx:74
+msgid "Something went wrong while saving the password"
+msgstr "Jokin meni pieleen salasanaa tallennettaessa"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:164
+msgid "Something went wrong while saving the strength"
+msgstr "Jotain meni pieleen vahvuutta tallennettaessa"
+
+#: src/pages/profile/AvatarForm.tsx:59
+#: src/pages/profile/DetailsForm.tsx:46
+msgid "Something went wrong while saving the user"
+msgstr "Jotain meni pieleen käyttäjän tallentamisen aikana"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:131
+msgid "Something went wrong while starting sprint"
+msgstr "Jokin meni pieleen vahvuustuokioita käynnistettäessä"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:130
+msgid "Something went wrong while starting the game"
+msgstr "Pelin käynnistäminen epäonnistui"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:90
+msgid "Something went wrong while updating a reaction"
+msgstr "Jokin meni pieleen reaktiota päivitettäessä"
+
+#: src/pages/community-settings/CommunityDetails.tsx:46
+msgid "Something went wrong while updating the community"
+msgstr "Jotain meni pieleen yhteisön päivittämisen aikana"
+
+#: src/pages/community-settings/CommunityMembers.tsx:65
+msgid "Something went wrong while updating the user role"
+msgstr "Jokin meni pieleen päivitettäessä käyttäjän roolia"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:71
+#: src/pages/profile/AvatarForm.tsx:44
+msgid "Something went wrong while uploading your image"
+msgstr "Jotain meni pieleen kuvaa ladattaessa"
+
+#: src/pages/register/components/RegisterAvatar.tsx:38
+#: src/pages/register/RegisterCodePage.tsx:55
+msgid "Something went wrong."
+msgstr "Jokin meni pieleen."
+
+#: src/pages/UnexpectedErrorPage.tsx:19
+msgid "Sorry, an unexpected occurred."
+msgstr "Pahoittelut, tapahtui odottamaton tapahtuma."
+
+#: src/pages/NotFoundPage.tsx:19
+msgid "Sorry, the page you are looking for does not exist."
+msgstr "Valitettavasti etsimääsi sivua ei ole löydy."
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineButton.tsx:46
+msgid "Speak"
+msgstr "Viesti"
+
+#: src/pages/games/memory-game/player/JoinMemoryGamePage.tsx:156
+#: src/pages/games/sprint/player/JoinSprintPage.tsx:157
+msgid "Sprint with this code was not found"
+msgstr "Vahvuustuokiota tällä koodilla ei löytynyt"
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineButton.tsx:45
+msgid "Start"
+msgstr "Startti"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:97
+msgid "Start a new sprint and watch as your classroom discovers and celebrates the strengths within!"
+msgstr "Aloita uusi vahvuussprintti ja huomaa, kuinka ryhmäsi oppilaat löytävät ja arvostavat jokaisen vahvuuksia!"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:103
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:300
+msgid "Start game"
+msgstr "Aloita peli"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:103
+#: src/pages/games/sprint/host/HostSprintPage.tsx:303
+msgid "Start sprint"
+msgstr "Aloita tuokio"
+
+#: src/components/menu/SideMenuLinks.tsx:58
+msgid "Strenght sprint"
+msgstr "Vahvuustuokio"
+
+#: src/pages/home/components/StrengthTimeline/StrengthTimelineCarousel.tsx:149
+msgid "Strength of the Month"
+msgstr "Kuukauden vahvuus"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:51
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:59
+#: src/pages/games/sprint/host/HostSprintPage.tsx:232
+msgid "Strength sprint"
+msgstr "Vahvuustuokio"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:70
+msgid "Strength sprint is an engaging and interactive activity designed to foster a positive and supportive classroom environment. It allows students to recognize and celebrate each other's unique character strengths, promoting a culture of encouragement and mutual respect."
+msgstr "Vahvuussprintti on mukaansatempaavaa ja vuorovaikutteinen aktiviteetti. Se on suunniteltu edistämään myönteistä ja kannustavaa luokkahuoneilmapiiriä. Vahvuussprintin avulla oppilaat tunnistavat omia ja toistensa luonteenvahvuuksia sekä antavat niistä palautetta. Tämä aktiviteetti edistää kannustuksen ja keskinäisen kunnioituksen kulttuuria ryhmässä."
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:346
+msgid "Strengths sent"
+msgstr "Vahvuutta lähetetty"
+
+#: src/pages/AuthCallbackPage.tsx:125
+#: src/pages/ForgotPasswordPage.tsx:84
+#: src/pages/profile/DetailsForm.tsx:111
+#: src/pages/profile/EmailForm.tsx:94
+#: src/pages/profile/PasswordForm.tsx:91
+msgid "Submit"
+msgstr "Lähetä"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:65
+#: src/pages/community-settings/CommunityDetails.tsx:40
+#: src/pages/community-settings/CommunityMembers.tsx:59
+#: src/pages/community-settings/CreateUserToCommunity.tsx:43
+#: src/pages/profile/AvatarForm.tsx:38
+#: src/pages/profile/DetailsForm.tsx:40
+#: src/pages/profile/PasswordForm.tsx:28
+msgid "Success!"
+msgstr "Onnistui!"
+
+#: src/components/menu/SideMenuLinks.tsx:55
+msgid "Teach"
+msgstr "Opeta"
+
+#: src/components/ui/AvatarInput.tsx:70
+msgid "The file might be too large or be in an unsupported format"
+msgstr "Tiedosto saattaa olla liian suuri tai tiedostomuoto ei ole tuettu"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:87
+msgid "The link has expired."
+msgstr "Linkki on vanhentunut."
+
+#: src/pages/AuthCallbackPage.tsx:84
+msgid "The link has expired. Please request a new link<0>here</0>."
+msgstr "Linkki on vanhentunut. Pyydä uusi linkki <0>täältä</0>."
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:188
+msgid "The player has been successfully removed from the game."
+msgstr "Pelaaja on onnistuneesti poistettu pelistä."
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:189
+msgid "The player has been successfully removed from the sprint."
+msgstr "Pelaaja on onnistuneesti poistettu tuokiosta."
+
+#: src/pages/community-settings/CreateUserToCommunity.tsx:44
+msgid "The user been created to the community"
+msgstr "Käyttäjä on luotu yhteisöön"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:15
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:22
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:29
+msgid "Thu"
+msgstr "To"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:337
+msgid "Time to send strengths!"
+msgstr "Aika lähettää vahvuuksia!"
+
+#: src/components/menu/SideMenuLinks.tsx:68
+msgid "Timeline"
+msgstr "Aikajana"
+
+#: src/pages/community-settings/CommunityDetails.tsx:91
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: src/pages/home/CommunityStats.tsx:162
+#: src/pages/home/TopContributorsModal.tsx:25
+msgid "Top contributors"
+msgstr "Aktiivisimmat osallistujat"
+
+#: src/pages/home/CommunityStats.tsx:116
+#: src/pages/home/TopStrengthsModal.tsx:27
+msgid "Top strengths"
+msgstr "Eniten nähdyt vahvuudet"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:375
+msgid "Top strengths from session..."
+msgstr "Tuokion eniten nähdyt vahvuudet..."
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:34
+msgid "Total"
+msgstr "Yhteensä"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:74
+#: src/pages/EmailConfirmCallbackPage.tsx:90
+msgid "Try setting your email again. In the <0>profile page</0>"
+msgstr "Yritä asettaa sähköpostiosoitteesi uudelleen. <0>Profiili-sivulla</0>"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:13
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:20
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:27
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:34
+msgid "Tue"
+msgstr "Ti"
+
+#: src/pages/UnexpectedErrorPage.tsx:16
+msgid "Unexpected Error"
+msgstr "Odottamaton virhe"
+
+#: src/pages/community-settings/CommunityMembers.tsx:60
+msgid "User role updated"
+msgstr "Käyttäjän rooli päivitetty"
+
+#: src/components/menu/SideMenuLinks.tsx:65
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: src/components/menu/SideMenuLinks.tsx:57
+msgid "Videos"
+msgstr "Videot"
+
+#: src/pages/home/CommunityStats.tsx:142
+#: src/pages/home/CommunityStats.tsx:189
+msgid "View all"
+msgstr "Näytä kaikki"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:273
+#: src/pages/games/sprint/host/HostSprintPage.tsx:276
+msgid "Waiting for players to join..."
+msgstr "Odotetaan pelaajien liittymistä..."
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:248
+msgid "Waiting for results..."
+msgstr "Odotetaan tuloksia..."
+
+#: src/components/ui/PostCard/SprintResultsContent.tsx:56
+msgid "We also saw these strengths in the sprint."
+msgstr "Näimme myös nämä vahvuudet tuokion aikana."
+
+#: src/components/menu/NotificationsMenuItem.tsx:45
+#: src/components/menu/NotificationsMenuItem.tsx:63
+#: src/components/ui/PostCard/SprintResultsContent.tsx:29
+msgid "We played a strength sprint! The top strengths were these."
+msgstr "Pelasimme vahvuustuokiota! Eniten huomatut vahvuudet olivat nämä."
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:14
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:21
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:28
+msgid "Wed"
+msgstr "Ke"
+
+#: src/components/LoginModal.tsx:88
+msgid "Welcome back"
+msgstr "Tervetuloa takaisin"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:268
+msgid "What have you seen in?"
+msgstr "Mitä olet nähnyt henkilössä?"
+
+#: src/pages/register/RegisterMomentPage.tsx:76
+msgid "What strengths did you see in your community?"
+msgstr "Mitä vahvuuksia näit yhteisössänne?"
+
+#: src/components/ui/AvatarInput.tsx:126
+#: src/components/ui/PostCard/Comment.tsx:86
+#: src/components/ui/PostCard/PostTools.tsx:28
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:168
+#: src/pages/games/sprint/host/HostSprintPage.tsx:169
+msgid "Yes, remove"
+msgstr "Kyllä, poista"
+
+#: src/pages/register/components/ConfirmOnboarding.tsx:16
+msgid "You are already a member of this community."
+msgstr "Olet jo tämän yhteisön jäsen."
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:167
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:214
+msgid "You are ready to go!"
+msgstr "Olet valmis aloittamaan!"
+
+#: src/pages/AuthCallbackPage.tsx:130
+msgid "You can also skip this step and log in again with a email."
+msgstr "Voit myös ohittaa tämän vaiheen ja kirjautua uudelleen sisään sähköpostilla."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:58
+msgid "You will now redicted to the <0>profile page</0> in a few seconds."
+msgstr "Sinut ohjataan <0>Profiili-sivulle</0> muutaman sekunnin kuluttua."
+
+#: src/pages/profile/EmailForm.tsx:59
+msgid "Your current email is <0>{0}</0>."
+msgstr "Nykyinen sähköpostiosoitteesi on <0>{0}</0>."
+
+#: src/pages/profile/EmailForm.tsx:86
+#: src/pages/profile/PasswordForm.tsx:54
+msgid "Your current password"
+msgstr "Nykyinen salasanasi"
+
+#: src/pages/register/components/EmailForm.tsx:35
+msgid "Your email"
+msgstr "Sähköpostiosoitteesi"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:55
+msgid "Your email has been verified."
+msgstr "Sähköpostisi on vahvistettu."
+
+#: src/pages/profile/EmailForm.tsx:72
+msgid "Your new email address"
+msgstr "Uusi sähköpostiosoitteesi"
+
+#: src/pages/profile/PasswordForm.tsx:69
+msgid "Your new password"
+msgstr "Uusi salasanasi"
+
+#: src/pages/profile/PasswordForm.tsx:83
+msgid "Your new password again"
+msgstr "Uusi salasanasi uudelleen"
+
+#: src/pages/register/components/PasswordForm.tsx:41
+msgid "Your password"
+msgstr "Salasanasi"
+
+#: src/pages/register/components/PasswordForm.tsx:46
+msgid "Your password must be at least 8 characters long and contain at least one number."
+msgstr "Salasanan on oltava vähintään 8 merkkiä pitkä ja sisällettävä vähintään yksi numero."
+
+#: src/pages/profile/DetailsForm.tsx:41
+msgid "Your profile details have been updated"
+msgstr "Profiilisi tiedot on päivitetty"
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:74
+msgid "and"
+msgstr "ja"
+
+#: src/components/menu/NotificationsMenuItem.tsx:71
+msgid "commented on your post"
+msgstr "kommentoi julkaisuasi"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:70
+msgid "have accepted"
+msgstr "ovat hyväksyneet"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:118
+msgid "have opened"
+msgstr "ovat avanneet"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:264
+msgid "of"
+msgstr "/"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:242
+#: src/pages/games/sprint/host/HostSprintPage.tsx:246
+msgid "or enter code at"
+msgstr "tai kirjoita koodi osoitteessa"
+
+#: src/components/menu/NotificationsMenuItem.tsx:86
+msgid "reacted to your comment"
+msgstr "reagoi kommenttiisi"
+
+#: src/components/menu/NotificationsMenuItem.tsx:52
+msgid "reacted to your post"
+msgstr "reagoi julkaisuusi"
+
+#: src/components/ui/PostCard/PostInteractions.tsx:167
+msgid "{0, plural, one {# comment} other {# comments}}"
+msgstr "{ 0, plural, one {# kommentti} other {# kommenttia} }"
+
+#: src/components/ui/PostCard/PostInteractions.tsx:146
+msgid "{0, plural, one {# reaction} other {# reactions}}"
+msgstr "{ 0, plural, one {# reaktio} other {# reaktiota} }"
+
+#: src/pages/games/memory-game/HighestScores.tsx:57
+msgid "{0, plural, one {Winner} other {Winners}}"
+msgstr "{ 0, plural, one {Voittaja} other {Voittajat} }"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:265
+#: src/pages/games/sprint/host/HostSprintPage.tsx:268
+msgid "{0, plural, one {player} other {players}}"
+msgstr "{ 0, plural, one {pelaaja} other {pelaajaa} }"
+
+#: src/pages/games/memory-game/HighestScores.tsx:64
+msgid "{0} with {1} {2, plural, one {pair} other {pairs}}."
+msgstr "{0} {1} {2, plural, one {parilla} other {parilla}}."
+
+#: src/pages/home/CommunityStats.tsx:152
+#: src/pages/home/TopContributorsModal.tsx:32
+msgid "{totalContributors, plural, one {Contributor this week} other {Contributors this week}}"
+msgstr "{ totalContributors, plural, one {Osallistuja tällä viikolla} other {Osallistujaa tällä viikolla} }"
+
+#: src/pages/home/CommunityStats.tsx:106
+#: src/pages/home/TopStrengthsModal.tsx:34
+msgid "{totalStrengths, plural, one {Strength this week} other {Strengths this week}}"
+msgstr "{ totalStrengths, plural, one {Vahvuus tällä viikolla} other {Vahvuutta tällä viikolla} }"

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0bd914b0-aa8a-4825-9631-9e8cdfeccc2e",
+    "language_code": "sv-SE",
+    "name": "Kråkdal skola",
+    "organization": "cca66e77-0b6d-4cf1-aca9-79549acc09c9"
+  },
+  {
+    "id": "aa710be3-9c71-4ff8-a4ea-ad82d5b20cd7",
+    "language_code": "fi-FI",
+    "name": "Varislaakson koulu",
+    "organization": "cca66e77-0b6d-4cf1-aca9-79549acc09c9"
+  },
+  {
+    "id": "af0d4070-9eb1-417b-9763-b5ad4e9af78b",
+    "language_code": "en-US",
+    "name": "Crow Valley School",
+    "organization": "cca66e77-0b6d-4cf1-aca9-79549acc09c9"
+  }
+]

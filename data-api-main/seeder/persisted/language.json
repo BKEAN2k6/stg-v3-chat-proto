@@ -1,0 +1,20 @@
+[
+  {
+    "code": "en-US",
+    "direction": "ltr",
+    "name": "English",
+    "persistent": true
+  },
+  {
+    "code": "fi-FI",
+    "direction": "ltr",
+    "name": "Finnish",
+    "persistent": true
+  },
+  {
+    "code": "sv-SE",
+    "direction": "ltr",
+    "name": "Swedish",
+    "persistent": true
+  }
+]

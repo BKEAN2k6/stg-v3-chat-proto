@@ -1,0 +1,438 @@
+@font-face {
+  font-family: "Ageo";
+  src: url("/fonts/ageo/otf/Ageo.otf") format("opentype");
+  font-weight: 400; // Normal weight
+}
+
+@font-face {
+  font-family: "Ageo";
+  src: url("/fonts/ageo/otf/Ageo-SemiBold.otf") format("opentype");
+  font-weight: 500; // Semi-Bold weight
+}
+
+@font-face {
+  font-family: "Ageo";
+  src: url("/fonts/ageo/otf/Ageo-Bold.otf") format("opentype");
+  font-weight: 700; // Bold weight
+}
+
+@font-face {
+  font-family: "Ageo";
+  src: url("/fonts/ageo/otf/Ageo-Heavy.otf") format("opentype");
+  font-weight: 800; // Heavy weight
+}
+
+// include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// include any default variable overrides here
+$enable-rfs: false;
+
+$font-family-base: "Ageo", sans-serif;
+
+$btn-border-radius: "999px";
+$btn-border-radius-sm: "999px";
+$btn-border-radius-lg: "999px";
+
+/*
+- xxl = desktop
+- xl = tablet
+- less than that = fluid
+*/
+
+$container-max-widths: (
+  // makes containers below 960px act as fluid
+  sm: 957px,
+  md: 958px,
+  lg: 959px,
+  xl: 960px,
+  xxl: 1140px
+);
+
+// NOTE: make sure these match the ones defined in useBreakpoint.ts
+$grid-breakpoints: (
+  xs: 0,
+  sm: 390px,
+  md: 576px,
+  lg: 838px,
+  xl: 992px,
+  xxl: 1140px
+);
+
+$offcanvas-horizontal-width: 240px;
+
+// colors
+$primary: #7754c9;
+$green: #66af8e;
+
+$primary-darker-1: darken($primary, 25%);
+
+$green-darker-1: darken($green, 25%);
+$green-lighter-1: lighten($green, 25%);
+
+:root {
+  --primary: #{$primary};
+  --primary-darker-1: #{$primary-darker-1};
+}
+
+// include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// include any default map overrides here
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  "sm": $font-size-sm
+);
+
+// include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// include any other parts as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// components
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/badge";
+@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/button-group";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/offcanvas";
+@import "../node_modules/bootstrap/scss/pagination";
+@import "../node_modules/bootstrap/scss/placeholders";
+@import "../node_modules/bootstrap/scss/popover";
+@import "../node_modules/bootstrap/scss/progress";
+@import "../node_modules/bootstrap/scss/spinners";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/toasts";
+@import "../node_modules/bootstrap/scss/tooltip";
+@import "../node_modules/bootstrap/scss/transitions";
+
+// customizations before utilities
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": (
+      property: width,
+      class: w,
+      responsive: true,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+      )
+    ),
+    "text-transform": (
+      property: text-transform,
+      class: text,
+      values: lowercase uppercase capitalize,
+      responsive: true
+    ),
+    "font-size": (
+      rfs: false,
+      property: font-size,
+      class: fs,
+      values: $font-sizes,
+      responsive: true
+    )
+  )
+);
+
+// include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// add additional custom code here
+
+* {
+  scroll-margin-top: 60px;
+}
+
+// additional utilities
+.bg-gray-100 {
+  background-color: $gray-100 !important;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+/* use safe-h-screen or min-safe-h-screen instead of vh-100 to handle mobile
+ * devices better */
+/* https://github.com/tailwindlabs/tailwindcss/discussions/4515 */
+.safe-h-screen {
+  /* equivalent to 100dvh in major browsers */
+  height: calc(100vh - env(safe-area-inset-bottom, 0) - env(safe-area-inset-top, 0));
+}
+
+@supports (-webkit-touch-callout: none) {
+  .safe-h-screen {
+    /* for ios safari 15, safe-area-inset-bottom is 0, so a special fix apply here */
+    height: -webkit-fill-available;
+  }
+}
+
+.min-safe-h-screen {
+  min-height: calc(100vh - env(safe-area-inset-bottom, 0) - env(safe-area-inset-top, 0));
+}
+
+@supports (-webkit-touch-callout: none) {
+  .min-safe-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+@import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 400px;
+}
+
+.hide-icon .dropdown-toggle::after,
+.dropdown-toggle.hide-icon::after {
+  display: none;
+}
+
+@media (max-width: map-get($grid-breakpoints, xxl)) {
+  .dropdown-toggle.nav-link .responsive-dropdown-title {
+    display: none;
+  }
+}
+
+/* Weirdly, the callouts from BS docs aren't part of BS, so here's our own
+ * (coupled with the Callout component) */
+.callout {
+  border-left: 4px solid $primary;
+  padding: 1.25rem;
+  background-color: $gray-100;
+  border-radius: 0.25rem;
+}
+
+.callout-header {
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.callout-body {
+  font-size: 0.875rem;
+}
+
+// navigation
+.nav-link {
+  color: $black;
+}
+
+.nav-link.active {
+  background-color: $primary;
+  color: $white;
+}
+
+// moment image carousel
+
+.post-image-carousel-frame {
+  height: auto;
+  background-color: $gray-800;
+}
+
+.post-image-carousel-frame .carousel-inner {
+  height: 100%;
+}
+
+.post-image-carousel-frame .carousel-inner {
+  height: 100%;
+}
+
+.post-image-carousel-frame .active.carousel-item,
+.post-image-carousel-frame .carousel-item-prev,
+.post-image-carousel-frame .carousel-item-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.post-image-carousel-frame .carousel-image {
+  object-fit: contain;
+  width: auto;
+}
+
+.post-image-carousel-frame.single-image .carousel-indicators,
+.post-image-carousel-frame.single-image .carousel-control-prev,
+.post-image-carousel-frame.single-image .carousel-control-next {
+  display: none;
+}
+
+.danger-toast .toast-header {
+  background-color: lighten($danger, 25%);
+  color: darken($danger, 25%);
+}
+
+.success-toast .toast-header {
+  background-color: $green-lighter-1;
+  color: $green-darker-1;
+}
+
+.reaction-tooltip .tooltip-arrow {
+  display: none;
+}
+
+.reaction-tooltip .tooltip-inner {
+  border-radius: 9999px;
+  border: $gray-300 solid 1px;
+  max-width: 415px;
+  background-color: #fff;
+}
+
+#feed-tabs-tab-content {
+  border-left: 0;
+}
+
+#feed-tabs-tab-sidebar {
+  border-right: 0;
+}
+
+.custom-tooltip .tooltip-arrow {
+  display: none;
+}
+
+.custom-tooltip .tooltip-inner {
+  border: $gray-300 solid 1px;
+  background-color: #fff;
+  color: $gray-800;
+  max-width: 320px;
+  --bs-tooltip-opacity: 1 !important;
+  font-size: var(--bs-body-font-size);
+  padding: 0;
+  text-align: left;
+}
+
+.custom-tooltip.show {
+  opacity: 1 !important;
+}
+
+.challenge-content a {
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
+
+.slide-content {
+  text-shadow:
+    0 0 8px rgba(255, 255, 255, 1), /* Intermediate fade */
+    0 0 12px rgba(255, 255, 255, 0.8), /* Further fade */
+    0 0 16px rgba(255, 255, 255, 0.6); /* Fades more at the end */
+}
+
+.slide-content {
+  font-size: 40px;
+}
+.slide-content h2 {
+  font-size: 80px;
+  margin-bottom: 24px;
+}
+.slide-content h3 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+.slide-content h4 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+// Hack to align images in markdown
+img[src*='#left'] {
+  float: left;
+  margin: 10px 32px 10px 0;
+}
+
+img[src*='#right'] {
+  float: right;
+  margin: 10px 0 10px 32px;
+}
+
+img[src*='#center'] {
+  display: block;
+  margin: 10px auto;
+}
+
+.slide-content li::marker {
+  color: #EE7670;
+}
+
+.contains-task-list {
+  padding-left: 1rem;
+}
+
+.task-list-item {
+  list-style-type: none;
+}
+
+.pulse-button {
+  -webkit-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+
+.pulse-button:hover {
+  -webkit-animation: none;
+  animation: none;
+}
+
+@keyframes pulse {
+  70% {
+    box-shadow: 0 0 0 15px;
+  }
+    100% {
+    box-shadow: 0 0 0 0;
+  }
+}
+
+.transition-background {
+  transition: background-color 1s ease-in-out;
+}
+
+.markdown-p {
+  margin-bottom: 1rem;
+}
+
+.markdown-p:last-of-type{
+  margin-bottom: 0;
+}
+
+.invalid-section .accordion-button {
+  background-color: $danger;
+  color: $white;
+}
+
+.text-3d {
+  margin-right: 4px;
+  color: black; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 
+    1px 1px 0 #000,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #000,
+}

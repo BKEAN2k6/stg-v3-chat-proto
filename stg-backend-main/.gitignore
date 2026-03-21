@@ -1,0 +1,10 @@
+/dist
+/coverage
+/node_modules
+.DS_Store
+.env
+.vscode
+
+# This file gets created by flyctl automatically. We want to hold on to only the
+# environment specific ones (like fly.production.toml), so this can be ignored.
+fly.toml

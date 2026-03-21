@@ -1,0 +1,20 @@
+# Development environment setup
+version: '3.1'
+
+services:
+  db:
+    container_name: stg_v2_db
+    image: timms/postgres-logging:11.1
+    restart: always
+    environment:
+      POSTGRES_DB: "stg_v2"
+      POSTGRES_USER: "stg_v2_user"
+      POSTGRES_PASSWORD: "stg_v2_pass"
+    ports:
+      - "5433:5432"
+
+  mailcatcher:
+    image: sj26/mailcatcher:latest
+    ports:
+    - "1025:1025"
+    - "1080:1080"
