@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2022"],
+    "strict": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["xo.config.ts"]
+}

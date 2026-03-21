@@ -1,0 +1,27 @@
+.end-slide {
+  position: relative;
+  height: 100%;
+  padding: 6.25cqw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875cqw;
+  text-align: center;
+}
+
+.end-slide__subtitle {
+  font-size: 2.5cqw;
+  margin: 0;
+}
+
+.end-slide__title {
+  font-size: 4.25cqw;
+  margin: 0;
+}
+
+.end-slide__trophy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

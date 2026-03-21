@@ -1,0 +1,235 @@
+.yarl__fullscreen {
+
+  .yarl__navigation_prev,
+  .yarl__navigation_next {
+    .yarl__icon {
+      min-width: 32px;
+      min-height: 32px;
+      width: 5vw;
+      height: 5vw;
+    }
+  }
+
+  .yarl__navigation_prev {
+    padding-left: 0;
+  }
+
+  .yarl__navigation_next {
+    padding-right: 0;
+  }
+}
+
+.inline-slides {
+  .yarl__container {
+    background-color: white;
+  }
+
+  .yarl__slide {
+    border-radius: var(--bs-border-radius) !important;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+}
+
+:root {
+  --slide-read-overlay-exit-duration: 1600ms;
+}
+
+.slide-read-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1.5rem;
+  padding-inline: max(0rem, min(1.5rem, calc((100vw - 300px) / 2)));
+  z-index: 12000;
+  transition: background-color 300ms ease, opacity 300ms ease;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+}
+
+.slide-read-overlay[data-overlay-state='visible'] {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide-read-overlay--embedded {
+  position: absolute;
+  z-index: 10;
+  padding: 0;
+}
+
+.slide-read-overlay__scale {
+  transform-origin: center;
+  transform: scale(var(--slide-read-overlay-scale, 1));
+}
+
+.slide-read-overlay__card {
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto;
+  transform-origin: 50% 100%;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.slide-read-overlay__card[data-card-state='visible'] {
+  opacity: 1;
+}
+
+.slide-read-overlay__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  width: clamp(300px, 90vw, 420px);
+  margin: 0 auto;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.slide-read-overlay__content[data-slide-state='entering'] {
+  animation: slide-read-card-in 700ms ease forwards;
+}
+
+.slide-read-overlay__content[data-slide-state='exiting'] {
+  animation: slide-read-card-out var(--slide-read-overlay-exit-duration) ease forwards;
+}
+
+@keyframes slide-read-card-in {
+  from {
+    transform: translateY(160px) scale(0.95);
+  }
+
+  to {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.slide-read-overlay__content[data-slide-state='exiting'],
+.slide-read-overlay__content[data-slide-state='entering'] {
+  will-change: transform, opacity;
+}
+
+@keyframes slide-read-card-out {
+  from {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(500px) scale(0.95);
+    opacity: 0;
+  }
+}
+
+.slide-read-overlay__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-read-overlay__question {
+  color: white;
+  margin: 0;
+}
+
+.slide-read-overlay__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.slide-read-overlay__button {
+  min-width: 0;
+  width: 100%;
+}
+
+.slide-lightbox__frame {
+  position: relative;
+  width: min(100vw, calc(100vh * (16 / 9)));
+  height: min(calc(100vw * (9 / 16)), 100vh);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.slide-lightbox__frame--inline {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.slide-lightbox__frame .slide-shell {
+  width: 100%;
+}
+
+.slide-print-stage {
+  position: fixed;
+  top: -10000px;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.slide-print-stage__frame {
+  width: min(100vw, calc(100vh * (16 / 9)));
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-print-stage__content {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-print-stage__slide {
+  width: 100%;
+  height: 100%;
+}
+
+@media print {
+  body.slide-printing > *:not(.slide-print-stage) {
+    display: none !important;
+  }
+
+  body.slide-printing .slide-print-stage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    z-index: 10000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body.slide-printing .slide-print-stage__frame {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+
+  body.slide-printing .slide-print-stage__slide {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+}

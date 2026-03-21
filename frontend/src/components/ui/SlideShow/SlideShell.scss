@@ -1,0 +1,22 @@
+.slide-shell {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  container-type: size;
+}
+
+.slide-root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-cta-button {
+  font-size: 2.25cqw;
+  padding: 1cqw 2.5cqw;
+  border-radius: 3.125cqw;
+  min-height: 4cqw;
+  white-space: nowrap;
+}

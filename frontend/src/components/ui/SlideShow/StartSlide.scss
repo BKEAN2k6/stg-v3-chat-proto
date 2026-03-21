@@ -1,0 +1,72 @@
+.start-slide__inner {
+  height: 100%;
+  padding: 6.25cqw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-slide__layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.start-slide__illustration,
+.start-slide__card {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.start-slide__illustration {
+  align-items: center;
+}
+
+.start-slide__image {
+  margin-right: 5cqw;
+  height: 40cqw;
+  width: auto;
+  max-height: 100%;
+}
+
+.start-slide__card {
+  padding: 2.5cqw;
+  border-radius: 1.5cqw;
+  background-color: #fff;
+  box-shadow:
+    0 0.8cqw 2.3cqw rgba(0, 0, 0, 0.16),
+    0 0.3cqw 0.9cqw rgba(15, 23, 42, 0.12);
+  text-align: center;
+  gap: 1.25cqw;
+}
+
+.start-slide__card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.625cqw;
+}
+
+.start-slide__chapter {
+  font-size: 6.25cqw;
+  margin: 0;
+}
+
+.start-slide__strength {
+  font-size: 3.75cqw;
+  margin: 0;
+}
+
+.start-slide__age {
+  font-size: 2.5cqw;
+  margin: 0;
+}
+
+.start-slide__count {
+  font-size: 1.875cqw;
+  margin: 0;
+}

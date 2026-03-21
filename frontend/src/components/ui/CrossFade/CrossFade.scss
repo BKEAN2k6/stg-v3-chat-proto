@@ -1,0 +1,50 @@
+.cross-fade-container {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  isolation: isolate;
+  position: relative; /* ensures z-index stacking context */
+}
+
+.cross-fade-transition {
+  grid-area: 1 / 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-behavior: normal;
+  transition-duration: var(--crossfade-duration, 500ms);
+
+  /* ensure both layers overlap correctly */
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* incoming layer */
+.cross-fade-transition.to {
+  opacity: 1;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+/* outgoing layer */
+.cross-fade-transition.from {
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none; /* prevent clicks / focus */
+}
+
+/* safety: when an outgoing element is hidden via aria-hidden/inert */
+.cross-fade-transition[aria-hidden='true'],
+.cross-fade-transition[inert] {
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* optional smoother visual isolation if you need stacking effects */
+.cross-fade-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}

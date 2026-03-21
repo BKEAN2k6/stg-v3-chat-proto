@@ -1,0 +1,156 @@
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-2px, -2px) rotate(-0.5deg);
+  }
+
+  20% {
+    transform: translate(2px, 2px) rotate(0.5deg);
+  }
+
+  30% {
+    transform: translate(-3px, 1px) rotate(-0.5deg);
+  }
+
+  40% {
+    transform: translate(3px, -1px) rotate(0.5deg);
+  }
+
+  50% {
+    transform: translate(-1px, 3px) rotate(-0.5deg);
+  }
+
+  60% {
+    transform: translate(1px, -2px) rotate(0.5deg);
+  }
+
+  70% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(3px, -1px) rotate(-0.5deg);
+  }
+
+  90% {
+    transform: translate(-1px, 3px) rotate(0.5deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+.shake-1 {
+  animation: shake 1.5s infinite;
+}
+
+.shake-2 {
+  animation: shake 1.2s infinite;
+}
+
+.shake-3 {
+  animation: shake 1s infinite;
+}
+
+.shake-4 {
+  animation: shake 0.8s infinite;
+}
+
+.shake-5 {
+  animation: shake 0.6s infinite;
+}
+
+.shake-6 {
+  animation: shake 0.5s infinite;
+}
+
+.shake-7 {
+  animation: shake 0.4s infinite;
+}
+
+.shake-8 {
+  animation: shake 0.3s infinite;
+}
+
+.shake-9 {
+  animation: shake 0.2s infinite;
+}
+
+.shake-10 {
+  animation: shake 0.1s infinite;
+}
+
+.shake-1,
+.shake-2,
+.shake-3,
+.shake-4,
+.shake-5,
+.shake-6,
+.shake-7,
+.shake-8,
+.shake-9,
+.shake-10 {
+  transform-origin: center;
+  display: inline-block;
+}
+
+.explode {
+  animation: explodeAndReturn 1.2s ease-out;
+}
+
+@keyframes explodeAndReturn {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  20% {
+    transform: scale(1.5) rotate(5deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(20);
+    opacity: 0;
+  }
+
+  90% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  10% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.zoom-fade {
+  animation: zoomInOut 5s ease-in-out forwards;
+}

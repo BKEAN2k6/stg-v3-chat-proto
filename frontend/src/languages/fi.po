@@ -1,0 +1,2732 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-02-12 08:47+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fi\n"
+
+#: src/pages/games/quiz/StrengthSelect.tsx:76
+msgid "— None —"
+msgstr "- Tyhjä -"
+
+#. placeholder {0}: comments.length
+#: src/components/ui/PostCard/PostInteractions.tsx:167
+msgid "{0, plural, one {# comment} other {# comments}}"
+msgstr "{ 0, plural, one {# kommentti} other {# kommenttia} }"
+
+#. placeholder {0}: reactions.length
+#: src/components/ui/PostCard/PostInteractions.tsx:146
+msgid "{0, plural, one {# reaction} other {# reactions}}"
+msgstr "{ 0, plural, one {# reaktio} other {# reaktiota} }"
+
+#. placeholder {0}: game.players.length
+#. placeholder {0}: quiz.players.length
+#: src/pages/games/GroupGameLobbyPage.tsx:250
+#: src/pages/games/quiz/host/StartScreen.tsx:109
+msgid "{0, plural, one {participant} other {participants}}"
+msgstr "{ 0, plural, one {osallistuja} other {osallistujat} }"
+
+#. placeholder {0}: results.length
+#: src/pages/games/memory-game/HighestScores.tsx:57
+msgid "{0, plural, one {Winner} other {Winners}}"
+msgstr "{ 0, plural, one {Voittaja} other {Voittajat} }"
+
+#. placeholder {0}: createdBy.firstName
+#. placeholder {1}: createdBy.lastName
+#: src/components/ui/PostCard/OnboardingCompletedContent.tsx:19
+msgid "{0} {1} completed the onboarding!"
+msgstr "{0} {1} suoritti perehdytyksen!"
+
+#. placeholder {0}: created.name
+#: src/pages/community-settings/CommunitySubcription.tsx:278
+#: src/pages/community-settings/CommunitySubcription.tsx:320
+msgid "{0} has been added."
+msgstr "{0} on lisätty."
+
+#. placeholder {0}: result.nickname
+#. placeholder {1}: result.pairs
+#. placeholder {2}: result.pairs
+#: src/pages/games/memory-game/HighestScores.tsx:64
+msgid "{0} with {1} {2, plural, one {pair} other {pairs}}."
+msgstr "{0} {1} {2, plural, one {parilla} other {parilla}}."
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:38
+msgid "{capitalizedGroupName} completed a goal!"
+msgstr "{capitalizedGroupName} saavutti tavoitteen!"
+
+#: src/components/ui/PostCard/LessonCompletedContent.tsx:40
+msgid "{capitalizedGroupName} completed a lesson!"
+msgstr "{capitalizedGroupName} suoritti oppintunnin!"
+
+#: src/components/ui/PostCard/StrengthCompletedContent.tsx:39
+msgid "{capitalizedGroupName} completed the strength!"
+msgstr "{capitalizedGroupName} sai vahvuuden valmiiksi!"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:78
+msgid "{completedCount} times"
+msgstr "{completedCount} kertaa"
+
+#: src/components/ui/PostCard/StrengthCompletedContent.tsx:44
+msgid "{strengthTranslation} completed!"
+msgstr "{strengthTranslation} suoritettu!"
+
+#: src/pages/home/components/CommunityStats.tsx:145
+#: src/pages/home/components/TopContributorsModal.tsx:32
+msgid "{totalContributors, plural, one {Contributor this week} other {Contributors this week}}"
+msgstr "{ totalContributors, plural, one {Osallistuja tällä viikolla} other {Osallistujaa tällä viikolla} }"
+
+#: src/pages/home/components/CommunityStats.tsx:105
+#: src/pages/home/components/TopStrengthsModal.tsx:34
+msgid "{totalStrengths, plural, one {Strength this week} other {Strengths this week}}"
+msgstr "{ totalStrengths, plural, one {Vahvuus tällä viikolla} other {Vahvuutta tällä viikolla} }"
+
+#: src/components/MediaUpload.tsx:177
+msgid "<0>Add</0> <1>Images</1>"
+msgstr "<0>Lisää</0> <1>Kuvia</1>"
+
+#: src/components/MomentForm.tsx:176
+msgid "<0>Add</0> <1>Strength</1>"
+msgstr "<0>Lisää</0> <1>Vahvuus</1>"
+
+#: src/pages/register/components/EmailSent.tsx:17
+msgid "<0>An email has been sent to {email}.</0><1>Please check your inbox to log in.</1>"
+msgstr "<0>Sähköposti on lähetetty osoitteeseen {email}.</0><1>Ole hyvä ja tarkista postilaatikkosi kirjautuaksesi sisään.</1>"
+
+#: src/pages/materials/article/ArticlePage.tsx:87
+msgid "<0>Article not available in this language.</0>"
+msgstr "<0>Artikkelia ei ole saatavilla tällä kielellä.</0>"
+
+#: src/pages/materials/article-gategory/ArticleCategoryPage.tsx:179
+msgid "<0>Category not available in this language.</0>"
+msgstr "<0>Kategoria ei ole saatavilla tällä kielellä.</0>"
+
+#: src/pages/strength-goals/GoalsPage.tsx:227
+msgid "<0>Clear goals strengthen learning and teamwork!</0><1>Are there challenges in the group with maintaining a peaceful work environment, perseverance, or friendly interaction? The goal-setting tool helps to establish shared, positively framed objectives and tracks the progress.</1><2>Pedagogically valuable feedback supports motivation and engages the group in skill development.</2>"
+msgstr "<0>Selkeät tavoitteet vahvistavat oppimista ja ryhmätyöskentelyä!</0><1>Onko ryhmässä haasteita työrauhan, sinnikkyyden tai ystävällisen vuorovaikutuksen kanssa? Tavoitetyökalu auttaa asettamaan yhteiset, positiivisesti muotoillut tavoitteet ja seuraamaan edistymistä.</1><2>Pedagogisesti hyödyllinen palaute tukee motivaatiota ja sitouttaa ryhmän taitojen kehittämiseen.</2>"
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:15
+msgid "<0>See the Good!</0> is a positive pedagogy method that offers tools for strengthening character strengths as well as social and emotional skills."
+msgstr ""
+"<0>Huomaa hyvä!</0> on positiivisen kasvatuksen menetelmä. Se tarjoaa työkaluja luonteenvahvuuksien sekä tunne- ja vuorovaikutustaitojen vahvistamiseen.\n"
+""
+
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:55
+msgid "<0>To keep young learners engaged, your lesson slides include a fun goal-setting feature!</0><1>Each lesson can have a goal, and every time a student participates, whether by answering a question, sharing a thought, or taking part in an activity, the teacher or a student can tap the goal button on the screen. This moves the progress bar forward, creating a sense of achievement.</1><2>Once the goal is reached, a celebration appears, reinforcing positive engagement and participation. Use this feature to make learning about character strengths interactive and rewarding!</2>"
+msgstr "<0>Pidä oppilaat innostuneina hauskan tavoitetyökalun avulla!</0><1>Jokaisella oppituokiolla voi olla oma tavoite, ja aina kun oppilas tai ryhmä onnistuu tavoitteen suunnassa, napautetaan tavoitepainiketta näytöllä. Tämän voi tehdä niin opettaja kuin oppilaskin – edistymisen huomaaminen tuo onnistumisen tunteen ja motivoi jatkossakin toimimaan tavoitteen mukaisesti.</1><2>Kun tavoite saavutetaan, näyttöön ilmestyy iloinen Vahvuusvariksen juhla-animaatio, joka vahvistaa myönteistä osallistumista ja kannustaa oppimiseen. Hyödynnä tavoitetyökalua, jotta luonteenvahvuuksien oppimisesta tulee vuorovaikutteista ja palkitsevaa!</2>"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:108
+msgid "16 cards"
+msgstr "16 korttia"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:111
+msgid "36 cards"
+msgstr "36 korttia"
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:25
+msgid "A good rhythm is one lesson per week, but you can move faster or slower to suit your schedule."
+msgstr "Hyvä rytmi on yksi oppituokio viikossa, mutta voitte edetä nopeammin tai hitaammin oman aikataulusi mukaan."
+
+#: src/pages/ForgotPasswordPage.tsx:44
+msgid "A link has been sent to your email. Please open it with the device that you want to login with."
+msgstr "Sähköpostiisi on lähetetty linkki. Avaa se laitteella, jolla haluat kirjautua sisään."
+
+#: src/components/UiVersionCheck.tsx:100
+msgid "A new version of the app is available. Please reload the page to update."
+msgstr "Sovelluksesta on saatavilla uusi versio. Lataa sivu uudelleen päivittääksesi sen."
+
+#: src/pages/home/components/Onboarding/steps/Games.tsx:9
+msgid "A strength sprint is an exercise that boosts positive interaction within your group! It helps everyone notice the good and recognize strengths in each other."
+msgstr "Vahvuustuokio on harjoitus, joka lisää positiivista vuorovaikutusta ryhmässä! Se auttaa huomaaman hyvää ja tunnistamaan vahvuuksia jokaisessa ryhmän jäsenessä."
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:9
+msgid "A warm welcome to the <0>See the Good!</0> service. We’re glad to have you on board!"
+msgstr "Sydämellisesti tervetuloa <0>Huomaa hyvä!</0> -palveluun. Hienoa, että olet mukana!"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:91
+msgid "A4"
+msgstr "A4"
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:94
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:66
+msgid "Accept challenge"
+msgstr "Hyväksy haaste"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:76
+msgid "Accepted"
+msgstr "Hyväksytty"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:86
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:114
+msgid "Achievements"
+msgstr "Saavutukset"
+
+#: src/pages/home/components/GoalBanner.tsx:93
+msgid "Achieving goals becomes a shared experience - one that builds connection and motivation."
+msgstr "Juhlikaa onnistumisia ja tavoitteen saavuttamista. Nämä pedagogiset vuorovaikutushetket vahvistavat koko ryhmää ja sen oppimismotivaatiota."
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:107
+#: src/pages/coaching/CoachingPlansPage.tsx:266
+#: src/pages/coaching/CoachingPlansPage.tsx:346
+#: src/pages/coaching/CoachingPlansPage.tsx:417
+msgid "Actions"
+msgstr "Toimenpiteet"
+
+#: src/pages/coaching/CoachingPage.tsx:114
+#: src/pages/strength-goals/GoalsPage.tsx:293
+msgid "Active"
+msgstr "Aktiiviset"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:68
+msgid "Active (manual billing)"
+msgstr "Aktiivinen (manuaalinen laskutus)"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:67
+msgid "Active (online billing)"
+msgstr "Aktiivinen (verkkolaskutus)"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:113
+msgid "Add an optional description for the goal."
+msgstr "Lisää tavoitteelle valinnainen kuvaus."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:153
+msgid "Add an optional welcome message"
+msgstr "Lisää valinnainen tervetuliaisviesti"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:328
+msgid "Add Base Prompt"
+msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:657
+#~ msgid "Add contact"
+#~ msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:242
+msgid "Add Plan"
+msgstr ""
+
+#: src/pages/materials/article/ArticleDetailsForm.tsx:91
+#: src/pages/scheduled-posts/CoachPostForm.tsx:116
+msgid "Add Strength"
+msgstr "Lisää vahvuus"
+
+#: src/components/MomentForm.tsx:200
+#: src/components/ui/PostCard/CommentForm.tsx:123
+msgid "Add text or image to post"
+msgstr "Lisää teksti tai kuva viestiin"
+
+#: src/pages/games/GroupGameJoinPage.tsx:279
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:190
+#: src/pages/register/components/NamesForm.tsx:46
+msgid "Add your name"
+msgstr "Lisää nimesi"
+
+#: src/pages/register/components/OrganizationForm.tsx:62
+msgid "Add your organization details"
+msgstr "Lisää organisaatiosi tiedot"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:587
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:575
+#~ msgid "Additional feedback?"
+#~ msgstr ""
+
+#: src/pages/materials/article-gategory/ArticleCategoryGridView.tsx:48
+msgid "Additional materials"
+msgstr "Lisämateriaalit"
+
+#: src/pages/community-settings/CommunityMembers.tsx:142
+msgid "Admin"
+msgstr "Ylläpitäjä"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:52
+msgid "After completing a lesson, mark it as finished on the last page. Your group will then receive a badge! The next lesson will automatically appear on your home page."
+msgstr "Kun olet käynyt oppituokion läpi, merkitse se valmiiksi viimeisellä sivulla. Näin ryhmäsi saa suoritusmerkinnän! Seuraava oppituokio ilmestyy automaattisesti etusivulle."
+
+#: src/components/menu/SideMenuLinks.tsx:162
+msgid "AI Logs"
+msgstr "AI-lokit"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:797
+msgid "AI Summary:"
+msgstr ""
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:119
+msgid "All done, great job!"
+msgstr "Valmista tuli, hienoa!"
+
+#: src/components/menu/GroupDropdown.tsx:47
+#: src/pages/groups/GroupsPage.tsx:190
+msgid "All groups"
+msgstr "Kaikki ryhmät"
+
+#: src/pages/home/components/Onboarding/steps/CookieConsent.tsx:33
+#: src/pages/profile/ConsentsForm.tsx:54
+msgid "Allow Vimeo cookies"
+msgstr "Salli Vimeon evästeet"
+
+#: src/components/LoginModal.tsx:97
+msgid "An account with this email already exists."
+msgstr "Käyttäjätili tällä sähköpostiosoitteella on jo olemassa."
+
+#: src/pages/profile/EmailForm.tsx:40
+msgid "An email has been sent to <0>{email}</0>. Check your inbox for further instructions."
+msgstr "Sähköposti on lähetetty osoitteeseen <0>{email}</0>. Tarkista postilaatikkosi saadaksesi lisäohjeita."
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:85
+msgid "and"
+msgstr "ja"
+
+#: src/components/menu/SideMenuLinks.tsx:114
+msgid "Animations"
+msgstr "Animaatiot"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:103
+msgid "Answered"
+msgstr "Vastattu"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:102
+msgid "Answers"
+msgstr "Vastaukset"
+
+#. placeholder {0}: plan.title
+#. placeholder {0}: prompt.name
+#: src/pages/coaching/CoachingPlansPage.tsx:125
+#: src/pages/coaching/CoachingPlansPage.tsx:178
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr ""
+
+#: src/pages/coaching/CoachingPage.tsx:53
+msgid "Are you sure you want to delete \"{sessionTitle}\"?"
+msgstr ""
+
+#: src/pages/strength-goals/GoalsPage.tsx:173
+msgid "Are you sure you want to remove all completed and active goals for this strength? This can't be undone."
+msgstr "Oletko varma, että haluat poistaa kaikki tämän vahvuuden saavutetut ja aktiiviset tavoitteet? Tätä ei voi perua."
+
+#: src/pages/games/GroupGameLobbyPage.tsx:120
+#: src/pages/games/quiz/host/useHostQuizController.ts:160
+msgid "Are you sure you want to remove the player."
+msgstr ""
+"Haluatko varmasti poistaa pelaajan.\n"
+""
+
+#: src/components/ui/PostCard/Comment.tsx:91
+msgid "Are you sure you want to remove this comment. This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän kommentin? Tätä ei voi perua."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:106
+msgid "Are you sure you want to remove this invitation from the community? This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän kutsun yhteisöön. Tätä ei voi perua."
+
+#: src/components/ui/PostCard/PostTools.tsx:28
+msgid "Are you sure you want to remove this moment. This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän hetken? Tätä ei voi perua."
+
+#: src/pages/community-settings/CommunityMembers.tsx:79
+msgid "Are you sure you want to remove this user from the community. This can't be undone."
+msgstr "Haluatko varmasti poistaa tämän käyttäjän yhteisöstä. Tätä ei voi perua."
+
+#: src/components/ui/AvatarInput.tsx:124
+msgid "Are you sure you want to remove your avatar image? This can't be undone."
+msgstr "Oletko varma että haluat poistaa avatar-kuvasi? Tätä ei voi perua."
+
+#: src/pages/home/components/StrengthCarousel/StrengthDropdownItem.tsx:145
+msgid "Articles read"
+msgstr "Luetut artikkelit"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:92
+msgid "At the end of the sprint, you’ll receive a summary of both your individual strengths and the shared strengths within the group. Positive feedback not only boosts self-awareness but also strengthens community bonds and creates a joyful, inspiring atmosphere."
+msgstr "Harjoituksen päätteeksi saat yhteenvedon omista ja ryhmän yhteisistä vahvuuksista. Positiivinen palaute ei ainoastaan tue itsetuntemusta, vaan lisää myös yhteishenkeä ja vahvistaa myönteisiä tunteita."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:135
+msgid "At the moment, you can only invite users that are already registered to the service."
+msgstr "Tällä hetkellä voit kutsua vain käyttäjiä, jotka ovat jo rekisteröityneet palveluun."
+
+#: src/pages/community-settings/CommunityAvatar.tsx:120
+#: src/pages/community-settings/CommunitySettings.tsx:101
+#: src/pages/profile/AvatarForm.tsx:71
+#: src/pages/profile/EditProfilePage.tsx:41
+msgid "Avatar"
+msgstr "Avatar"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:67
+#: src/pages/profile/AvatarForm.tsx:43
+msgid "Avatar image updated"
+msgstr "Avatarin kuva päivitetty"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:47
+msgid "Awesome!"
+msgstr "Mahtavaa!"
+
+#: src/pages/coaching/CoachingSessionPage.tsx:206
+msgid "Back"
+msgstr ""
+
+#: src/pages/coaching/CoachingSessionPage.tsx:379
+msgid "Back to Sessions"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:260
+#: src/pages/coaching/CoachingPlansPage.tsx:516
+msgid "Base Prompt"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:772
+msgid "Base Prompt Content"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:218
+msgid "Base prompt created."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:190
+msgid "Base prompt deleted."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:210
+msgid "Base prompt updated."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:325
+msgid "Base Prompts"
+msgstr ""
+
+#: src/components/menu/SideMenuLinks.tsx:156
+msgid "Billing"
+msgstr "Laskutus"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:647
+msgid "Billing contact"
+msgstr "Laskutusyhteyshenkilö"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:400
+#: src/pages/community-settings/CommunitySubcription.tsx:573
+msgid "Billing group"
+msgstr "Laskutusryhmä"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:319
+msgid "Billing group created"
+msgstr "Laskutusryhmä luotu"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:378
+msgid "Billing settings updated"
+msgstr "Laskutusasetukset päivitetty"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:48
+msgid "Brilliant!"
+msgstr "Loistavaa!"
+
+#: src/pages/coaching/CoachingPage.tsx:54
+#: src/pages/coaching/CoachingPlansPage.tsx:126
+#: src/pages/coaching/CoachingPlansPage.tsx:179
+#: src/pages/coaching/CoachingPlansPage.tsx:620
+#: src/pages/coaching/CoachingPlansPage.tsx:702
+#: src/pages/community-settings/CommunitySubcription.tsx:686
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: src/components/MomentForm.tsx:194
+#: src/components/ui/PostCard/CommentForm.tsx:117
+msgid "Cancel edit"
+msgstr "Peruuta muokkaus"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:195
+msgid "Cannot delete: base prompt is in use by plans."
+msgstr ""
+
+#: src/components/ui/PostCard/ChallengeParticipantModal.tsx:24
+msgid "Challenge participants"
+msgstr "Haasteen osallistujat"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:102
+msgid "Chapters"
+msgstr "Tuokiot"
+
+#: src/pages/coaching/CoachingPage.tsx:229
+msgid "Check back later for new coaching sessions."
+msgstr ""
+
+#: src/pages/register/RegisterCodePage.tsx:48
+msgid "Check the code and try again."
+msgstr "Tarkista koodi ja yritä uudelleen."
+
+#: src/pages/register/components/EmailSent.tsx:14
+msgid "Check your email"
+msgstr "Tarkista sähköpostisi"
+
+#: src/components/LoginModal.tsx:73
+msgid "Check your email and password."
+msgstr "Tarkista sähköpostiosoitteesi ja salasanasi."
+
+#: src/pages/games/GroupGameJoinPage.tsx:349
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:260
+msgid "Choose avatar"
+msgstr "Valitse avatar"
+
+#: src/pages/games/GroupGameJoinPage.tsx:366
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:279
+msgid "Choose avatar {slug}"
+msgstr "Valitse avatar {slug}"
+
+#: src/pages/games/GroupGameJoinPage.tsx:317
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:228
+msgid "Choose color"
+msgstr "Valitse väri"
+
+#: src/pages/games/GroupGameJoinPage.tsx:334
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:245
+msgid "Choose color {avatarColor}"
+msgstr "Valitse väri {avatarColor}"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:72
+msgid "Choose the strength you want to work on."
+msgstr "Valitse harjoiteltava vahvuus."
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:22
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:41
+msgid "Class 1 - 2"
+msgstr "Luokat 1 - 2"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:23
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:42
+msgid "Class 3 - 4"
+msgstr "Luokat 3 - 4"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:24
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:43
+msgid "Class 5 - 6"
+msgstr "Luokat 5 - 6"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:25
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:44
+msgid "Class 7 - 9"
+msgstr "Luokat 7 - 9"
+
+#: src/components/ui/AvatarInput.tsx:200
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: src/components/ui/AvatarInput.tsx:230
+msgid "Clear current"
+msgstr "Poista nykyinen"
+
+#: src/components/menu/NotificationsMenu.tsx:128
+msgid "Clear Notifications"
+msgstr "Kuittaa ilmoitukset"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:272
+msgid "Click here to set a goal for the lesson!"
+msgstr "Aseta tavoite oppituokiolle painamalla tästä"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:269
+msgid "Click here to start a new goal!"
+msgstr "Paina tästä aloittaaksesi uusi tavoite!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:170
+msgid "Click me!"
+msgstr "Klikkaa minua!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:75
+msgid "Click the goal to record your group’s progress."
+msgstr "Klikkaa tavoitetta ja ryhmäsi edistymien tallentuu."
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:135
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:86
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:141
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:50
+#: src/pages/coaching/CoachingPlansPage.tsx:854
+#: src/pages/groups/GroupModal.tsx:137
+#: src/pages/home/components/GoalBanner.tsx:107
+#: src/pages/StartPage.tsx:106
+msgid "Close"
+msgstr "Sulje"
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:43
+#: src/components/ui/PostCard/CoachPostHeader.tsx:37
+msgid "Coach"
+msgstr "Koutsi"
+
+#: src/components/menu/SideMenuLinks.tsx:98
+#: src/pages/coaching/CoachingPage.tsx:69
+#: src/pages/coaching/CoachingPage.tsx:75
+msgid "Coach Kaisa"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:235
+msgid "Coaching Admin"
+msgstr ""
+
+#: src/components/menu/SideMenuLinks.tsx:168
+msgid "Coaching Plans"
+msgstr ""
+
+#: src/components/ui/PostCard/PostInteractions.tsx:162
+msgid "Comment"
+msgstr "Kommentoi"
+
+#: src/components/menu/NotificationsMenuItem.tsx:99
+msgid "commented on your post"
+msgstr "kommentoi julkaisuasi"
+
+#: src/pages/community-settings/CommunityDetails.tsx:92
+msgid "Community description"
+msgstr "Yhteisön kuvaus"
+
+#: src/pages/community-settings/CommunityDetails.tsx:53
+msgid "Community details updated"
+msgstr "Yhteisön tiedot päivitetty"
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:71
+msgid "Community Invitations"
+msgstr "Yhteisön kutsut"
+
+#: src/pages/community-settings/CommunityDetails.tsx:72
+msgid "Community Name"
+msgstr "Yhteisön nimi"
+
+#: src/components/menu/CommunityDropdown.tsx:89
+msgid "Community Settings"
+msgstr "Yhteisön asetukset"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:31
+msgid "Complete lessons to earn trophies"
+msgstr "Suorita oppituokioita ansaitaksesi pokaaleja"
+
+#: src/pages/coaching/CoachingPage.tsx:195
+#: src/pages/strength-goals/GoalsPage.tsx:338
+msgid "Completed"
+msgstr "Saavutetut"
+
+#: src/components/ui/StrengthGoal/GoalCardContent.tsx:73
+msgid "Completed {completedCount, plural, one {# time} other {# times}}"
+msgstr "Saavutettu {completedCount, plural, one {# kerran} other {# kertaa}}"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:107
+msgid "Completed 1 time"
+msgstr "Saavutettu 1 kerran"
+
+#: src/pages/coaching/CoachingPage.tsx:175
+msgid "Completed sessions"
+msgstr ""
+
+#: src/pages/register/components/ConfirmJoin.tsx:19
+msgid "Confirm"
+msgstr "Vahvista"
+
+#: src/pages/register/components/ConfirmJoin.tsx:15
+msgid "Confirm that you want to join the community."
+msgstr "Vahvista, että haluat liittyä yhteisöön."
+
+#: src/pages/profile/PasswordForm.tsx:82
+msgid "Confirm your new password"
+msgstr "Vahvista uusi salasanasi"
+
+#: src/pages/profile/EditProfilePage.tsx:35
+msgid "Consents"
+msgstr "Suostumukset"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:277
+msgid "Contact created"
+msgstr "Yhteystiedot luotu"
+
+#: src/components/ui/StrengthGoal/CelebrationScreen.tsx:56
+#: src/pages/games/GroupGameJoinPage.tsx:268
+#: src/pages/games/GroupGameJoinPage.tsx:306
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:179
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:217
+#: src/pages/register/components/ConfirmOnboarding.tsx:22
+#: src/pages/register/components/RegisterForm.tsx:23
+#: src/pages/register/RegisterCodePage.tsx:75
+msgid "Continue"
+msgstr "Jatka"
+
+#: src/pages/coaching/CoachingPage.tsx:93
+msgid "Continue your sessions"
+msgstr ""
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:106
+msgid "Cookies"
+msgstr "Evästeet"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:106
+msgid "Correct"
+msgstr "Oikein"
+
+#: src/pages/register/components/OrganizationForm.tsx:68
+msgid "Country"
+msgstr "Maa"
+
+#: src/pages/groups/GroupsPage.tsx:115
+msgid "Create a group and start practicing your strength related skills together."
+msgstr "Luo ryhmä ja aloita vahvuuksiin liittyvien taitojen harjoittelu yhdessä."
+
+#: src/pages/home/components/CreateGoalCard.tsx:25
+msgid "Create a new goal"
+msgstr "Luo uusi tavoite"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:647
+msgid "Create Base Prompt"
+msgstr ""
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:74
+#: src/pages/home/components/CreateGoalCard.tsx:51
+#: src/pages/strength-goals/GoalsPage.tsx:244
+#: src/pages/strength-goals/GoalsPage.tsx:285
+msgid "Create goal"
+msgstr "Luo tavoite"
+
+#: src/pages/groups/GroupModal.tsx:84
+#: src/pages/groups/GroupsPage.tsx:127
+#: src/pages/groups/GroupsPage.tsx:169
+msgid "Create group"
+msgstr "Luo ryhmä"
+
+#: src/pages/community-settings/Invitation.tsx:41
+msgid "Create Invitation"
+msgstr "Luo kutsu"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:495
+msgid "Create Plan"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:150
+#: src/pages/coaching/CoachingPlansPage.tsx:217
+#: src/pages/coaching/CoachingPlansPage.tsx:414
+msgid "Created"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:761
+msgid "Created:"
+msgstr ""
+
+#: src/pages/profile/PasswordForm.tsx:53
+msgid "Current password"
+msgstr "Nykyinen salasana"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:97
+msgid "Day"
+msgstr "Päivä"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:99
+msgid "Days"
+msgstr "Päivää"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:390
+msgid "Debug Sessions"
+msgstr ""
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:100
+msgid "Decline"
+msgstr "Hylkää"
+
+#: src/pages/coaching/CoachingPage.tsx:55
+#: src/pages/coaching/CoachingPlansPage.tsx:127
+#: src/pages/coaching/CoachingPlansPage.tsx:180
+#: src/pages/coaching/CoachingPlansPage.tsx:306
+#: src/pages/coaching/CoachingPlansPage.tsx:371
+msgid "Delete"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:177
+msgid "Delete Base Prompt"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:124
+msgid "Delete Coaching Plan"
+msgstr ""
+
+#: src/pages/coaching/CoachingPage.tsx:52
+msgid "Delete Session"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:133
+#: src/pages/coaching/CoachingPlansPage.tsx:189
+msgid "Deleted"
+msgstr ""
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:107
+#: src/pages/coaching/CoachingPlansPage.tsx:539
+msgid "Description"
+msgstr "Kuvaus"
+
+#: src/pages/community-settings/CommunitySettings.tsx:90
+#: src/pages/profile/EditProfilePage.tsx:29
+msgid "Details"
+msgstr "Tiedot"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:84
+msgid "Develop strengths"
+msgstr "Kehitä vahvuuksia"
+
+#: src/pages/home/components/CreateGoalCard.tsx:49
+msgid "Develop your groups's strengths with a new goal."
+msgstr "Kehitä vahvuuksia"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:58
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:37
+msgid "Diplomas"
+msgstr "Diplomit"
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:112
+msgid "Dismiss"
+msgstr "Piilota"
+
+#: src/pages/home/components/GoalBanner.tsx:68
+msgid "Do you know that moment when the whole class succeeds together? We want to help make those moments part of your everyday classroom experience."
+msgstr "Tiedätkö sen hetken, kun koko ryhmä onnistuu yhdessä? Me haluamme tehdä näistä hetkistä arkea kanssasi."
+
+#: src/components/ui/FortuneWheel/TaskModal.tsx:69
+msgid "Done"
+msgstr "Valmis"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:87
+msgid "Download diploma"
+msgstr "Lataa diplomi"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:285
+msgid "Draft"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:660
+msgid "e.g., Coach Kaisa"
+msgstr ""
+
+#: src/pages/register/components/OrganizationForm.tsx:102
+msgid "Early childhood education"
+msgstr "Varhaiskasvatus"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:39
+msgid "Earned by completing all lessons for a strength"
+msgstr "Ansaitaan suorittamalla kaikki vahvuuden oppituokiot"
+
+#: src/components/ui/PostCard/Comment.tsx:196
+#: src/components/ui/PostCard/PostTools.tsx:72
+#: src/pages/coaching/CoachingPlansPage.tsx:298
+#: src/pages/coaching/CoachingPlansPage.tsx:363
+#: src/pages/groups/GroupControls.tsx:17
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:645
+msgid "Edit Base Prompt"
+msgstr ""
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:49
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:74
+msgid "Edit goal"
+msgstr "Muokkaa tavoitetta"
+
+#: src/pages/groups/GroupModal.tsx:84
+msgid "Edit group"
+msgstr "Muokkaa ryhmää"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:493
+msgid "Edit Plan"
+msgstr ""
+
+#: src/pages/profile/EditProfilePage.tsx:47
+msgid "Email"
+msgstr "Sähköposti"
+
+#: src/components/LoginModal.tsx:114
+#: src/components/LoginModal.tsx:115
+#: src/pages/ForgotPasswordPage.tsx:60
+msgid "Email address"
+msgstr "Sähköpostiosoite"
+
+#: src/components/menu/SideMenuLinks.tsx:138
+#: src/pages/community-settings/CommunitySettings.tsx:120
+msgid "Emails"
+msgstr "Sähköpostit"
+
+#: src/components/ui/VimeoPlayer.tsx:233
+msgid "Enable Vimeo cookies"
+msgstr "Salli Vimeon evästeet"
+
+#: src/pages/profile/ConsentsForm.tsx:61
+msgid "Enabling Vimeo cookies allows videos hosted on <0>vimeo.com</0> to be displayed on our site. If you disable this option, videos from Vimeo will not be visible."
+msgstr "Vimeon evästeiden salliminen mahdollistaa <0>vimeo.com-sivustolta</0> liitettyjen videoiden näyttämisen sivustollamme. Jos poistat tämän vaihtoehdon käytöstä, Vimeon videot eivät näy."
+
+#: src/pages/games/quiz/host/RunScreen.tsx:110
+msgid "End game"
+msgstr "Lopeta peli"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:199
+msgid "End Game"
+msgstr "Lopeta peli"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:186
+msgid "End Sprint"
+msgstr "Lopeta tuokio"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:148
+msgid "End subscription"
+msgstr "Lopeta tilaus"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:146
+msgid "Ending..."
+msgstr "Loppuu..."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:506
+msgid "Ends"
+msgstr "Päättyy"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:104
+msgid "Ends at"
+msgstr "Päättyy"
+
+#: src/pages/games/GroupGameJoinPage.tsx:249
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:160
+msgid "Enter code to join"
+msgstr "Kirjoita koodi liittyäksesi"
+
+#: src/pages/register/RegisterCodePage.tsx:65
+msgid "Enter code to join your community"
+msgstr "Syötä koodi liittyäksesi yhteisöön"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:143
+msgid "Enter email"
+msgstr "Kirjoita sähköpostiosoite"
+
+#: src/pages/groups/GroupModal.tsx:110
+msgid "Enter group description"
+msgstr "Kirjoita ryhmän kuvaus"
+
+#: src/pages/groups/GroupModal.tsx:96
+msgid "Enter group name"
+msgstr "Kirjoita ryhmän nimi"
+
+#: src/pages/ForgotPasswordPage.tsx:65
+#: src/pages/register/components/EmailForm.tsx:29
+#: src/pages/register/components/EmailForm.tsx:37
+msgid "Enter your email"
+msgstr "Kirjoita sähköpostiosoitteesi"
+
+#: src/pages/register/components/NamesForm.tsx:52
+msgid "Enter your first name"
+msgstr "Kirjoita etunimesi"
+
+#: src/pages/register/components/NamesForm.tsx:67
+msgid "Enter your last name"
+msgstr "Kirjoita sukunimesi"
+
+#: src/pages/register/components/OrganizationForm.tsx:82
+msgid "Enter your organization"
+msgstr "Kirjoita organisaatiosi"
+
+#: src/pages/register/components/PasswordForm.tsx:35
+#: src/pages/register/components/PasswordForm.tsx:43
+msgid "Enter your password"
+msgstr "Syötä salasanasi"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:135
+#: src/pages/coaching/CoachingPlansPage.tsx:155
+#: src/pages/coaching/CoachingPlansPage.tsx:194
+#: src/pages/coaching/CoachingPlansPage.tsx:224
+msgid "Error"
+msgstr ""
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:166
+msgid "Everyone has completed!"
+msgstr "Kaikki ovat valmiina!"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingIntro.tsx:8
+msgid "Everything in See the Good! happens in groups. We’ve created the first group for you and next you can adjust its settings."
+msgstr "Kaikki Huomaa hyvä! -palvelussa tehdään ryhmissä. Olemme luoneet sinulle ensimmäisen ryhmän, ja seuraavaksi voit muuttaa sen asetuksia."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:70
+msgid "Expired"
+msgstr "Vanhentunut"
+
+#: src/components/menu/NotificationsMenu.tsx:106
+msgid "Failed to clear notifications."
+msgstr "Ilmoitusten kuittaaminen epäonnistui."
+
+#: src/pages/coaching/CoachingPlansPage.tsx:135
+msgid "Failed to delete."
+msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:292
+#~ msgid "Failed to load billing contacts"
+#~ msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:342
+#~ msgid "Failed to load billing group details."
+#~ msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:252
+#~ msgid "Failed to load billing groups"
+#~ msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:190
+msgid "Failed to load subscription"
+msgstr "Tilauksen lataaminen epäonnistui"
+
+#: src/components/menu/NotificationsMenu.tsx:76
+msgid "Failed to read notifications."
+msgstr "Ilmoitusten hakeminen epäonnistui."
+
+#: src/components/ui/PostModal.tsx:44
+msgid "Failed to read the post"
+msgstr "Julkaisun luku epäonnistui"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:142
+#: src/pages/games/quiz/host/useHostQuizController.ts:182
+msgid "Failed to remove player from the game."
+msgstr "Pelaajan poistaminen pelistä epäonnistui."
+
+#: src/pages/coaching/CoachingPlansPage.tsx:155
+#: src/pages/coaching/CoachingPlansPage.tsx:224
+msgid "Failed to save."
+msgstr ""
+
+#: src/pages/profile/EmailForm.tsx:31
+msgid "Failed to update email. Check your password and try again."
+msgstr "Sähköpostia ei onnistuttu päivittämään. Tarkista salasanasi ja yritä uudelleen."
+
+#: src/pages/profile/PasswordForm.tsx:39
+msgid "Failed to update password"
+msgstr "Salasanan päivittäminen epäonnistui"
+
+#: src/components/ui/AvatarInput.tsx:105
+msgid "Failed to upload the image. Please try again with another image."
+msgstr "Kuvan lataaminen epäonnistui. Yritä uudelleen toisella kuvalla."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:80
+msgid "Failed to verify email."
+msgstr "Sähköpostia ei onnistuttu vahvistamaan."
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:117
+msgid "Finish"
+msgstr "Valmis"
+
+#: src/pages/profile/DetailsForm.tsx:61
+#: src/pages/profile/DetailsForm.tsx:67
+#: src/pages/profile/DetailsForm.tsx:86
+#: src/pages/register/components/NamesForm.tsx:51
+msgid "First name"
+msgstr "Etunimi"
+
+#: src/components/LoginModal.tsx:153
+msgid "Forgot password?"
+msgstr "Unohditko salasanasi?"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:66
+msgid "Free trial"
+msgstr "Ilmainen kokeilu"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:20
+msgid "Fri"
+msgstr "Pe"
+
+#: src/pages/games/memory-game/HighestScores.tsx:52
+msgid "Game Over"
+msgstr "Peli loppui"
+
+#: src/pages/games/GroupGameJoinPage.tsx:258
+msgid "Game with this code was not found"
+msgstr "Peliä tällä koodilla ei löytynyt"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:76
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:53
+msgid "Games"
+msgstr "Pelit"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:801
+msgid "Generated:"
+msgstr ""
+
+#: src/pages/NotFoundPage.tsx:23
+msgid "Go back home"
+msgstr "Palaa etusivulle"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:74
+msgid "Goal in strength {strengthTranslation} completed"
+msgstr "Tavoite vahvuudessa {strengthTranslation} saavutettu"
+
+#: src/components/menu/SideMenuLinks.tsx:92
+#: src/pages/home/components/Achievements/Achievements.tsx:67
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:45
+#: src/pages/strength-goals/GoalsPage.tsx:223
+msgid "Goals"
+msgstr "Tavoitteet"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:225
+msgid "Good job!"
+msgstr "Hyvää työtä!"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:44
+msgid "Good!"
+msgstr "Hyvä!"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:69
+msgid "Grace period"
+msgstr "Karenssiaika"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:45
+msgid "Great!"
+msgstr "Hienoa!"
+
+#: src/pages/groups/GroupModal.tsx:104
+msgid "Group description"
+msgstr "Ryhmän kuvaus"
+
+#: src/pages/groups/GroupModal.tsx:90
+msgid "Group name"
+msgstr "Ryhmän nimi"
+
+#: src/pages/groups/GroupModal.tsx:118
+msgid "Group owner"
+msgstr "Ryhmän omistaja"
+
+#: src/pages/games/quiz/host/ResultScreen.tsx:453
+msgid "Group Results"
+msgstr "Ryhmän tulokset"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:58
+msgid "Group Settings"
+msgstr "Ryhmäasetukset"
+
+#: src/components/menu/SideMenuLinks.tsx:86
+#: src/pages/groups/GroupsPage.tsx:160
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: src/components/ui/PostCard/ChallengeThemeDefault.tsx:69
+msgid "have accepted"
+msgstr "ovat hyväksyneet"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:55
+msgid "Have fun while learning strengths"
+msgstr "Opi vahvuuksia hauskalla tavalla"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:118
+msgid "have opened"
+msgstr "ovat avanneet"
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:79
+msgid "Hey, nice to see you!"
+msgstr "Hei, mukava nähdä sinua!"
+
+#: src/pages/home/components/GoalBanner.tsx:65
+msgid "Hi Teacher!"
+msgstr "Moi Ope!"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:81
+msgid "Holiday calendar"
+msgstr "Joulukalenteri"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:79
+msgid "Holiday calendar starts in..."
+msgstr "Joulukalenterin alkuun..."
+
+#: src/components/menu/SideMenuLinks.tsx:60
+#: src/pages/home/HomePage.tsx:25
+msgid "Home"
+msgstr "Etusivu"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:17
+msgid "How did the practised strength show in your group?"
+msgstr "Mistä huomasit, että ryhmä harjoitteli taitoa sinnikkäästi?"
+
+#: src/pages/home/components/GoalBanner.tsx:83
+msgid "How does it work?"
+msgstr "Miten se toimii?"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:18
+msgid "How will you use this skill in future?"
+msgstr "Miten aiot hyödyntää opittua taitoa tulevaisuudessa?"
+
+#: src/components/ui/AvatarInput.tsx:103
+msgid "Image upload failed."
+msgstr "Kuvan lataus epäonnistui."
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:10
+msgid "In this task, you used <0>curiosity</0>, <1>love of learning</1>, and <2>perseverance</2>. You’ve earned your first See the Good! badge!"
+msgstr "Tässä tehtävässä käytettiin <0>uteliaisuutta</0>, <1>oppimisen iloa</1> ja <2>sinnikkyyttä</2>. Olet ansainnut ensimmäisen Huomaa hyvä! -suoritusmerkin."
+
+#: src/components/ui/AvatarInput.tsx:69
+msgid "Invalid file"
+msgstr "Virheellinen tiedosto"
+
+#: src/pages/register/RegisterCodePage.tsx:47
+msgid "Invitation not found."
+msgstr "Kutsua ei löydy."
+
+#: src/pages/community-settings/CommunitySettings.tsx:111
+msgid "Invitations"
+msgstr "Kutsut"
+
+#: src/pages/community-settings/CommunitySettings.tsx:133
+msgid "Invite"
+msgstr "Kutsu"
+
+#: src/pages/community-settings/Invitation.tsx:38
+msgid "Invite people"
+msgstr "Kutsu ihmisiä"
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:24
+msgid "Invite your fellow teachers to see the good every single day of the year!"
+msgstr "Kutsu opettajakollegasi mukaan huomaamaan hyvää vuoden jokaisena päivänä!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:82
+msgid "Invite your students to see the good and click the goal setting tool together. It motivates the whole group to practice."
+msgstr "Osallista oppilaat mukaan hyvän huomaamiseen ja painamaan tavoitetyökalua. Tämä innostaa koko ryhmää harjoittelemaan."
+
+#: src/components/menu/NotificationsMenuItem.tsx:143
+msgid "invited you to join the community "
+msgstr "kutsui sinut liittymään yhteisöön "
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:52
+msgid "It all starts with your group"
+msgstr "Kaikki alkaa ryhmästäsi"
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:18
+msgid "It’s best to go through the lessons in order, but you can always revisit previous ones. The strengths have a default order, which you can adjust if you wish."
+msgstr "Oppituokiot kannattaa käydä läpi järjestyksessä. Voit palata aiempiin oppituokioihin milloin tahansa. Vahvuuksille on annettu oletusjärjestys, jota voit muuttaa halutessasi."
+
+#: src/pages/StartPage.tsx:83
+msgid "Join a community"
+msgstr "Liity yhteisöön"
+
+#: src/pages/games/GroupGameJoinPage.tsx:409
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:222
+msgid "Just a moment, waiting for the game to start."
+msgstr "Hetki vain, odotetaan että peli käynnistetään."
+
+#: src/components/ui/PostCard/ChallengeHeader.tsx:44
+#: src/components/ui/PostCard/CoachPostHeader.tsx:38
+msgid "Kaisa"
+msgstr "Kaisa"
+
+#: src/pages/profile/DetailsForm.tsx:99
+msgid "Language"
+msgstr "Kieli"
+
+#: src/pages/register/components/NamesForm.tsx:66
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: src/pages/profile/DetailsForm.tsx:80
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: src/pages/home/components/GoalBanner.tsx:34
+msgid "Latest addition to See The Good! tools. Try already today!"
+msgstr "Uusin lisäys Huomaa hyvä! -työkaluihin. Kokeile jo tänään!"
+
+#: src/components/ui/StrengthGoal/ArticleGoalInstructions.tsx:46
+msgid "Lesson goals"
+msgstr "Oppituokion tavoitteet"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:49
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:29
+msgid "Lessons"
+msgstr "Oppituokiot"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:101
+msgid "Let’s discover and celebrate the good together!"
+msgstr "Lähdetään yhdessä huomaamaan hyvää!"
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:31
+msgid "Let’s start by going through a few basics!"
+msgstr "Käydään seuraavaksi läpi muutamat perusasiat!"
+
+#: src/components/ui/PostCard/DiplomaDownloadButton.tsx:94
+msgid "Letter"
+msgstr "Letter"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:581
+msgid "Loading billing group…"
+msgstr "Laskutusryhmä latautuu..."
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:152
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:186
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:196
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: src/components/menu/UserMenu.tsx:38
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: src/components/LoginModal.tsx:142
+#: src/pages/StartPage.tsx:69
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: src/components/LoginModal.tsx:146
+msgid "Login failed"
+msgstr "Kirjautuminen epäonnistui"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:49
+msgid "Magnificent!"
+msgstr "Upeaa!"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:170
+msgid "Manage Subscription"
+msgstr "Hallitse tilausta"
+
+#: src/pages/coaching/CoachingSessionPage.tsx:215
+msgid "Mark Complete"
+msgstr ""
+
+#: src/components/menu/SideMenuLinks.tsx:132
+msgid "Materials"
+msgstr "Materiaalit"
+
+#: src/pages/community-settings/CommunityMembers.tsx:139
+msgid "Member"
+msgstr "Jäsen"
+
+#: src/pages/community-settings/CommunitySettings.tsx:108
+msgid "Members"
+msgstr "Jäsenet"
+
+#: src/components/menu/SideMenuLinks.tsx:80
+#: src/pages/home/components/Achievements/GamesTab.tsx:17
+msgid "Memory game"
+msgstr "Muistipeli"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:52
+msgid "Memory Game"
+msgstr "Muistipeli"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:89
+msgid "Memory game is a fun and interactive game that helps you to improve your memory and focus. It is a great way to challenge yourself and have fun at the same time."
+msgstr "Muistipeli on hauska ja interaktiivinen peli, joka auttaa sinua parantamaan muistia ja keskittymistä. Se on loistava tapa haastaa itsesi ja pitää hauskaa samaan aikaan."
+
+#: src/pages/coaching/CoachingPage.tsx:109
+#: src/pages/coaching/CoachingPage.tsx:190
+msgid "messages"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:411
+#: src/pages/coaching/CoachingPlansPage.tsx:815
+msgid "Messages"
+msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:258
+#: src/pages/community-settings/CommunitySubcription.tsx:300
+msgid "Missing information"
+msgstr "Tiedot puuttuvat"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:16
+msgid "Mon"
+msgstr "Ma"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:101
+#: src/pages/coaching/CoachingPlansPage.tsx:343
+#: src/pages/coaching/CoachingPlansPage.tsx:654
+#: src/pages/community-settings/CommunitySubcription.tsx:632
+msgid "Name"
+msgstr "Nimi"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:626
+msgid "New billing group"
+msgstr "Uusi laskutusryhmä"
+
+#: src/pages/profile/EmailForm.tsx:67
+msgid "New email"
+msgstr "Uusi sähköpostiosoite"
+
+#: src/pages/home/components/GoalBanner.tsx:31
+msgid "New feature: Goals"
+msgstr "Uusi ominaisuus: Tavoitetyökalu"
+
+#: src/pages/home/components/GoalBanner.tsx:60
+msgid "New goalsetter"
+msgstr "Uusi tavoitetyökalu"
+
+#: src/pages/profile/PasswordForm.tsx:68
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: src/components/UiVersionCheck.tsx:97
+msgid "New version available"
+msgstr "Uusi versio saatavilla"
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:117
+msgid "Next"
+msgstr "Seuraava"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:113
+msgid "Next question"
+msgstr "Seuraava kysymys"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:537
+msgid "No"
+msgstr "Ei"
+
+#: src/pages/strength-goals/GoalsPage.tsx:277
+msgid "No active goals"
+msgstr "Ei aktiivisia tavoitteita"
+
+#: src/pages/games/quiz/host/useHostQuizController.ts:114
+msgid "No active group found for creating the game."
+msgstr "Pelin luomista varten ei löytynyt aktiivista ryhmää."
+
+#: src/pages/coaching/CoachingPlansPage.tsx:380
+msgid "No base prompts yet."
+msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:610
+msgid "No billing group selected."
+msgstr "Laskutusryhmää ei ole valittu."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:495
+msgid "No changes yet."
+msgstr "Ei vielä muutoksia."
+
+#: src/pages/coaching/CoachingPage.tsx:226
+msgid "No coaching plans available"
+msgstr ""
+
+#: src/pages/register/RegisterCodePage.tsx:32
+msgid "No code provided."
+msgstr "Koodia ei ole annettu."
+
+#: src/pages/home/components/Achievements/GoalsTab.tsx:25
+msgid "No completed goals yet"
+msgstr "Ei vielä saavutettuja tavoitteita"
+
+#: src/pages/games/quiz/host/ResultScreen.tsx:483
+msgid "No data"
+msgstr "Ei tietoja"
+
+#: src/pages/home/components/Achievements/DiplomasTab.tsx:88
+msgid "No diplomas completed yet"
+msgstr "Ei vielä suoritettuja diplomeita"
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:94
+msgid "No expiring subscriptions found."
+msgstr "Päättyviä tilauksia ei löydetty."
+
+#: src/pages/home/components/Achievements/GamesTab.tsx:43
+msgid "No games played yet"
+msgstr "Ei vielä pelattuja pelejä"
+
+#: src/pages/strength-goals/GoalsPage.tsx:261
+msgid "No group selected"
+msgstr "Ei valittua ryhmää"
+
+#: src/pages/groups/GroupsPage.tsx:112
+msgid "No groups created"
+msgstr "Ei luotuja ryhmiä"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:315
+msgid "No plans yet."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:471
+msgid "No sessions yet."
+msgstr ""
+
+#: src/components/menu/NotificationsMenu.tsx:148
+msgid "No unread notifications"
+msgstr "Ei lukemattomia ilmoituksia"
+
+#: src/components/ui/AvatarInput.tsx:126
+#: src/components/ui/PostCard/Comment.tsx:94
+#: src/components/ui/PostCard/PostTools.tsx:31
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:109
+#: src/pages/community-settings/CommunityMembers.tsx:82
+#: src/pages/games/GroupGameLobbyPage.tsx:121
+#: src/pages/games/quiz/host/useHostQuizController.ts:161
+#: src/pages/strength-goals/GoalsPage.tsx:175
+msgid "No, cancel"
+msgstr "Ei, peruuta"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:465
+#: src/pages/community-settings/CommunitySubcription.tsx:523
+msgid "Not set"
+msgstr "Ei asetettu"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:446
+msgid "Not updated yet."
+msgstr "Ei vielä päivitetty."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:669
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:17
+msgid "Now it’s your turn to continue the journey from strength to strength with your group!"
+msgstr "Nyt on sinun vuorosi jatkaa matkaa vahvuudesta vahvuuteen ryhmäsi kanssa!"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:244
+msgid "of"
+msgstr "/"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:43
+msgid "OK!"
+msgstr "OK!"
+
+#: src/components/ui/PostCard/GoalCompletedContent.tsx:76
+msgid "once"
+msgstr "kerran"
+
+#: src/components/LoginModal.tsx:72
+#: src/components/menu/CommunityDropdown.tsx:23
+#: src/components/menu/NotificationsMenu.tsx:75
+#: src/components/menu/NotificationsMenu.tsx:105
+#: src/components/MomentForm.tsx:98
+#: src/components/ui/PostCard/ChallengeContent.tsx:51
+#: src/components/ui/PostCard/Comment.tsx:106
+#: src/components/ui/PostCard/CommentForm.tsx:81
+#: src/components/ui/PostCard/PostTools.tsx:43
+#: src/components/ui/PostCard/ReactionButton.tsx:60
+#: src/components/ui/PostCard/ReactionButton.tsx:73
+#: src/components/ui/PostCard/ReactionButton.tsx:89
+#: src/components/ui/PostModal.tsx:43
+#: src/components/ui/StrengthGoal/ArticleGoal.tsx:86
+#: src/components/ui/VimeoPlayer.tsx:195
+#: src/pages/AuthCallbackPage.tsx:58
+#: src/pages/AuthCallbackPage.tsx:87
+#: src/pages/community-settings/CommunityAvatar.tsx:71
+#: src/pages/community-settings/CommunityAvatar.tsx:111
+#: src/pages/community-settings/CommunityDetails.tsx:57
+#: src/pages/community-settings/CommunityEmails.tsx:29
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:43
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:55
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:67
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:77
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:95
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:122
+#: src/pages/community-settings/CommunityMembers.tsx:35
+#: src/pages/community-settings/CommunityMembers.tsx:68
+#: src/pages/community-settings/CommunityMembers.tsx:97
+#: src/pages/community-settings/CommunitySubcription.tsx:189
+#: src/pages/community-settings/CommunitySubcription.tsx:286
+#: src/pages/community-settings/CommunitySubcription.tsx:325
+#: src/pages/community-settings/CommunitySubcription.tsx:336
+#: src/pages/community-settings/CommunitySubcription.tsx:382
+#: src/pages/community-settings/Invitation.tsx:29
+#: src/pages/ForgotPasswordPage.tsx:33
+#: src/pages/games/GroupGameJoinPage.tsx:109
+#: src/pages/games/GroupGameJoinPage.tsx:231
+#: src/pages/games/GroupGameLobbyPage.tsx:38
+#: src/pages/games/GroupGameLobbyPage.tsx:141
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:43
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:79
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:94
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:145
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:61
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:93
+#: src/pages/games/quiz/host/useHostQuizController.ts:79
+#: src/pages/games/quiz/host/useHostQuizController.ts:113
+#: src/pages/games/quiz/host/useHostQuizController.ts:126
+#: src/pages/games/quiz/host/useHostQuizController.ts:181
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:74
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:70
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:152
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:35
+#: src/pages/games/sprint/host/HostSprintPage.tsx:79
+#: src/pages/games/sprint/host/HostSprintPage.tsx:130
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:116
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:177
+#: src/pages/groups/GroupModal.tsx:63
+#: src/pages/groups/GroupsPage.tsx:47
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:224
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:247
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:532
+#: src/pages/home/components/CommunityStats.tsx:64
+#: src/pages/home/components/LastActiveGoal.tsx:82
+#: src/pages/home/components/LastActiveGoal.tsx:177
+#: src/pages/home/components/LastActiveGoal.tsx:200
+#: src/pages/home/components/Posts.tsx:69
+#: src/pages/profile/AvatarForm.tsx:47
+#: src/pages/profile/AvatarForm.tsx:62
+#: src/pages/profile/ConsentsForm.tsx:43
+#: src/pages/profile/DetailsForm.tsx:46
+#: src/pages/profile/EmailForm.tsx:29
+#: src/pages/profile/PasswordForm.tsx:21
+#: src/pages/profile/PasswordForm.tsx:38
+#: src/pages/register/RegisterCodePage.tsx:54
+#: src/pages/register/RegisterUserPage.tsx:56
+#: src/pages/strength-goals/GoalsPage.tsx:84
+msgid "Oops!"
+msgstr "Hups!"
+
+#: src/components/ui/PostCard/ChallengeThemeHolidayCalendar.tsx:114
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:97
+msgid "Open"
+msgstr "Avaa"
+
+#: src/pages/home/components/GoalBanner.tsx:40
+msgid "Open goals"
+msgstr "Avaa tavoitteet"
+
+#: src/components/ui/SlideShow/ArticleSlideshow.tsx:58
+msgid "Open slideshow"
+msgstr "Avaa diaesitys"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:219
+#: src/pages/games/quiz/host/StartScreen.tsx:84
+msgid "or enter code at"
+msgstr "tai kirjoita koodi osoitteessa"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:598
+msgid "Order"
+msgstr ""
+
+#: src/pages/register/components/OrganizationForm.tsx:81
+msgid "Organization name"
+msgstr "Organisaation nimi"
+
+#: src/pages/register/components/OrganizationForm.tsx:95
+msgid "Organization type"
+msgstr "Organisaation tyyppi"
+
+#: src/pages/register/components/OrganizationForm.tsx:105
+#: src/pages/register/components/OrganizationForm.tsx:119
+msgid "Other"
+msgstr "Muu"
+
+#: src/pages/community-settings/CommunityMembers.tsx:146
+#: src/pages/groups/GroupCardContent.tsx:50
+msgid "Owner"
+msgstr "Omistaja"
+
+#: src/pages/NotFoundPage.tsx:16
+msgid "Page Not Found"
+msgstr "Sivua ei löydy"
+
+#: src/components/LoginModal.tsx:126
+#: src/components/LoginModal.tsx:127
+#: src/pages/AuthCallbackPage.tsx:127
+#: src/pages/profile/EditProfilePage.tsx:44
+#: src/pages/profile/EmailForm.tsx:81
+msgid "Password"
+msgstr "Salasana"
+
+#: src/pages/profile/PasswordForm.tsx:34
+msgid "Password updated"
+msgstr "Salasana päivitetty"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:168
+msgid "Pending Invitations"
+msgstr "Odottavat kutsut"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:50
+msgid "Perfect!"
+msgstr "Täydellistä!"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:405
+msgid "Plan"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:784
+msgid "Plan Content"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:150
+msgid "Plan created."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:133
+msgid "Plan deleted."
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:147
+msgid "Plan updated."
+msgstr ""
+
+#: src/pages/games/quiz/host/QuizResults.tsx:100
+msgid "Player"
+msgstr "Pelaaja"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:136
+#: src/pages/games/quiz/host/useHostQuizController.ts:176
+msgid "Player removed"
+msgstr "Pelaaja poistettu"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:81
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:73
+msgid "players"
+msgstr "pelaajaa"
+
+#: src/components/LoginModal.tsx:100
+msgid "Please enter your password and you will be added to {targetCommunityName}"
+msgstr "Kirjoita salasanasi, niin sinut lisätään yhteisöön {targetCommunityName}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:301
+msgid "Please provide a name and billing contact for the group."
+msgstr "Ilmoita ryhmän laskutusyhteyshenkilö nimi."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:259
+msgid "Please provide a name and email for the billing contact."
+msgstr "Anna laskutusyhteyshenkilön nimi ja sähköpostiosoite."
+
+#: src/pages/register/RegisterCodePage.tsx:33
+msgid "Please provide an invitation code."
+msgstr "Anna kutsukoodi."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:337
+msgid "Please select a status valid until date."
+msgstr "Valitse tila, joka on voimassa päivämäärään asti."
+
+#: src/components/MomentForm.tsx:212
+msgid "Post"
+msgstr "Lähetä"
+
+#: src/components/MomentForm.tsx:118
+msgid "Post a message to your community's wall."
+msgstr "Lisää viesti yhteisön seinälle."
+
+#: src/components/menu/SideMenuLinks.tsx:126
+msgid "Posts"
+msgstr "Julkaisut"
+
+#: src/pages/home/components/Achievements/AchievementsModal.tsx:47
+msgid "Practice strengths in everyday life"
+msgstr "Harjoittele vahvuuksiasi päivittäin"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:21
+#: src/pages/home/components/StrengthCarousel/SettingsPopover.tsx:40
+msgid "Preschool"
+msgstr "Vaka"
+
+#: src/pages/home/components/Onboarding/Wizard.tsx:240
+#: src/pages/home/components/Onboarding/Wizard.tsx:298
+msgid "Previous"
+msgstr "Edellinen"
+
+#: src/pages/register/components/OrganizationForm.tsx:117
+msgid "Principal / Manager"
+msgstr "Rehtori / johtaja"
+
+#: src/components/menu/UserMenu.tsx:33
+#: src/pages/profile/EditProfilePage.tsx:20
+msgid "Profile"
+msgstr "Profiili"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:672
+msgid "Prompt Content"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:281
+#: src/pages/coaching/CoachingPlansPage.tsx:586
+msgid "Published"
+msgstr ""
+
+#: src/pages/games/quiz/host/QuizResults.tsx:88
+msgid "Quiz Winner"
+msgstr "Tietokilpailun voittaja"
+
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:169
+msgid "Quiz with this code was not found"
+msgstr "Tietokilpailua tällä koodilla ei löytynyt"
+
+#: src/components/menu/SideMenuLinks.tsx:144
+msgid "Quizzes"
+msgstr "Tietokilpailut"
+
+#: src/components/ui/PostCard/ReactionTrigger.tsx:110
+#: src/components/ui/PostCard/ReactionTrigger.tsx:131
+msgid "React"
+msgstr "Reagoi"
+
+#: src/components/menu/NotificationsMenuItem.tsx:121
+msgid "reacted to your comment"
+msgstr "reagoi kommenttiisi"
+
+#: src/components/menu/NotificationsMenuItem.tsx:73
+msgid "reacted to your post"
+msgstr "reagoi julkaisuusi"
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:28
+msgid "Reactions"
+msgstr "Reaktiot"
+
+#: src/components/ui/StrengthGoal/OffcanvasFloatingButton.tsx:285
+#: src/pages/home/components/GoalBanner.tsx:43
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:76
+msgid "Ready-made lesson materials"
+msgstr "Valmiit oppimateriaalit"
+
+#: src/pages/games/sprint/player/PlayerResults.tsx:73
+msgid "Received strengths"
+msgstr "Vastaanotetut vahvuudet"
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:56
+msgid "Redo goal"
+msgstr "Toista tavoite"
+
+#: src/pages/StartPage.tsx:76
+msgid "Register"
+msgstr "Luo tili"
+
+#: src/components/UiVersionCheck.tsx:113
+msgid "Reload"
+msgstr "Lataa uudelleen"
+
+#: src/components/LoginModal.tsx:134
+msgid "Remember me"
+msgstr "Muista minut"
+
+#: src/components/ui/PostCard/Comment.tsx:199
+#: src/components/ui/PostCard/PostTools.tsx:77
+msgid "Remove"
+msgstr "Poista"
+
+#: src/pages/strength-goals/GoalsPage.tsx:171
+msgid "Remove all goals for this strength"
+msgstr "Poista kaikki tämän vahvuuden tavoitteet"
+
+#: src/components/ui/AvatarInput.tsx:122
+msgid "Remove avatar"
+msgstr "Poista avatar"
+
+#: src/components/ui/PostCard/Comment.tsx:89
+msgid "Remove comment"
+msgstr "Poista kommentti"
+
+#: src/components/ui/StrengthGoal/GoalControls.tsx:42
+msgid "Remove goal"
+msgstr "Poista tavoite"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:104
+#: src/pages/community-settings/CommunityMembers.tsx:77
+msgid "Remove member"
+msgstr "Poista jäsen"
+
+#: src/components/ui/PostCard/PostTools.tsx:26
+msgid "Remove moment"
+msgstr "Poista hetki"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:119
+#: src/pages/games/quiz/host/useHostQuizController.ts:159
+msgid "Remove player"
+msgstr "Poista pelaaja"
+
+#: src/pages/ForgotPasswordPage.tsx:72
+msgid "Reset my password"
+msgstr "Nollaa salasanani"
+
+#: src/pages/games/quiz/host/RunScreen.tsx:116
+msgid "Restart"
+msgstr "Käynnistä uudelleen"
+
+#: src/components/menu/SideMenuLinks.tsx:108
+msgid "Retention"
+msgstr "Retentio"
+
+#: src/pages/coaching/CoachingSessionPage.tsx:329
+msgid "Retry"
+msgstr ""
+
+#: src/pages/register/components/OrganizationForm.tsx:112
+msgid "Role in organization"
+msgstr "Rooli organisaatiossa"
+
+#: src/components/MomentForm.tsx:212
+#: src/components/ui/AvatarInput.tsx:197
+#: src/components/ui/PostCard/CommentForm.tsx:135
+#: src/pages/coaching/CoachingPlansPage.tsx:626
+#: src/pages/coaching/CoachingPlansPage.tsx:712
+#: src/pages/community-settings/CommunitySubcription.tsx:557
+#: src/pages/profile/ConsentsForm.tsx:73
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:144
+#: src/pages/groups/GroupModal.tsx:140
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:695
+msgid "Save group"
+msgstr "Tallenna ryhmä"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:287
+msgid "Saving the billing contact failed."
+msgstr "Laskutusyhteystiedon tallentaminen epäonnistui."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:326
+msgid "Saving the billing group failed."
+msgstr "Laskutusryhmän tallentaminen epäonnistui."
+
+#: src/pages/community-settings/CommunitySubcription.tsx:557
+#: src/pages/community-settings/CommunitySubcription.tsx:692
+msgid "Saving…"
+msgstr "Tallennetaan..."
+
+#: src/pages/games/GroupGameLobbyPage.tsx:193
+#: src/pages/games/quiz/host/StartScreen.tsx:69
+msgid "Scan QR"
+msgstr "Skannaa QR"
+
+#: src/pages/register/components/OrganizationForm.tsx:104
+msgid "School"
+msgstr "Koulu"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:109
+msgid "Score"
+msgstr "Pisteet"
+
+#: src/pages/games/quiz/host/QuizResults.tsx:93
+msgid "Scores"
+msgstr "Pisteet"
+
+#: src/pages/home/components/Achievements/Achievements.tsx:95
+msgid "See all"
+msgstr "Näytä kaikki"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:100
+msgid "Select"
+msgstr "Valitse"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:528
+msgid "Select a base prompt..."
+msgstr ""
+
+#: src/components/menu/GroupDropdown.tsx:22
+msgid "Select a group"
+msgstr "Valitse ryhmä"
+
+#: src/pages/strength-goals/GoalsPage.tsx:264
+msgid "Select a group or create a new one to start using the goals."
+msgstr "Valitse ryhmä tai luo uusi ryhmä aloittaaksesi tavoitteiden käytön."
+
+#: src/components/ui/SelectInput.tsx:49
+msgid "Select an option"
+msgstr "Valitse vaihtoehto"
+
+#: src/components/ui/AvatarInput.tsx:226
+msgid "Select image"
+msgstr "Valitse kuva"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:348
+msgid "Select one strength"
+msgstr "Valitse yksi vahvuus"
+
+#: src/components/ui/StrengthModal.tsx:72
+msgid "Select strength"
+msgstr "Valitse vahvuus"
+
+#: src/pages/register/components/OrganizationForm.tsx:71
+msgid "Select your country"
+msgstr "Valitse maasi"
+
+#: src/pages/register/components/OrganizationForm.tsx:98
+msgid "Select your organization type"
+msgstr "Valitse organisaatiotyyppi"
+
+#: src/pages/register/components/OrganizationForm.tsx:114
+msgid "Select your role in organization"
+msgstr "Valitse roolisi organisaatiossa"
+
+#: src/components/ui/PostCard/CommentForm.tsx:135
+msgid "Send"
+msgstr "Lähetä"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:161
+msgid "Send Invitation"
+msgstr "Lähetä kutsu"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:560
+msgid "Session Instructions"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:239
+msgid "Session Plans"
+msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:576
+msgid "Session-specific instructions appended to the base prompt."
+msgstr ""
+
+#: src/pages/home/components/GoalBanner.tsx:86
+msgid "Set a goal with your students. Notice their efforts and use the tool to document their practice. Invite students to reflect on what went well and celebrate their progress together."
+msgstr "Aseta yhdessä oppilaiden kanssa tavoite. Huomatkaa harjoittelu ja dokumentoikaa se työkalun avulla. Pyydä oppilaita kertomaan, mikä meni hyvin  ja tehkää edistyminen näkyväksi yhdessä"
+
+#: src/pages/AuthCallbackPage.tsx:115
+msgid "Set a password for your account"
+msgstr "Aseta tilillesi salasana"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:144
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:554
+msgid "Shown to users when selecting a plan."
+msgstr ""
+
+#: src/pages/strength-diploma/StrengthDiplomaPage.tsx:141
+#~ msgid "Signature"
+#~ msgstr ""
+
+#: src/pages/AuthCallbackPage.tsx:141
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:194
+msgid "Skip"
+msgstr "Ohita"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:123
+msgid "Slides"
+msgstr "Diat"
+
+#: src/pages/register/RegisterUserPage.tsx:57
+msgid "Something did not work as expected. Please try again later."
+msgstr "Jokin ei toiminut odotetulla tavalla. Yritä myöhemmin uudelleen."
+
+#: src/pages/home/components/LastActiveGoal.tsx:83
+msgid "Something went wrong"
+msgstr "Jokin meni pieleen"
+
+#: src/components/ui/PostCard/ChallengeContent.tsx:52
+msgid "Something went wrong while accepting the challenge"
+msgstr "Jokin meni pieleen haasteen hyväksymisessä "
+
+#: src/components/menu/CommunityDropdown.tsx:24
+msgid "Something went wrong while changing community"
+msgstr "Jotain meni pieleen yhteisöä vaihdettaessa"
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:44
+msgid "Something went wrong while creating game"
+msgstr "Jotain meni pieleen peliä luotaessa"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:36
+msgid "Something went wrong while creating sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota luotaessa"
+
+#: src/pages/groups/GroupModal.tsx:64
+msgid "Something went wrong while creating the event"
+msgstr "Jotain meni pieleen merkintää luotaessa"
+
+#: src/pages/games/quiz/host/useHostQuizController.ts:127
+msgid "Something went wrong while creating the game"
+msgstr "Jotain meni pieleen peliä luotaessa"
+
+#: src/components/ui/StrengthGoal/ArticleGoal.tsx:87
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:225
+#: src/pages/home/components/LastActiveGoal.tsx:178
+msgid "Something went wrong while creating the goal"
+msgstr "Jotain meni pieleen tavoitetta luotaessa"
+
+#: src/pages/community-settings/Invitation.tsx:30
+msgid "Something went wrong while creating the invitation"
+msgstr "Jokin meni pieleen kutsua luotaessa"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:146
+#: src/pages/games/sprint/host/HostSprintPage.tsx:131
+msgid "Something went wrong while ending sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota päätettäessä"
+
+#: src/pages/home/components/CommunityStats.tsx:65
+msgid "Something went wrong while fetching community stats"
+msgstr "Jokin meni pieleen yhteisön tilastoja noudettaessa"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:94
+msgid "Something went wrong while fetching the memoryGame"
+msgstr "Jokin meni pieleen muistipeliä noudettaessa"
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:71
+msgid "Something went wrong while fetching the quiz"
+msgstr "Jokin meni pieleen tietokilpailua noudettaessa."
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:117
+msgid "Something went wrong while fetching the sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota noudettaessa"
+
+#: src/pages/games/memory-game/player/PlayerMemoryGamePage.tsx:62
+msgid "Something went wrong while flipping the card"
+msgstr "Jokin meni pieleen kun korttia käännettiin"
+
+#: src/pages/games/GroupGameJoinPage.tsx:110
+#: src/pages/games/GroupGameJoinPage.tsx:232
+#: src/pages/games/quiz/player/JoinQuizPage.tsx:75
+msgid "Something went wrong while joining the game"
+msgstr "Jotain meni pieleen peliin liittyessä"
+
+#: src/pages/community-settings/CommunityEmails.tsx:31
+#: src/pages/community-settings/CommunityMembers.tsx:37
+msgid "Something went wrong while loading the community members"
+msgstr "Jokin meni pieleen yhteisön jäsenten lataamisen aikana"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:39
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:80
+#: src/pages/games/quiz/host/useHostQuizController.ts:80
+msgid "Something went wrong while loading the game"
+msgstr "Pelin lataus epäonnistui"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:44
+msgid "Something went wrong while loading the invitations"
+msgstr "Jokin meni pieleen kutsuja ladattaessa"
+
+#: src/pages/home/components/Posts.tsx:70
+msgid "Something went wrong while loading the moments"
+msgstr "Jokin meni pieleen hetkiä haettaessa."
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:80
+msgid "Something went wrong while loading the sprint"
+msgstr "Jokin meni pieleen vahvuustuokiota ladattaessa"
+
+#: src/pages/AuthCallbackPage.tsx:59
+msgid "Something went wrong while logging in"
+msgstr "Jokin meni pieleen sisäänkirjautumisessa"
+
+#: src/pages/strength-goals/GoalsPage.tsx:85
+msgid "Something went wrong while processing the goal."
+msgstr "Jotain meni pieleen tavoitetta käsiteltäessä."
+
+#: src/pages/groups/GroupsPage.tsx:48
+msgid "Something went wrong while processing the group."
+msgstr "Jokin meni pieleen ryhmää käsiteltäessä."
+
+#: src/components/ui/PostCard/ReactionButton.tsx:61
+msgid "Something went wrong while reacting"
+msgstr "Jokin meni pieleen reagoinnissa"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:74
+msgid "Something went wrong while removing a reaction"
+msgstr "Jokin meni pieleen reaktiota poistettaessa"
+
+#: src/components/ui/PostCard/Comment.tsx:107
+msgid "Something went wrong while removing the comment"
+msgstr "Jotain meni pieleen poistettaessa kommenttia"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:123
+msgid "Something went wrong while removing the invitation"
+msgstr "Jokin meni pieleen kutsua poistettaessa"
+
+#: src/components/ui/PostCard/PostTools.tsx:44
+msgid "Something went wrong while removing the moment"
+msgstr "Jokin meni pieleen hetkeä poistettaessa"
+
+#: src/pages/community-settings/CommunityMembers.tsx:98
+msgid "Something went wrong while removing the user"
+msgstr "Jokin meni pieleen käyttäjän poistamisen aikana"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:383
+msgid "Something went wrong while saving the billing settings"
+msgstr "Jotain meni pieleen laskutusasetuksia tallennettaessa"
+
+#: src/components/ui/PostCard/CommentForm.tsx:82
+msgid "Something went wrong while saving the comment"
+msgstr "Jokin meni pieleen kommenttia tallennettaessa"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:112
+msgid "Something went wrong while saving the community"
+msgstr "Jotain meni pieleen yhteisön tietoja tallennettaessa"
+
+#: src/components/MomentForm.tsx:99
+msgid "Something went wrong while saving the moment"
+msgstr "Jokin meni pieleen hetkeä tallennettaessa"
+
+#: src/pages/AuthCallbackPage.tsx:88
+msgid "Something went wrong while saving the password"
+msgstr "Jokin meni pieleen salasanaa tallennettaessa"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:178
+msgid "Something went wrong while saving the strength"
+msgstr "Jotain meni pieleen vahvuutta tallennettaessa"
+
+#: src/pages/profile/AvatarForm.tsx:63
+#: src/pages/profile/DetailsForm.tsx:47
+msgid "Something went wrong while saving the user"
+msgstr "Jotain meni pieleen käyttäjän tallentamisen aikana"
+
+#: src/components/ui/VimeoPlayer.tsx:197
+msgid "Something went wrong while saving your consent settings."
+msgstr "Jokin meni pieleen, kun asetuksia tallennettiin."
+
+#: src/pages/profile/ConsentsForm.tsx:44
+msgid "Something went wrong while saving your profile settings."
+msgstr "Jokin meni pieleen profiiliasetuksia tallennettaessa."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:96
+msgid "Something went wrong while sending the invitation"
+msgstr "Jokin meni pieleen kutsua lähetettäessä"
+
+#: src/pages/games/memory-game/host/HostMemoryGamePage.tsx:95
+msgid "Something went wrong while skipping the player"
+msgstr "Jokin meni pieleen, kun pelaaja ohitettiin"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:248
+msgid "Something went wrong while starting the game"
+msgstr "Jotain meni pieleen peliä käynnistettäessä"
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:153
+msgid "Something went wrong while submitting your answer"
+msgstr "Jokin meni pieleen vastausta lähettäessä"
+
+#: src/components/ui/PostCard/ReactionButton.tsx:90
+msgid "Something went wrong while updating a reaction"
+msgstr "Jokin meni pieleen reaktiota päivitettäessä"
+
+#: src/pages/community-settings/CommunityDetails.tsx:58
+msgid "Something went wrong while updating the community"
+msgstr "Jotain meni pieleen yhteisön päivittämisen aikana"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:533
+#: src/pages/home/components/LastActiveGoal.tsx:201
+msgid "Something went wrong while updating the goal"
+msgstr "Tavoitteen päivityksessä jokin meni pieleen"
+
+#: src/pages/community-settings/CommunityMembers.tsx:69
+msgid "Something went wrong while updating the user role"
+msgstr "Jokin meni pieleen päivitettäessä käyttäjän roolia"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:72
+#: src/pages/profile/AvatarForm.tsx:48
+msgid "Something went wrong while uploading your image"
+msgstr "Jotain meni pieleen kuvaa ladattaessa"
+
+#: src/pages/ForgotPasswordPage.tsx:34
+#: src/pages/register/RegisterCodePage.tsx:55
+msgid "Something went wrong."
+msgstr "Jokin meni pieleen."
+
+#: src/pages/NotFoundPage.tsx:19
+msgid "Sorry, the page you are looking for does not exist."
+msgstr "Valitettavasti etsimääsi sivua ei ole löydy."
+
+#: src/components/ui/PostCard/OnboardingCompletedContent.tsx:25
+msgid "Spectacular!"
+msgstr "Upeaa!"
+
+#: src/pages/coaching/CoachingPage.tsx:161
+#: src/pages/games/GroupGameLobbyPage.tsx:287
+#: src/pages/games/GroupGameLobbyPage.tsx:312
+#: src/pages/games/quiz/host/EmbeddedQuiz.tsx:31
+#: src/pages/games/quiz/host/EmbeddedQuiz.tsx:39
+#: src/pages/games/quiz/host/StartScreen.tsx:144
+msgid "Start"
+msgstr "Aloita"
+
+#: src/pages/coaching/CoachingPage.tsx:142
+msgid "Start a new session"
+msgstr ""
+
+#: src/pages/games/memory-game/host/CreateMemoryGamePage.tsx:115
+msgid "Start game"
+msgstr "Aloita peli"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:104
+msgid "Start sprint"
+msgstr "Aloita tuokio"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:503
+#: src/pages/community-settings/CommunitySubcription.tsx:717
+#~ msgid "Start typing at least {minimumBillingContactSearchLength} characters to find a billing contact."
+#~ msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:542
+#~ msgid "Start typing at least {minimumBillingGroupSearchLength} characters to search billing groups."
+#~ msgstr ""
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:262
+#~ msgid "Starting..."
+#~ msgstr ""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:263
+#: src/pages/coaching/CoachingPlansPage.tsx:408
+#: src/pages/community-settings/CommunitySubcription.tsx:503
+msgid "Status"
+msgstr "Tila"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:423
+#: src/pages/community-settings/CommunitySubcription.tsx:509
+msgid "Status valid until"
+msgstr "Tila on voimassa, kunnes"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:737
+msgid "Status:"
+msgstr ""
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:80
+msgid "Strength"
+msgstr "Vahvuus"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:80
+msgid "Strength Guide"
+msgstr "Vahvuusopas"
+
+#: src/components/menu/SideMenuLinks.tsx:74
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:44
+#: src/pages/home/components/Achievements/GamesTab.tsx:22
+msgid "Strength sprint"
+msgstr "Vahvuustuokio"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:100
+msgid "Strength Sprint"
+msgstr "Vahvuustuokio"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:177
+msgid "Strengths sent"
+msgstr "Vahvuutta lähetetty"
+
+#: src/pages/AuthCallbackPage.tsx:146
+#: src/pages/ForgotPasswordPage.tsx:79
+#: src/pages/profile/DetailsForm.tsx:118
+#: src/pages/profile/EmailForm.tsx:95
+#: src/pages/profile/PasswordForm.tsx:96
+msgid "Submit"
+msgstr "Lähetä"
+
+#: src/pages/community-settings/CommunitySettings.tsx:146
+msgid "Subscription"
+msgstr "Tilaus"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:477
+msgid "Subscription ends"
+msgstr "Tilaus päättyy"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:491
+msgid "Subscription history"
+msgstr "Tilaushistoria"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:453
+msgid "Subscription status"
+msgstr "Tilauksen tila"
+
+#: src/pages/community-settings/CommunityAvatar.tsx:66
+#: src/pages/community-settings/CommunityDetails.tsx:52
+#: src/pages/community-settings/CommunityMembers.tsx:63
+#: src/pages/community-settings/CommunitySubcription.tsx:377
+#: src/pages/profile/AvatarForm.tsx:42
+#: src/pages/profile/ConsentsForm.tsx:38
+#: src/pages/profile/DetailsForm.tsx:41
+#: src/pages/profile/PasswordForm.tsx:33
+msgid "Success!"
+msgstr "Onnistui!"
+
+#: src/components/ui/StrengthGoal/GoalEditModal.tsx:121
+msgid "Target date"
+msgstr "Tavoiteajankohta"
+
+#: src/components/menu/SideMenuLinks.tsx:62
+msgid "Teach"
+msgstr "Opeta"
+
+#: src/pages/register/components/OrganizationForm.tsx:118
+msgid "Teacher / Instructor"
+msgstr "Opettaja / ohjaaja"
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:595
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:310
+#~ msgid "Tell a joke!"
+#~ msgstr ""
+
+#: src/pages/home/components/AiGuidanceBlock/AiGuidanceBlock.tsx:583
+#~ msgid "Tell us what you think... (optional)"
+#~ msgstr ""
+
+#: src/pages/home/components/Onboarding/steps/Outro.tsx:32
+msgid "Thank you for being part of this!"
+msgstr "Kiitos, kun olet mukana!"
+
+#: src/components/ui/StrengthGoal/GoalProgressbar.tsx:46
+msgid "The Best!"
+msgstr "Parasta!"
+
+#: src/components/ui/AvatarInput.tsx:71
+msgid "The file might be too large or be in an unsupported format"
+msgstr "Tiedosto saattaa olla liian suuri tai tiedostomuoto ei ole tuettu"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:688
+msgid "The full AI persona and coaching instructions. This is combined with session-specific instructions."
+msgstr ""
+
+#: src/pages/games/GroupGameLobbyPage.tsx:231
+#: src/pages/games/quiz/host/StartScreen.tsx:71
+msgid "The game has expired."
+msgstr "Peli on vanhentunut."
+
+#: src/pages/home/components/GoalBanner.tsx:99
+msgid "The Goal Setter is ready to use in the See the Good! lesson materials. Try it out today!"
+msgstr "Tavoitetyökalu löytyy valmiina Huomaa hyvä! -oppimateriaaleista. Kokeile heti!"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:66
+msgid "The Goal Setting Tool helps your group practice a chosen strength."
+msgstr "Tavoitetyökalu auttaa ryhmääsi harjoittelemaan valittua vahvuutta."
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:10
+msgid "The lesson materials help you teach character strengths and social and emotional skills to your group. Each strength includes four lessons: <0>Start</0>, <1>Speak</1>, <2>Act</2>, and <3>Assess</3>."
+msgstr "Oppimateriaalien avulla voit opettaa luonteenvahvuuksia ja tunne- ja vuorovaikutustaitoja ryhmällesi. Jokaisessa vahvuudessa on neljä oppituokiota: <0>Startti</0>, <1>Viesti</1>, <2>Treeni</2> ja <3>Mitä opit?</3>."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:96
+msgid "The link has expired."
+msgstr "Linkki on vanhentunut."
+
+#: src/pages/AuthCallbackPage.tsx:98
+msgid "The link has expired. Please request a new link<0>here</0>."
+msgstr "Linkki on vanhentunut. Pyydä uusi linkki <0>täältä</0>."
+
+#: src/pages/home/components/Onboarding/steps/Intro.tsx:23
+msgid "The method supports students’ wellbeing and learning, helps build a positive school culture, and reduces bullying."
+msgstr "Menetelmä parantaa oppilaiden hyvinvointia ja oppimista, rakentaa positiivista koulukulttuuria sekä vähentää kiusaamista."
+
+#: src/pages/home/components/GoalBanner.tsx:75
+msgid "The new Goal Setter supports the intentional practice of social-emotional skills and character strengths. It makes progress visible, helps students put their successes into words, and strengthens your classroom community in concrete, measurable ways."
+msgstr "Uusi tavoitetyökalu tukee tunne- ja vuorovaikutustaitojen ja luonteenvahvuuksien systemaattista harjoittelua. Se tekee edistymisen näkyväksi, auttaa sanoittamaan onnistumisia ja vahvistaa yhteisöllisyyttä; konkreettisesti ja mitattavasti."
+
+#: src/pages/profile/PasswordForm.tsx:22
+msgid "The new passwords do not match"
+msgstr "Uudet salasanat eivät täsmää"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:137
+#: src/pages/games/quiz/host/useHostQuizController.ts:177
+msgid "The player has been successfully removed from the game."
+msgstr "Pelaaja on onnistuneesti poistettu pelistä."
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:78
+msgid "This email address is not registered in the system"
+msgstr "Tätä sähköpostiosoitetta ei ole rekisteröity järjestelmään"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:44
+msgid "This is the strength guide. It always recommends the next lesson for your group. You can adjust the strength guide’s <0>settings</0> at any time."
+msgstr "Tämä on vahvuusopas. Se suosittelee ryhmällesi aina seuraavaa oppituokiota. Voit muuttaa vahvuusoppaan <0>asetuksia</0> milloin tahansa."
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:87
+msgid "This list contains communities with active manual subscriptions that are not yet marked to end."
+msgstr "Tämä luettelo sisältää yhteisöjä, joilla on aktiivisia manuaalisia tilauksia, joita ei ole vielä merkitty päättyviksi."
+
+#: src/pages/coaching/CoachingSessionPage.tsx:337
+msgid "This session has been completed."
+msgstr ""
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:68
+msgid "This user already has a pending invitation"
+msgstr "Tällä käyttäjällä on jo kutsu odottamassa"
+
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:56
+msgid "This user is already a member of the community"
+msgstr "Tämä käyttäjä on jo yhteisön jäsen"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:19
+msgid "Thu"
+msgstr "To"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:168
+msgid "Time to send strengths!"
+msgstr "Aika lähettää vahvuuksia!"
+
+#: src/pages/community-settings/CommunityDetails.tsx:111
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:257
+#: src/pages/coaching/CoachingPlansPage.tsx:502
+msgid "Title"
+msgstr ""
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:84
+msgid "To join the strength sprint, you’ll need at least two people and can participate easily using a mobile phone or computer. During the sprint, you’ll have the chance to give each other encouraging feedback on your character strengths."
+msgstr "Vahvuustuokioon tarvitset vähintään kaksi pelaajaa ja voit osallistua siihen helposti kännykällä tai tietokoneella. Tuokion aikana ryhmäläiset jakavat toisilleen kannustavaa palautetta luonteenvahvuuksista."
+
+#: src/pages/home/components/TopContributorsModal.tsx:25
+msgid "Top contributors"
+msgstr "Aktiivisimmat osallistujat"
+
+#: src/pages/home/components/TopStrengthsModal.tsx:27
+msgid "Top strengths"
+msgstr "Eniten nähdyt vahvuudet"
+
+#: src/pages/games/sprint/host/HostSprintPage.tsx:207
+msgid "Top strengths from session..."
+msgstr "Tuokion eniten nähdyt vahvuudet..."
+
+#: src/components/ui/PostCard/ReactionsModal.tsx:34
+msgid "Total"
+msgstr "Yhteensä"
+
+#: src/pages/home/components/Onboarding/steps/Materials.tsx:59
+msgid "Try it now: click through the <0>lessons</0> to explore their contents. Click a <1>slide</1> to view it in full screen."
+msgstr "Kokeile nyt: klikkaa <0>tuokioiden</0> läpi nähdäksesi niiden sisällöt. Kun klikkaat <1>diaa</1>, se suurenee koko näyttöön."
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:88
+msgid "Try it now: press the button <0>three times</0>!"
+msgstr "Kokeile nyt: paina painiketta <0>kolme kertaa</0>."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:83
+#: src/pages/EmailConfirmCallbackPage.tsx:99
+msgid "Try setting your email again. In the <0>profile page</0>"
+msgstr "Yritä asettaa sähköpostiosoitteesi uudelleen. <0>Profiili-sivulla</0>"
+
+#: src/pages/home/components/Onboarding/steps/Games.tsx:16
+msgid "Try the strength sprint with your students and fellow teachers! You can find it in the main menu."
+msgstr "Kokeile vahvuustuokiota oppilaiden ja opettajien kanssa! Löydät vahvuustuokion päävalikosta."
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:17
+msgid "Tue"
+msgstr "Ti"
+
+#: src/pages/coaching/CoachingSessionPage.tsx:354
+msgid "Type your message..."
+msgstr ""
+
+#: src/pages/billing/components/ExpiringSubscriptionsTab.tsx:135
+msgid "Update subscription"
+msgstr "Päivitä tilaus"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:147
+#: src/pages/coaching/CoachingPlansPage.tsx:209
+msgid "Updated"
+msgstr ""
+
+#: src/pages/community-settings/CommunitySubcription.tsx:141
+msgid "Updated {formattedUpdatedAt}"
+msgstr "Päivitetty {formattedUpdatedAt}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:515
+msgid "Updated at"
+msgstr "Päivitetty"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:512
+msgid "Updated by"
+msgstr "Päivittänyt"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:139
+msgid "Updated by {updatedByName}"
+msgstr "Päivittänyt {updatedByName}"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:137
+msgid "Updated by {updatedByName} · {formattedUpdatedAt}"
+msgstr "Päivittänyt {updatedByName} - {formattedUpdatedAt}"
+
+#: src/components/ui/VimeoPlayer.tsx:231
+msgid "Updating..."
+msgstr ""
+"Päivitetään...\n"
+""
+
+#: src/pages/coaching/CoachingPlansPage.tsx:402
+msgid "User"
+msgstr ""
+
+#: src/pages/community-settings/CommunityMembers.tsx:64
+msgid "User role updated"
+msgstr "Käyttäjän rooli päivitetty"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:754
+msgid "User:"
+msgstr ""
+
+#: src/components/menu/SideMenuLinks.tsx:120
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: src/pages/AuthCallbackPage.tsx:166
+#: src/pages/EmailConfirmCallbackPage.tsx:111
+msgid "Verifying your account."
+msgstr "Varmennetaan tiliäsi."
+
+#: src/components/menu/SideMenuLinks.tsx:150
+msgid "Video jobs"
+msgstr "Video työt"
+
+#: src/components/menu/SideMenuLinks.tsx:68
+msgid "Videos"
+msgstr "Videot"
+
+#: src/pages/coaching/CoachingPlansPage.tsx:463
+msgid "View"
+msgstr ""
+
+#: src/pages/home/components/CommunityStats.tsx:136
+#: src/pages/home/components/CommunityStats.tsx:177
+msgid "View all"
+msgstr "Näytä kaikki"
+
+#: src/pages/games/GroupGameLobbyPage.tsx:258
+#: src/pages/games/quiz/host/StartScreen.tsx:117
+msgid "Waiting for participants to join..."
+msgstr "Odotetaan osallistujien liittymistä..."
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:228
+msgid "Waiting for results..."
+msgstr "Odotetaan tuloksia..."
+
+#: src/components/ui/PostCard/SprintResultsContent.tsx:61
+msgid "We also saw these strengths in the sprint."
+msgstr "Näimme myös nämä vahvuudet tuokion aikana."
+
+#: src/components/menu/NotificationsMenuItem.tsx:59
+#: src/components/menu/NotificationsMenuItem.tsx:84
+#: src/components/ui/PostCard/SprintResultsContent.tsx:28
+msgid "We played a strength sprint! The top strengths were these."
+msgstr "Pelasimme vahvuustuokiota! Eniten huomatut vahvuudet olivat nämä."
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingIntro.tsx:15
+msgid "We recommend suitable content for your group based on the chosen age group and language. You can change these settings at any time."
+msgstr "Suosittelemme näiden asetusten avulla ryhmällesi sopivaa sisältöä valitun ikäryhmän ja kielen perusteella. Voit muuttaa niitä milloin tahansa."
+
+#: src/components/ui/VimeoPlayer.tsx:216
+msgid "We use <0>Vimeo</0> to host videos on our site. To view this video, you need to enable Vimeo cookies. You can later update this setting in your profile."
+msgstr "Käytämme <0>Vimeota</0> videoiden toistamiseen sivustollamme. Tämän videon katsominen edellyttää Vimeon evästeiden hyväksymisen. Voit myöhemmin päivittää tämän asetuksen profiilissasi."
+
+#: src/pages/home/components/Onboarding/steps/CookieConsent.tsx:21
+msgid "We use <0>Vimeo</0> to host videos on our site. To view videos, you need to enable Vimeo cookies. You can later update this setting in your profile."
+msgstr "Käytämme <0>Vimeota</0> videoiden toistamiseen sivustollamme. Videoiden katsominen edellyttää Vimeon evästeiden hyväksymisen. Voit myöhemmin päivittää tämän asetuksen profiilissasi."
+
+#: src/pages/home/components/Onboarding/steps/MaterialsIntro.tsx:31
+msgid "We’ll always recommend the next lesson on your home page, but you can find all lesson materials in the main menu under <0>Teach</0>."
+msgstr "Suosittelemme aina seuraavaa oppituokiota etusivulla, mutta kaikki oppituntimateriaalit löytyvät päävalikosta kohdasta <0>Opeta</0>."
+
+#: src/pages/StartPage.tsx:94
+msgid "We've moved to a new version!"
+msgstr "Olemme siirtyneet uuteen versioon!"
+
+#: src/pages/home/components/HolidayCalendarTimeline/HolidayCalendar.tsx:18
+msgid "Wed"
+msgstr "Ke"
+
+#: src/components/LoginModal.tsx:90
+msgid "Welcome back"
+msgstr "Tervetuloa takaisin"
+
+#: src/pages/games/sprint/host/CreateSprintPage.tsx:81
+msgid "Welcome to share and receive strength-based feedback!"
+msgstr "Tervetuloa jakamaan ja vastaanottamaan vahvuuspalautetta!"
+
+#: src/pages/home/components/Onboarding/OnboardingModal.tsx:47
+msgid "Welcome!"
+msgstr "Tervetuloa!"
+
+#: src/pages/games/sprint/player/PlayerSprintPage.tsx:247
+msgid "What have you seen in?"
+msgstr "Mitä olet nähnyt henkilössä?"
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:16
+msgid "What were the benefits of practising the skill?"
+msgstr "Mitä hyötyä taidon harjoittelusta oli?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:32
+msgid "What would you like to call your group?"
+msgstr "Millä nimellä haluaisit kutsua ryhmääsi?"
+
+#: src/pages/home/components/Onboarding/steps/GoalsDemo.tsx:78
+msgid "When the goal is achieved, you’ll earn a badge."
+msgstr "Kun tavoite on valmis, saatte suoritusmerkinnän."
+
+#: src/components/ui/StrengthGoal/GreetingScreen.tsx:19
+msgid "Where did you succeed in practising the skill?"
+msgstr "Missä sinä onnistuit hyvin taidon harjoittelussa?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:67
+msgid "Which age group best describes your students?"
+msgstr "Mikä ikäluokka vastaa parhaiten ryhmän jäseniä?"
+
+#: src/pages/home/components/Onboarding/steps/GroupSettingsForm.tsx:46
+msgid "Which language will your group use?"
+msgstr "Mitä kieltä ryhmäsi käyttää?"
+
+#: src/pages/community-settings/CommunitySubcription.tsx:537
+msgid "Yes"
+msgstr "Kyllä"
+
+#: src/components/ui/AvatarInput.tsx:127
+#: src/components/ui/PostCard/Comment.tsx:93
+#: src/components/ui/PostCard/PostTools.tsx:30
+#: src/pages/community-settings/CommunityMemberInvitations.tsx:108
+#: src/pages/community-settings/CommunityMembers.tsx:81
+#: src/pages/games/GroupGameLobbyPage.tsx:122
+#: src/pages/games/quiz/host/useHostQuizController.ts:162
+#: src/pages/strength-goals/GoalsPage.tsx:176
+msgid "Yes, remove"
+msgstr "Kyllä, poista"
+
+#: src/pages/register/components/ConfirmOnboarding.tsx:15
+msgid "You are already a member of this community."
+msgstr "Olet jo tämän yhteisön jäsen."
+
+#: src/pages/games/GroupGameJoinPage.tsx:389
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:202
+msgid "You are ready to go!"
+msgstr "Olet valmis aloittamaan!"
+
+#: src/pages/AuthCallbackPage.tsx:153
+msgid "You can also skip this step and log in again with a email."
+msgstr "Voit myös ohittaa tämän vaiheen ja kirjautua uudelleen sisään sähköpostilla."
+
+#: src/pages/games/quiz/player/PlayerQuizPage.tsx:289
+msgid "You can still change your answer until everyone is ready."
+msgstr "Voit vielä muuttaa vastaustasi, kunnes kaikki ovat valmiita."
+
+#: src/pages/community-invitations/CommunityInvitationsPage.tsx:75
+msgid "You have no pending invitations."
+msgstr "Sinulla ei ole avoimia kutsuja."
+
+#: src/pages/home/components/Onboarding/OnboardingBanner.tsx:82
+msgid "You left the introduction early — no problem! You can always come back to the onboarding whenever you'd like to explore more about how See the Good works. Glad to have you with us!"
+msgstr "Jätit esittelyn kesken - ei hätää! Voit aina palata esittelyyn, kun haluat tutustua tarkemmin Huomaa hyvä! -palveluun. Mukavaa, että olet mukana!"
+
+#: src/pages/StartPage.tsx:98
+msgid "You were redirected from the old version of our service, which is no longer in use. Log in if you already have an account on the new version, or please sign up if you haven't yet."
+msgstr "Sinut ohjattiin tänne palvelumme vanhasta versiosta, joka ei ole enää käytössä. Kirjaudu sisään, jos sinulla on jo tili uudessa versiossa, tai luo uusi tunnus, jos et ole vielä rekisteröitynyt."
+
+#: src/pages/EmailConfirmCallbackPage.tsx:67
+msgid "You will now redicted to the <0>profile page</0> in a few seconds."
+msgstr "Sinut ohjataan <0>Profiili-sivulle</0> muutaman sekunnin kuluttua."
+
+#. placeholder {0}: currentUser.email
+#: src/pages/profile/EmailForm.tsx:60
+msgid "Your current email is <0>{0}</0>."
+msgstr "Nykyinen sähköpostiosoitteesi on <0>{0}</0>."
+
+#: src/pages/profile/EmailForm.tsx:87
+#: src/pages/profile/PasswordForm.tsx:59
+msgid "Your current password"
+msgstr "Nykyinen salasanasi"
+
+#: src/pages/register/components/EmailForm.tsx:35
+msgid "Your email"
+msgstr "Sähköpostiosoitteesi"
+
+#: src/pages/EmailConfirmCallbackPage.tsx:64
+msgid "Your email has been verified."
+msgstr "Sähköpostisi on vahvistettu."
+
+#: src/pages/strength-goals/GoalsPage.tsx:280
+msgid "Your group does not have any active goals at the moment."
+msgstr "Ryhmälläsi ei ole tällä hetkellä aktiivisia tavoitteita."
+
+#: src/components/menu/GroupDropdown.tsx:30
+#: src/pages/groups/GroupsPage.tsx:182
+msgid "Your groups"
+msgstr "Sinun ryhmät"
+
+#: src/components/menu/CommunityDropdown.tsx:97
+msgid "Your Invitations"
+msgstr "Kutsusi"
+
+#: src/pages/profile/EmailForm.tsx:73
+msgid "Your new email address"
+msgstr "Uusi sähköpostiosoitteesi"
+
+#: src/pages/profile/PasswordForm.tsx:74
+msgid "Your new password"
+msgstr "Uusi salasanasi"
+
+#: src/pages/profile/PasswordForm.tsx:88
+msgid "Your new password again"
+msgstr "Uusi salasanasi uudelleen"
+
+#: src/pages/register/components/PasswordForm.tsx:41
+msgid "Your password"
+msgstr "Salasanasi"
+
+#: src/pages/register/components/PasswordForm.tsx:46
+msgid "Your password must be at least 8 characters long and contain at least one number."
+msgstr "Salasanan on oltava vähintään 8 merkkiä pitkä ja sisällettävä vähintään yksi numero."
+
+#: src/pages/coaching/CoachingPage.tsx:78
+msgid "Your personal coaching companion"
+msgstr ""
+
+#: src/pages/profile/DetailsForm.tsx:42
+msgid "Your profile details have been updated"
+msgstr "Profiilisi tiedot on päivitetty"
+
+#: src/pages/profile/ConsentsForm.tsx:39
+msgid "Your profile settings have been updated."
+msgstr "Profiiliasetuksesi on päivitetty."

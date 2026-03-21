@@ -1,0 +1,35 @@
+export const LessonCompleted = {
+  type: 'object',
+  properties: {
+    id: {type: 'string'},
+    createdBy: {$ref: '#/definitions/UserInfo'},
+    comments: {
+      type: 'array',
+      items: {$ref: '#/definitions/Comment'},
+    },
+    reactions: {
+      type: 'array',
+      items: {$ref: '#/definitions/Reaction'},
+    },
+    createdAt: {type: 'string'},
+    updatedAt: {type: 'string'},
+    postType: {type: 'string', enum: ['lesson-completed']},
+    strength: {$ref: '#/definitions/StrengthSlug'},
+    chapter: {$ref: '#/definitions/ArticleChapter'},
+    ageGroup: {$ref: '#/definitions/AgeGroup'},
+    group: {$ref: '#/definitions/Group'},
+  },
+  required: [
+    'id',
+    'createdBy',
+    'comments',
+    'reactions',
+    'createdAt',
+    'updatedAt',
+    'postType',
+    'strength',
+    'chapter',
+    'ageGroup',
+    'group',
+  ],
+} as const;

@@ -1,0 +1,566 @@
+.strength-diploma-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+
+  &--standalone {
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  &__intro {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    color: #4a4a4a;
+  }
+
+  &__preview {
+    width: min(100%, 960px);
+    height: clamp(320px, 60vw, 720px);
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    container-type: inline-size;
+  }
+
+  &--standalone &__preview {
+    width: min(100%, 960px);
+    height: auto;
+
+    @media (min-width: 768px) {
+      aspect-ratio: 1.4142 / 1;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+
+    @media (max-width: 767.98px) {
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  &--standalone &__actions {
+    padding: 0 0 1rem;
+    border-bottom: none;
+    width: min(100%, 960px);
+    margin: 0 auto;
+  }
+
+
+
+  &__paper-hint {
+    text-align: center;
+    color: #888;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+}
+
+.strength-diploma-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  border: 2.8cqw solid #7c5cdb;
+  border-radius: 2.4cqw;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  display: flex;
+  background-color: #7c5cdb;
+
+  @media (max-width: 767.98px) {
+    min-height: auto;
+    border-width: 0.6rem;
+    border-radius: 0.6rem;
+    flex-direction: column;
+  }
+}
+
+.strength-diploma-frame__content {
+  flex: 1;
+  border-radius: 0.6cqw;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  container-type: size;
+  padding: 3cqw 5cqw;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  @media (max-width: 767.98px) {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    container-type: inline-size;
+  }
+}
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url('/fonts/LuckiestGuy-Regular.ttf') format('truetype');
+}
+
+.strength-diploma {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1cqw;
+  font-size: clamp(12px, 1.8cqw, 24px);
+}
+
+.strength-diploma__logo {
+  width: clamp(240px, 32cqw, 340px);
+  height: auto;
+}
+
+.strength-diploma__title {
+  width: 100%;
+  font-family: 'Luckiest Guy', cursive;
+  margin-bottom: 0.5cqw;
+  text-align: center;
+}
+
+.strength-diploma__title-text {
+  font-size: clamp(32px, 9cqw, 72px);
+  color: white;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 4px 4px 0 #000;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.strength-diploma__text {
+  font-size: clamp(16px, 2.8cqw, 32px);
+  color: #333;
+
+  @media (max-width: 767.98px) {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.strength-diploma__text--muted {
+  font-size: clamp(14px, 2.4cqw, 28px);
+  color: #4a4a4a;
+  margin-bottom: 1cqw;
+
+  @media (max-width: 767.98px) {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.strength-diploma__input-container {
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1cqw;
+
+
+}
+
+.strength-diploma__edit-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 1.2rem;
+  pointer-events: none;
+  opacity: 0.6;
+
+  @media (max-width: 767.98px) {
+    font-size: 1rem;
+  }
+}
+
+.strength-diploma__edit-icon--small {
+  right: 5px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.strength-diploma__input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(24px, 5cqw, 48px);
+  padding: 0.2cqw 0 0;
+  /* Adjusted padding for baseline */
+  outline: none;
+  background: transparent;
+  font-family: 'Luckiest Guy', cursive;
+  color: #7c5cdb;
+  letter-spacing: 0.05em;
+
+  @media (max-width: 767.98px) {
+    font-size: clamp(10px, 4vw, 16px);
+  }
+}
+
+.strength-diploma__input:focus {
+  border-bottom-color: #7c5cdb;
+
+  &::placeholder {
+    color: transparent;
+    opacity: 0;
+  }
+}
+
+.strength-diploma__footer-date-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+  min-width: 140px;
+  min-height: 9cqw;
+  align-items: flex-end;
+  padding-bottom: 0.7cqw;
+
+
+}
+
+.strength-diploma__strengths {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2cqw;
+  width: 80%;
+  min-height: 9cqw;
+  align-items: center;
+  padding-bottom: 0.7cqw;
+
+  @media (max-width: 767.98px) {
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+.strength-diploma__strengths--interactive {
+  cursor: pointer;
+}
+
+.strength-diploma__strengths-placeholder {
+  color: #888;
+  font-size: clamp(14px, 2.2cqw, 24px);
+  margin-top: 0.5cqw;
+}
+
+.strength-diploma__strength {
+  position: relative;
+  padding: 1cqw 2cqw;
+  border-radius: 2cqw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5cqw;
+  font-size: clamp(12px, 2cqw, 22px);
+}
+
+.strength-diploma__strength img {
+  width: clamp(60px, 12cqw, 120px);
+  height: clamp(60px, 12cqw, 120px);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.2cqw solid transparent;
+
+  @media (max-width: 767.98px) {
+    width: clamp(46px, 16vw, 84px);
+    height: clamp(46px, 16vw, 84px);
+  }
+}
+
+.strength-diploma__strength-remove {
+  position: absolute;
+  top: -1cqw;
+  right: -1cqw;
+  width: 4cqw;
+  height: 4cqw;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  border: max(1px, 0.2cqw) solid #ccc;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #333;
+
+  @media (max-width: 767.98px) {
+    top: -8px;
+    right: -8px;
+  }
+}
+
+.strength-diploma__strength-remove:hover {
+  background: #f8f8f8;
+}
+
+.strength-diploma__add-strength {
+  width: clamp(60px, 12cqw, 120px);
+  height: clamp(60px, 12cqw, 120px);
+  border-radius: 50%;
+  border: 0.3cqw dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(24px, 6cqw, 48px);
+  color: #bbb;
+  line-height: 1;
+  align-self: flex-start;
+  margin: 1cqw 2cqw;
+  padding-top: 1%;
+}
+
+.strength-diploma__footer {
+  width: 90%;
+  margin-top: auto;
+
+  @media (max-width: 767.98px) {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    align-items: flex-end;
+  }
+}
+
+.strength-diploma__footer-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+}
+
+.strength-diploma__footer-item input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  text-align-last: center;
+  font-size: clamp(14px, 2.2cqw, 24px);
+  padding: 0.3cqw 0;
+  background: transparent;
+  outline: none;
+  font-family: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.strength-diploma__footer-item span {
+  font-size: clamp(12px, 1.8cqw, 20px);
+  color: #444;
+}
+
+.strength-diploma__footer-date-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 2cqw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strength-diploma__footer-date-wrapper::after {
+  content: attr(data-value);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-size: clamp(14px, 2.2cqw, 24px);
+  color: #333;
+  transition: opacity 0.15s ease;
+}
+
+.strength-diploma__footer-date-wrapper::after {
+  pointer-events: auto;
+}
+
+.strength-diploma__footer-date {
+  width: 100%;
+  color: transparent;
+  caret-color: transparent;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.strength-diploma__footer-date:focus {
+  color: transparent;
+  caret-color: inherit;
+}
+
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit {
+  text-align: center;
+  padding: 0;
+}
+
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit-fields-wrapper {
+  text-align: center;
+}
+
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit-text,
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit-month-field,
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit-day-field,
+.strength-diploma__footer-item input[type='date']::-webkit-datetime-edit-year-field {
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  color: transparent;
+}
+
+.strength-diploma__footer-item input[type='date']::-webkit-inner-spin-button,
+.strength-diploma__footer-item input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.strength-diploma__footer-item input[type='date']::-webkit-date-and-time-value {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: transparent;
+}
+
+
+.diploma-print-stage {
+  position: fixed;
+  top: -10000px;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.diploma-print-stage--active {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diploma-print-stage__frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.diploma-print-stage__content {
+  width: 100%;
+  height: 100%;
+  container-type: size;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+
+  body.diploma-printing>*:not(.diploma-print-stage) {
+    display: none !important;
+  }
+
+  body.diploma-printing .diploma-print-stage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    z-index: 10000;
+    background: #7c5cdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body.diploma-printing .diploma-print-stage--active {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 10000;
+    background: #7c5cdb;
+  }
+
+  body.diploma-printing .diploma-print-stage__frame {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  body.diploma-printing .diploma-print-stage__content {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  body.diploma-printing .strength-diploma__title-text {
+    -webkit-text-stroke: 2px black !important;
+    text-shadow: 4px 4px 0 #000 !important;
+    color: white !important;
+  }
+}
+
+.strength-diploma__footer-item input[readonly] {
+  width: 100%;
+}
+
+// Increase specificity to override .strength-diploma__footer-item input
+.strength-diploma__footer-item .strength-diploma__signature-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(10px, 2cqw, 20px);
+  padding: 0.3cqw 0 0.3cqw; // Match Date input padding structure more closely
+  outline: none;
+  background: transparent;
+  font-family: 'Luckiest Guy', cursive;
+  color: #7c5cdb;
+  letter-spacing: 0.05em;
+
+  &:focus {
+    border-bottom-color: #7c5cdb;
+  }
+}
+
+.strength-diploma__footer-signature-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 2cqw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.circle-button__wrapper {
+  width: 100%;
+  aspect-ratio: 180 / 140;
+  position: relative;
+  border-radius: 50%;
+  overflow: visible;
+  container-type: inline-size;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: var(--btn-shadow);
+    transform: translateY(calc(15 / 140 * 100%));
+  }
+}
+
+.circle-button__face {
+  position: absolute;
+  inset: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--btn-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  &:hover {
+    background: var(--btn-hover);
+  }
+
+  &:active {
+    transform: translateY(calc(15 / 140 * 100%));
+  }
+}

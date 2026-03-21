@@ -1,0 +1,35 @@
+img[src*='#left'] {
+  float: left;
+  margin: 10px 32px 10px 0;
+}
+
+img[src*='#right'] {
+  float: right;
+  margin: 10px 0 10px 32px;
+}
+
+img[src*='#center'] {
+  display: block;
+  margin: 10px auto;
+}
+
+.contains-task-list {
+  padding-left: 1rem;
+}
+
+.task-list-item {
+  list-style-type: none;
+}
+
+.markdown-p {
+  margin-bottom: 1rem;
+}
+
+.markdown-view :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-view table {
+  width: 100%;
+}
+
