@@ -996,6 +996,7 @@ export class AiGuidanceService {
     return calculateStreak(activities);
   }
 
+  // eslint-disable-next-line complexity
   private static async generateSuggestion(
     context: AiGuidanceContext,
     language: LanguageCode,

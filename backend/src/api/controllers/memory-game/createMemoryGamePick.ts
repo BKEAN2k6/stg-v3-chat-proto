@@ -7,6 +7,81 @@ import {
   type PatchMemoryGameEvent,
 } from '../../client/ApiTypes.js';
 
+/**
+ * Validate game exists in session
+ */
+function validateGameInSession(
+  groupGamesId: string | undefined,
+  response: Response,
+): boolean {
+  if (!groupGamesId) {
+    response.status(404).json({error: 'MemoryGame not found from session'});
+    return false;
+  }
+
+  return true;
+}
+
+/**
+ * Validate player exists in game
+ */
+function validatePlayerExists(
+  player: unknown,
+  id: string,
+  request: Request,
+  response: Response,
+): boolean {
+  if (!player) {
+    delete request.session.groupGames?.[id];
+    response.status(404).json({error: 'Player not found'});
+    return false;
+  }
+
+  return true;
+}
+
+/**
+ * Validate it's player's turn
+ */
+function validatePlayerTurn(
+  currentPlayer: any,
+  player: any,
+  response: Response,
+): boolean {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+  if (!currentPlayer?.equals?.(player?._id)) {
+    response.status(400).json({error: 'Not your turn'});
+    return false;
+  }
+
+  return true;
+}
+
+/**
+ * Validate card pick is valid
+ */
+function validateCardPick(
+  revealedCount: number,
+  revealedCards: mongoose.Types.ObjectId[],
+  cardId: string,
+  response: Response,
+): boolean {
+  if (revealedCount >= 2) {
+    response.status(400).json({error: 'Cannot pick more than 2 cards'});
+    return false;
+  }
+
+  if (
+    revealedCount === 1 &&
+    revealedCards[0].equals(new mongoose.Types.ObjectId(cardId))
+  ) {
+    response.status(400).json({error: 'Cannot pick the same card twice'});
+    return false;
+  }
+
+  return true;
+}
+
 export async function createMemoryGamePick(
   request: Request,
   response: Response,
@@ -14,12 +89,11 @@ export async function createMemoryGamePick(
   const {id} = request.params as CreateMemoryGamePickParameters;
   const {cardId} = request.body as CreateMemoryGamePickRequest;
 
-  if (!request.session.groupGames?.[id]) {
-    response.status(404).json({error: 'MemoryGame not found from session'});
+  if (!validateGameInSession(request.session.groupGames?.[id], response)) {
     return;
   }
 
-  const memeoryGamePlayerId = request.session.groupGames[id].playerId;
+  const memeoryGamePlayerId = request.session.groupGames![id].playerId;
   const userObjectId = new mongoose.Types.ObjectId(memeoryGamePlayerId);
 
   const memoryGame = await MemoryGame.findById(id);
@@ -34,32 +108,25 @@ export async function createMemoryGamePick(
   );
   const player = memoryGame.players[playerIndex];
 
-  if (!player) {
-    delete request.session.groupGames[id]; // eslint-disable-line @typescript-eslint/no-dynamic-delete
-    response.status(404).json({error: 'Player not found'});
+  if (!validatePlayerExists(player, id, request, response)) {
     return;
   }
 
   // If there is no current player, set it to the first player
   memoryGame.currentPlayer ??= memoryGame.players[0]._id;
 
-  if (!memoryGame.currentPlayer?.equals(player._id)) {
-    response.status(400).json({error: 'Not your turn'});
-    return;
-  }
-
-  if (memoryGame.currentlyRevealedCards.length >= 2) {
-    response.status(400).json({error: 'Cannot pick more than 2 cards'});
+  if (!validatePlayerTurn(memoryGame.currentPlayer, player, response)) {
     return;
   }
 
   if (
-    memoryGame.currentlyRevealedCards.length === 1 &&
-    memoryGame.currentlyRevealedCards[0].equals(
-      new mongoose.Types.ObjectId(cardId),
+    !validateCardPick(
+      memoryGame.currentlyRevealedCards.length,
+      memoryGame.currentlyRevealedCards,
+      cardId,
+      response,
     )
   ) {
-    response.status(400).json({error: 'Cannot pick the same card twice'});
     return;
   }
 

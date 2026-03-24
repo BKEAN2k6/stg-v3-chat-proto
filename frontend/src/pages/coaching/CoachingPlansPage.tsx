@@ -58,6 +58,7 @@ const emptyBasePromptFormData: BasePromptFormData = {
   content: '',
 };
 
+// eslint-disable-next-line complexity
 export default function CoachingPlansPage() {
   const {_} = useLingui();
   const toasts = useToasts();

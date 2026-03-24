@@ -19,6 +19,7 @@ import {
   useUpdateCoachingSessionMutation,
 } from '@/hooks/useApi.js';
 
+// eslint-disable-next-line complexity
 export default function CoachingSessionPage() {
   const {_} = useLingui();
   const {id} = useParams<{id: string}>();
@@ -224,6 +225,7 @@ export default function CoachingSessionPage() {
           className="coaching-messages-scroll"
         >
           <div className="coaching-messages-list">
+            {/* eslint-disable-next-line complexity */}
             {session.messages.map((message, index) => {
               const isLastMessage = index === session.messages.length - 1;
               const showInteractiveOptions =

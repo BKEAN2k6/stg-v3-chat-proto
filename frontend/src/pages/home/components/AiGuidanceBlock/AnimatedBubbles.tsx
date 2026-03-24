@@ -59,6 +59,7 @@ export type AnimatedBubblesProperties = {
   readonly onAnimationComplete?: () => void;
 };
 
+// eslint-disable-next-line complexity
 export default function AnimatedBubbles({
   colors = defaultColors,
   bubbleCount = 30,

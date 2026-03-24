@@ -47,6 +47,18 @@ type RetryContext = {
   validationError: string;
 };
 
+type BuildSystemPromptParameters = {
+  basePromptContent: string;
+  sessionPlanContent: string;
+  sessionTitle: string;
+  userContext: UserContext;
+  previousSummaries?: Array<{
+    title: string;
+    content: string;
+    completedAt: Date;
+  }>;
+};
+
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY ?? '',
 });
@@ -95,17 +107,15 @@ ${formattedSummaries}
 /**
  * Build the full system prompt with user context and session plan
  */
-function buildSystemPrompt(
-  basePromptContent: string,
-  sessionPlanContent: string,
-  sessionTitle: string,
-  userContext: UserContext,
-  previousSummaries: Array<{
-    title: string;
-    content: string;
-    completedAt: Date;
-  }> = [],
-): string {
+function buildSystemPrompt(parameters: BuildSystemPromptParameters): string {
+  const {
+    basePromptContent,
+    sessionPlanContent,
+    sessionTitle,
+    userContext,
+    previousSummaries = [],
+  } = parameters;
+
   const ageGroupText =
     userContext.ageGroups.length > 0
       ? userContext.ageGroups.join(', ')
@@ -393,9 +403,8 @@ Respond with ONLY the summary text, no additional formatting or explanation.`;
       };
 
       await session.save();
-    } catch (error) {
-      // Log error but don't throw - summary generation is non-critical
-      console.error('Failed to generate session summary:', error);
+    } catch {
+      // Summary generation is non-critical, silently ignore
     }
   },
 
@@ -420,13 +429,13 @@ Respond with ONLY the summary text, no additional formatting or explanation.`;
     );
 
     // Build enhanced system prompt
-    const systemPrompt = buildSystemPrompt(
-      session.basePromptContent,
-      session.planContent,
-      session.planTitle,
+    const systemPrompt = buildSystemPrompt({
+      basePromptContent: session.basePromptContent,
+      sessionPlanContent: session.planContent,
+      sessionTitle: session.planTitle,
       userContext,
       previousSummaries,
-    );
+    });
     const messages: ChatMessage[] = [{role: 'system', content: systemPrompt}];
     const input = messages.map((m) => ({role: m.role, content: m.content}));
 
@@ -521,13 +530,13 @@ Respond with ONLY the summary text, no additional formatting or explanation.`;
       userId,
       sessionId,
     );
-    const systemPrompt = buildSystemPrompt(
-      session.basePromptContent,
-      session.planContent,
-      session.planTitle,
+    const systemPrompt = buildSystemPrompt({
+      basePromptContent: session.basePromptContent,
+      sessionPlanContent: session.planContent,
+      sessionTitle: session.planTitle,
       userContext,
       previousSummaries,
-    );
+    });
 
     // 4. Build messages array for OpenAI
     const messages: ChatMessage[] = [

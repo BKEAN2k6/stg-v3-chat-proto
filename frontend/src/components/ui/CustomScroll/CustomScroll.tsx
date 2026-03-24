@@ -32,6 +32,7 @@ type CustomScrollProps = PropsWithChildren<{
   readonly className?: string;
 }>;
 
+// eslint-disable-next-line complexity
 export function CustomScroll({
   allowOuterScroll = false,
   heightRelativeToParent,

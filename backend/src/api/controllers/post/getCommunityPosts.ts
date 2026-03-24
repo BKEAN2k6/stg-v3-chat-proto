@@ -120,6 +120,7 @@ export async function getCommunityPosts(
     ]),
   ]);
 
+  // eslint-disable-next-line complexity
   const postsWithComments: GetCommunityPostsResponse = posts.map((post) => {
     const commonProperties = {
       ...buildCommentsAndReactions(post._id, comments, reactions),

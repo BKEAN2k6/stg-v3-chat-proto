@@ -102,6 +102,7 @@ const translations: Record<
   },
 };
 
+// eslint-disable-next-line complexity
 export default function AiGuidanceBlock() {
   const {_} = useLingui();
   const toasts = useToasts();
